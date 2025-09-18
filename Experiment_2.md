@@ -1,5 +1,3 @@
-
-
 # Experiment 2: Linux file systems and permissions and essential 
 ## Linux file system
 Linux uses tree like directory system starting from the root directory `/`
@@ -88,7 +86,7 @@ ls -la /home
 ```
 Is given bellow,
 
-<img width="2940" height="1912" alt="VirtualBox_Ubuntu_17_09_2025_19_06_27" src="https://github.com/user-attachments/assets/9d009177-19d8-4b36-9783-1ee895df932e" />
+<img width="2940" height="1912" alt="VirtualBox_Ubuntu_17_09_2025_19_06_27" src="https://github.com/user-attachments/assets/cb8f9ee6-eb2c-4a3e-a1f2-8ce371de89c1" />
 
 
 ### 2. `pwd` - Print working directory
@@ -100,7 +98,7 @@ pwd
 ```
 Is given bellow,  
 
-<img width="2940" height="1912" alt="VirtualBox_Ubuntu_17_09_2025_19_07_47" src="https://github.com/user-attachments/assets/488ff11e-dbe7-43e9-871b-8078c0618ee1" />
+<img width="2940" height="1912" alt="VirtualBox_Ubuntu_17_09_2025_19_07_47" src="https://github.com/user-attachments/assets/d149abe6-7aeb-40d4-8013-d304e7925911" />
 
 
 ### 3.`cd` - Change Directory
@@ -137,7 +135,7 @@ cd                    # Go to your home
 pwd                   # Confirm location
 ```
 is given below,  
-<img width="2940" height="1912" alt="VirtualBox_Ubuntu_17_09_2025_19_12_46" src="https://github.com/user-attachments/assets/c4d72270-55ad-4a07-a023-9215c19bdfbd" />
+<img width="2940" height="1912" alt="VirtualBox_Ubuntu_17_09_2025_19_12_46" src="https://github.com/user-attachments/assets/05ea34cb-6cfa-407a-8c0f-cf66151e3965" />
 
 ### 4.`mkdir` - Make Directory
 Creates new directories/folders.
@@ -163,7 +161,7 @@ mkdir files documents scripts
 ls                          # See what you created
 ```
 is given below,  
-<img width="2940" height="1912" alt="VirtualBox_Ubuntu_17_09_2025_19_16_16" src="https://github.com/user-attachments/assets/bbcaad7c-7879-4864-aa71-23828ae7489b" />
+<img width="2940" height="1912" alt="VirtualBox_Ubuntu_17_09_2025_19_16_16" src="https://github.com/user-attachments/assets/65ea55fa-4db9-44bf-a99c-616167046c38" />
 
 ### `rmdir` - Remove Directory
  Remove empty directory only.
@@ -199,7 +197,7 @@ touch readme.txt notes.txt log.txt
 ls -l                        # See the files you created
 ```
 is given below,  
-<img width="2940" height="1912" alt="VirtualBox_Ubuntu_17_09_2025_19_24_28" src="https://github.com/user-attachments/assets/7d7f97ff-3e30-4ab3-8496-4142b725cbce" />
+<img width="2940" height="1912" alt="VirtualBox_Ubuntu_17_09_2025_19_24_28" src="https://github.com/user-attachments/assets/3d7951bf-2a01-49c7-881d-480d1e8f6c7d" />
 
 ### 2.`cp` - Copy file and directories
 Basic file copying:
@@ -233,7 +231,7 @@ ls -la backup_files
 ```
 is given below,  
 
-<img width="2940" height="1912" alt="VirtualBox_Ubuntu_17_09_2025_19_56_41" src="https://github.com/user-attachments/assets/0de9e535-2f5a-4cff-9ee4-d5b2cd90a87f" />
+<img width="2940" height="1912" alt="VirtualBox_Ubuntu_17_09_2025_19_56_41" src="https://github.com/user-attachments/assets/580247a2-4566-4090-93b2-76ab9c9d45ae" />
 
 ### 3.`mv` - Move and Rename
 Moving files:
@@ -263,7 +261,7 @@ ls ../documents/
 ```
 is given below,  
 
-<img width="2940" height="1912" alt="VirtualBox_Ubuntu_17_09_2025_19_59_14" src="https://github.com/user-attachments/assets/e1773a9d-749f-4a6a-a3d8-2e026824f3b7" />
+<img width="2940" height="1912" alt="VirtualBox_Ubuntu_17_09_2025_19_59_14" src="https://github.com/user-attachments/assets/291a80c0-01e4-4238-afae-2f5fd61c6db6" />
 
 ### 4.`rm` - Remove Files and Directories
 **Warning** - Be very careful with `rm` command files and directories are not recoverable once removed.
@@ -320,7 +318,7 @@ cat -n sample.txt
 ```
 is given below,  
 
-<img width="2940" height="1912" alt="VirtualBox_Ubuntu_17_09_2025_20_01_47" src="https://github.com/user-attachments/assets/10f29054-7ae1-424d-8c93-66ca174f6722" />
+<img width="2940" height="1912" alt="VirtualBox_Ubuntu_17_09_2025_20_01_47" src="https://github.com/user-attachments/assets/39a959ef-240c-43e5-b0ab-093f8f2af315" />
 
 ### 2.`less` and `more` - Paginated Viewing
 Better for viewing larger files.  
@@ -376,7 +374,7 @@ tail numbers.txt
 tail -n 3 numbers.txt
 ```
 is given below,  
-<img width="2940" height="1912" alt="VirtualBox_Ubuntu_17_09_2025_20_05_28" src="https://github.com/user-attachments/assets/2a1fbfa3-8412-4e63-9e62-29e9269e33a1" />
+<img width="2940" height="1912" alt="VirtualBox_Ubuntu_17_09_2025_20_05_28" src="https://github.com/user-attachments/assets/aeb2cad4-836f-422b-992e-7e310664fabf" />
 
 ## Text Editors: `nano` and `vim`
 **Using `nano` (Beginner-friendly)**
@@ -400,7 +398,7 @@ Type some text, press `Ctrl+O` to save, then `Ctrl+X` to exit.
 
 is given below,  
 
-<img width="2940" height="1912" alt="VirtualBox_Ubuntu_17_09_2025_20_08_07" src="https://github.com/user-attachments/assets/d2f14fd4-8819-45ab-9a94-7fc963d9fb20" />
+<img width="2940" height="1912" alt="VirtualBox_Ubuntu_17_09_2025_20_08_07" src="https://github.com/user-attachments/assets/7c1799d6-1fcc-49c4-bbca-54247917fc3f" />
 
 
 **Using `vim` (Advanced but powerful)**
@@ -428,7 +426,7 @@ vim quick_test.txt
 
 is given below,  
 
-<img width="2940" height="1912" alt="VirtualBox_Ubuntu_17_09_2025_20_10_59" src="https://github.com/user-attachments/assets/a0e9128d-df26-46f2-aa3e-e5feefce8bc6" />
+<img width="2940" height="1912" alt="VirtualBox_Ubuntu_17_09_2025_20_10_59" src="https://github.com/user-attachments/assets/9af5f4ad-559f-4232-9543-f7073412b731" />
 
 ***
 ## User Management
@@ -571,7 +569,7 @@ cd ..
 ls -la
 ```
 
-<img width="2940" height="1912" alt="VirtualBox_Ubuntu_17_09_2025_20_18_07" src="https://github.com/user-attachments/assets/d35763c5-885f-461d-9a1e-2c499e14fa80" />
+<img width="2940" height="1912" alt="VirtualBox_Ubuntu_17_09_2025_20_18_07" src="https://github.com/user-attachments/assets/0975c41a-58e9-4e83-88db-1c33fdaa8ebf" />
 
 
 ## Exercise 2: File Operations and Permissions
@@ -598,7 +596,7 @@ cp practice.txt ../backup/practice_backup_$(date +%Y%m%d).txt
 ls -la ../backup/
 ```
 
-<img width="2940" height="1912" alt="VirtualBox_Ubuntu_17_09_2025_20_20_49" src="https://github.com/user-attachments/assets/d64d7af5-924b-46a2-a2b1-813dec2fee67" />
+<img width="2940" height="1912" alt="VirtualBox_Ubuntu_17_09_2025_20_20_49" src="https://github.com/user-attachments/assets/6ab84d7e-633f-4c8c-8cb8-c838361717c0" />
 
 
 ## Exercise 3: Text Editing and Viewing
@@ -625,7 +623,7 @@ nano numbers.txt
 cat numbers.txt
 ```
 
-<img width="2940" height="1912" alt="VirtualBox_Ubuntu_17_09_2025_20_23_20" src="https://github.com/user-attachments/assets/8358abc7-23ac-4e74-b058-4393ba8ae308" />
+<img width="2940" height="1912" alt="VirtualBox_Ubuntu_17_09_2025_20_23_20" src="https://github.com/user-attachments/assets/77658bfd-2c39-43c3-a8cf-830acf735ad4" />
 
 
 ### Exercise 4: System Exploration
@@ -649,9 +647,9 @@ whoami
 top
 ```
 
-<img width="2940" height="1912" alt="VirtualBox_Ubuntu_17_09_2025_20_25_56" src="https://github.com/user-attachments/assets/725c1a8a-a5f6-4daa-850f-a0e7bcd36d4c" />
- 
-<img width="2940" height="1912" alt="VirtualBox_Ubuntu_17_09_2025_20_26_27" src="https://github.com/user-attachments/assets/6c5268f1-6707-4d9e-9de4-403f01343a8f" />
+ <img width="2940" height="1912" alt="VirtualBox_Ubuntu_17_09_2025_20_25_56" src="https://github.com/user-attachments/assets/a5c5cb0d-b67d-47db-b2f6-8d8afa1680f0" />
+
+<img width="2940" height="1912" alt="VirtualBox_Ubuntu_17_09_2025_20_26_27" src="https://github.com/user-attachments/assets/dc8e11be-d0b5-4c34-8b15-85041f669981" />
 
 
 ### Exercise 5: Cleanup
@@ -673,6 +671,6 @@ ls -la
 history | tail -20
 ```
 
-<img width="2940" height="1912" alt="VirtualBox_Ubuntu_17_09_2025_20_28_35" src="https://github.com/user-attachments/assets/bba85bb2-e5cf-4dd1-bb47-56b0ed49091b" />
+<img width="2940" height="1912" alt="VirtualBox_Ubuntu_17_09_2025_20_28_35" src="https://github.com/user-attachments/assets/0a29002a-277b-4a5e-b604-fe3225dd9192" />
 
 ***
