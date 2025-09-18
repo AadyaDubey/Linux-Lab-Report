@@ -68,6 +68,8 @@ Used to handle inputs passed while executing a script:
 #!/bin/bash
 echo "Hello, World!"
 ```
+<img width="2940" height="1912" alt="VirtualBox_Ubuntu_18_09_2025_18_47_39" src="https://github.com/user-attachments/assets/59a4104c-df8c-4b8d-80c6-662bc5a92161" />
+
 ### ii. Personalized Greeting
 ```bash
 #!/bin/bash
@@ -75,6 +77,8 @@ echo "Enter your name: "
 read name     # 'read' takes user input
 echo "Hello, $name! Welcome to Shell Scripting."
 ```
+<img width="2940" height="1912" alt="VirtualBox_Ubuntu_18_09_2025_18_48_41" src="https://github.com/user-attachments/assets/e7c39f1b-3cb1-4f57-8a3f-fb72819c2a5d" />
+
 ### iii. Arithmetic Operations
 ```bash
 #!/bin/bash
@@ -88,7 +92,8 @@ echo "Subtraction: $((num1 - num2))"
 echo "Multiplication: $((num1 * num2))"
 echo "Division: $((num1 / num2))"
 ```
-* `$(())` is arithmetic expansion in bash. 
+* `$(())` is arithmetic expansion in bash.
+<img width="2940" height="1912" alt="VirtualBox_Ubuntu_18_09_2025_18_49_24" src="https://github.com/user-attachments/assets/349de31b-9991-41b0-835f-218a1906fe7b" />
 
 ### iv. Voting Eligibility
 ```bash
@@ -104,6 +109,6 @@ else
 fi
 ```
 * `if [ condition ]` → condition enclosed in `[ ]`
-*  `-ge` means **greater than or equal**. 
+*  `-ge` means **greater than or equal**.
 
-***
+<img width="2940" height="1912" alt="VirtualBox_Ubuntu_18_09_2025_18_50_03" src="https://github.com/user-attachments/assets/f6636ff6-e10e-4b5f-9946-e105ac4decf3" />***
