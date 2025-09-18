@@ -1,5 +1,3 @@
-Experiment 3
-
 # Experiment 3: Linux File Manipulation and System Management Tutorial 
 ## Theory Overview
 ### File Manipulation Commands
