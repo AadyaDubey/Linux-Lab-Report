@@ -1,5 +1,3 @@
-Experiment 4
-
 # Experiment 4: Shell Programming 
 ## Theory Concepts
 
@@ -111,4 +109,6 @@ fi
 * `if [ condition ]` → condition enclosed in `[ ]`
 *  `-ge` means **greater than or equal**.
 
-<img width="2940" height="1912" alt="VirtualBox_Ubuntu_18_09_2025_18_50_03" src="https://github.com/user-attachments/assets/f6636ff6-e10e-4b5f-9946-e105ac4decf3" />***
+<img width="2940" height="1912" alt="VirtualBox_Ubuntu_18_09_2025_18_50_03" src="https://github.com/user-attachments/assets/f6636ff6-e10e-4b5f-9946-e105ac4decf3" />
+
+***
