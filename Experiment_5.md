@@ -1,5 +1,3 @@
-Experiment 5
-
 # Experiment 5: Shell Programming
 ## Theory Concepts
 ### 1.  Command Line Arguments 
