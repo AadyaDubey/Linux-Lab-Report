@@ -1,5 +1,3 @@
-Experiment 6
-
 # Experiment 6: Shell Programming
 ## Theory
 ### 1. Shell Loops
