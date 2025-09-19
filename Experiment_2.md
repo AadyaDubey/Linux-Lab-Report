@@ -673,4 +673,3 @@ history | tail -20
 
 <img width="2940" height="1912" alt="VirtualBox_Ubuntu_17_09_2025_20_28_35" src="https://github.com/user-attachments/assets/0a29002a-277b-4a5e-b604-fe3225dd9192" />
 
-***
