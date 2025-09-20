@@ -101,7 +101,7 @@ Is given bellow,
 <img width="2940" height="1912" alt="VirtualBox_Ubuntu_17_09_2025_19_07_47" src="https://github.com/user-attachments/assets/d149abe6-7aeb-40d4-8013-d304e7925911" />
 
 
-### 3.`cd` - Change Directory
+### 3. `cd` - Change Directory
 Basic usage:
 ```bash
 # Go to home directory
@@ -137,7 +137,7 @@ pwd                   # Confirm location
 is given below,  
 <img width="2940" height="1912" alt="VirtualBox_Ubuntu_17_09_2025_19_12_46" src="https://github.com/user-attachments/assets/05ea34cb-6cfa-407a-8c0f-cf66151e3965" />
 
-### 4.`mkdir` - Make Directory
+### 4. `mkdir` - Make Directory
 Creates new directories/folders.
 ```bash
 # Create a single directory
@@ -178,7 +178,7 @@ rmdir -p path/to/empty/directories
 For directories with content use `rm -r` (more about this later).
 ***
 ## File Operations
-### 1.`touch` - Create files
+### 1. `touch` - Create files
 Creates empty files or update timestamps of existing files.
 ```bash
 # Create a single file
@@ -199,7 +199,7 @@ ls -l                        # See the files you created
 is given below,  
 <img width="2940" height="1912" alt="VirtualBox_Ubuntu_17_09_2025_19_24_28" src="https://github.com/user-attachments/assets/3d7951bf-2a01-49c7-881d-480d1e8f6c7d" />
 
-### 2.`cp` - Copy file and directories
+### 2. `cp` - Copy file and directories
 Basic file copying:
 ```bash
 # Copy a file
@@ -233,7 +233,7 @@ is given below,
 
 <img width="2940" height="1912" alt="VirtualBox_Ubuntu_17_09_2025_19_56_41" src="https://github.com/user-attachments/assets/580247a2-4566-4090-93b2-76ab9c9d45ae" />
 
-### 3.`mv` - Move and Rename
+### 3. `mv` - Move and Rename
 Moving files:
 ```bash
 # Move file to different directory
@@ -263,7 +263,7 @@ is given below,
 
 <img width="2940" height="1912" alt="VirtualBox_Ubuntu_17_09_2025_19_59_14" src="https://github.com/user-attachments/assets/291a80c0-01e4-4238-afae-2f5fd61c6db6" />
 
-### 4.`rm` - Remove Files and Directories
+### 4. `rm` - Remove Files and Directories
 **Warning** - Be very careful with `rm` command files and directories are not recoverable once removed.
 Basic usage:
 ```bash
@@ -292,7 +292,7 @@ ls                          # Confirm it's gone
 ```
 ***
 ## File Viewing and Editing
-### 1.`cat` - Display file contents
+### 1. `cat` - Display file contents
 Basic usage:
 ```bash
 # Display entire file content
@@ -320,7 +320,7 @@ is given below,
 
 <img width="2940" height="1912" alt="VirtualBox_Ubuntu_17_09_2025_20_01_47" src="https://github.com/user-attachments/assets/39a959ef-240c-43e5-b0ab-093f8f2af315" />
 
-### 2.`less` and `more` - Paginated Viewing
+### 2. `less` and `more` - Paginated Viewing
 Better for viewing larger files.  
 **Using `less`:**
 ```bash
@@ -340,7 +340,7 @@ more filename.txt
 Navigation in `more`:
 * `space` - Next page
 * `q` - Quit
-### 3.`head` and `tail` - Partial file viewing
+### 3. `head` and `tail` - Partial file viewing
 `head` - Show begininig of file:
 ```bash
 # Show first 10 lines (default)
@@ -376,7 +376,7 @@ tail -n 3 numbers.txt
 is given below,  
 <img width="2940" height="1912" alt="VirtualBox_Ubuntu_17_09_2025_20_05_28" src="https://github.com/user-attachments/assets/aeb2cad4-836f-422b-992e-7e310664fabf" />
 
-### 4.Text Editors: `nano` and `vim`
+### 4. Text Editors: `nano` and `vim`
 **Using `nano` (Beginner-friendly)**
 ```bash
 # Open/create file in nano
@@ -444,13 +444,13 @@ who
 # More detailed information
 w
 ```
-### 3.`passwd` - Change Password
+### 3. `passwd` - Change Password
 Change your user password.
 ```bash
 passwd
 ```
 You'll be promted to enter your current password and then the new password.
-### 4.`sudo` - Execute as Administrator
+### 4. `sudo` - Execute as Administrator
 Run commands with administrative privileges.
 ```bash
 # Update system packages (example)
@@ -572,7 +572,7 @@ ls -la
 <img width="2940" height="1912" alt="VirtualBox_Ubuntu_17_09_2025_20_18_07" src="https://github.com/user-attachments/assets/0975c41a-58e9-4e83-88db-1c33fdaa8ebf" />
 
 
-## Exercise 2: File Operations and Permissions
+### Exercise 2: File Operations and Permissions
 ```bash
 # 1. Go to documents folder
 cd ~/projects/linux_practice/documents
@@ -599,7 +599,7 @@ ls -la ../backup/
 <img width="2940" height="1912" alt="VirtualBox_Ubuntu_17_09_2025_20_20_49" src="https://github.com/user-attachments/assets/6ab84d7e-633f-4c8c-8cb8-c838361717c0" />
 
 
-## Exercise 3: Text Editing and Viewing
+### Exercise 3: Text Editing and Viewing
 ```bash
 # 1. Create a larger file for practice
 cd ~/projects/linux_practice/documents
