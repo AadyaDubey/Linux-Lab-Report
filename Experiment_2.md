@@ -376,7 +376,7 @@ tail -n 3 numbers.txt
 is given below,  
 <img width="2940" height="1912" alt="VirtualBox_Ubuntu_17_09_2025_20_05_28" src="https://github.com/user-attachments/assets/aeb2cad4-836f-422b-992e-7e310664fabf" />
 
-## Text Editors: `nano` and `vim`
+### 4.Text Editors: `nano` and `vim`
 **Using `nano` (Beginner-friendly)**
 ```bash
 # Open/create file in nano
