@@ -163,7 +163,7 @@ ls                          # See what you created
 is given below,  
 <img width="2940" height="1912" alt="VirtualBox_Ubuntu_17_09_2025_19_16_16" src="https://github.com/user-attachments/assets/65ea55fa-4db9-44bf-a99c-616167046c38" />
 
-### `rmdir` - Remove Directory
+### 5. `rmdir` - Remove Directory
  Remove empty directory only.
  ```bash
 # Remove empty directory
