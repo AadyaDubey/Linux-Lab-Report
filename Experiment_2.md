@@ -15,21 +15,21 @@ Example structure:
 ***
 ## File permisions and ownership
 In this topic will learn about various file permissions and diffrent kinds of ownerships assigned to the users.
-### Permission types
+### 1. Permission types
 There are 3 types of permissions:  
 `r` - stands for **read**, gives permission to view the file  
 `w` - stands for **write**, gives permission to edit the file  
 `x` - stands for **execute**, gives permission to execute the file  
-### User Types
+### 2. User Types
 There are 3 types of user types:  
 Owner - the user who owns the file  
 Group - Users in the same group as the owner  
 Others - everyone else  
-### Reading permission format
+### 3. Reading permission format
 ```rwxr-xr--```
 
 Here first 3 characters are permissions of owner and next three characters are permissions of group and the last three characters are permissions of other users.
-### Modifying permissions
+### 4. Modifying permissions
 We can modify permissions using `chmod` command as shown bellow:  
 ```bash
 # Give execute permission to owner
@@ -47,7 +47,7 @@ chmod 644 filename  # rw-r--r--
 * 2 = write (w)
 * 1 = execute (x)
 * Add them together: 7 = rwx, 5 = r-x, 5 = r-x, etc.
-### Changing ownership
+### 5. Changing ownership
 Use `chown` command for changing ownership.
 ```bash
 # Change owner
