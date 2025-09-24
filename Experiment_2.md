@@ -673,3 +673,92 @@ history | tail -20
 
 <img width="2940" height="1912" alt="VirtualBox_Ubuntu_17_09_2025_20_28_35" src="https://github.com/user-attachments/assets/0a29002a-277b-4a5e-b604-fe3225dd9192" />
 
+***
+## Quick Reference Card 
+### Essential Commands Summary 
+ Command| Purpose| Example|
+ |:--------- |:-------------|:-----|
+|`pwd`| Show current directory |`pwd`
+|`ls`|List files|`ls -la`
+|`cd`|Change directory|`cd /home`
+|`mkdir`|Create directory|`mkdir newfolder`
+|`rmdir`|Remove empty directory|`rmdir oldfolder`
+|`touch`|Create empty file|`touch newfile.txt`
+|`cp`|Copy files|`cp file1.txt file2.txt`
+|`mv`|Move/rename files|`mv old.txt new.txt`
+|`rm`|Delete files|`rm -i file.txt`
+|`cat`|Display file content|`cat file.txt`
+|`less`|View file with pagination|`less largefile.txt`
+|`head`|Show file beginning|`head -n 5 file.txt`
+|`tail`|Show file end|`tail -n 5 file.txt`
+|`nano`|Simple text editor|`nano file.txt`
+|`chmod`|Change permissions|`chmod 755 script.sh`
+|`chown`|Change ownership|`sudo chown user:group file`
+|`whoami`|Current user|`whoami`
+|`sudo`|Run as administrator|`sudo command`
+|`history`|Command history|`history`
+
+### Permission Numbers
+
+* `755` = rwxr-xr-x (executable files)
+* `644` = rw-r--r-- (regular files)
+* `700` = rwx------ (private files)
+* `666` = rw-rw-rw- (world-writable)
+
+***
+
+## Question Bank / Lab Exam 
+### Task 1: Directory Navigation
+Create a directory called `test_project` in your home directory, then create subdirectories `docs`, `scripts`, and `data` inside it. Navigate to the `scripts` directory and display your current path. 
+<img width="2940" height="1912" alt="task1" src="https://github.com/user-attachments/assets/c79632da-c8c2-4959-860f-f15182ace1f2" />
+
+
+### Task 2: File Creation and Content
+Create three files in the `docs` directory: `readme.txt`, `notes.txt`, and `todo.txt`. Add the text "Project documentation" to `readme.txt` and "Important notes" to `notes.txt`. Display the contents of both files. 
+<img width="2940" height="1912" alt="task2" src="https://github.com/user-attachments/assets/54e6e99d-e7da-45ff-b9bb-030ad2dabd82" />
+
+
+### Task 3: File Operations
+Copy `readme.txt` to the `data` directory and rename the copy to `project_info.txt`. Then move `todo.txt` from `docs` to `scripts` directory. 
+<img width="2940" height="1912" alt="task3" src="https://github.com/user-attachments/assets/313529be-8430-45a9-8fab-7c2821f66468" />
+
+
+### Task 4: File Permissions
+Create a shell script file called `backup.sh` in the `scripts` directory. Add the content `#!/bin/bash` and echo `"Backup complete"` to it. Make the file executable only for the owner. 
+<img width="2940" height="1912" alt="task4" src="https://github.com/user-attachments/assets/08fbcbd1-a8ec-4eb4-bd71-bc2cd7ddf740" />
+
+
+### Task 5: File Viewing
+Create a file called `numbers.txt` with numbers 1 to 20 (each on a new line). Display only the first 5 lines, then only the last 3 lines, then search for lines containing the number "1".
+<img width="2940" height="1912" alt="task5" src="https://github.com/user-attachments/assets/9bb8d86b-6d76-4c1d-978c-09657c2cf048" />
+
+
+### Task 6: Text Editing
+Using `nano`, create a file called `config.txt` with the following content:
+```bash
+Database=localhost Port=5432 Username=admin
+```
+Save the file and then display its contents. 
+<img width="2940" height="1912" alt="task6" src="https://github.com/user-attachments/assets/0e9b52fa-b068-48d8-9c2e-d5030ae871f3" />
+
+
+### Task 7: System Information
+Create a file called `system_info.txt` that contains: your username, current date, your current directory, and disk usage information in human-readable format. 
+<img width="2940" height="1912" alt="task7" src="https://github.com/user-attachments/assets/312caeb4-e9e1-4ccf-bc2f-32fd3536ed12" />
+
+
+### Task 8: File Organization
+In your `test_project` directory, create a `backup` folder. Copy all `.txt` files from all subdirectories into this backup folder. Then list all files in the backup folder with detailed information. 
+<img width="2940" height="1912" alt="task8" src="https://github.com/user-attachments/assets/431b3152-e110-4f89-ad02-0656e92acd1a" />
+
+
+### Task 9: Process and History
+Display your command history and count how many commands you've executed. Then show the top 10 most recent commands. 
+<img width="2940" height="1912" alt="task9" src="https://github.com/user-attachments/assets/7f2c0f10-f499-4d63-96e8-20ebdcaf37ad" />
+
+
+### Task 10: Comprehensive Cleanup
+Set the permissions of your `backup.sh` script to be readable, writable, and executable by owner, readable and executable by group, and readable by others. Then create a summary file that lists the total number of files and directories in your entire `test_project`. 
+<img width="2940" height="1912" alt="2task10" src="https://github.com/user-attachments/assets/b4fb1110-5df6-445a-bc1d-c27831220e0c" />
+<img width="2940" height="1912" alt="task10" src="https://github.com/user-attachments/assets/110cb6a9-18d9-4c7d-b9f4-18ef8cded08d" />
+
