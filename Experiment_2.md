@@ -1,3 +1,5 @@
+[Link for GitHub repository](https://github.com/AadyaDubey/Linux-Lab-Report/tree/master)
+
 # Experiment 2: Linux file systems and permissions and essential 
 ## Linux file system
 Linux uses tree like directory system starting from the root directory `/`
