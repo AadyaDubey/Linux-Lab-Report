@@ -196,7 +196,6 @@ echo "Factorial of the given number is: $factorial"
 ```bash
 #!/bin/bash
 
-# Check if both filename and word are provided
 if [ -z "$1" ] || [ -z "$2" ]; then
   echo "Usage: $0 <filename> <word_to_count>"
   exit 1
@@ -205,17 +204,11 @@ fi
 filename="$1"
 word_to_count="$2"
 
-# Check if the file exists
 if [ ! -f "$filename" ]; then
   echo "Error: File '$filename' not found."
   exit 1
 fi
 
-# Count the occurrences of the word
-# -o: prints only the matched parts of a matching line, each on a new output line
-# -i: ignores case distinctions
-# -w: selects only those lines containing matches that form whole words
-# wc -l: counts the number of lines, which corresponds to the number of word occurrences
 count=$(grep -o -i -w "$word_to_count" "$filename" | wc -l)
 
 echo "The word '$word_to_count' appears $count times in '$filename'."
@@ -226,37 +219,30 @@ echo "The word '$word_to_count' appears $count times in '$filename'."
 ```bash
 #!/bin/bash
 
-# Function to display usage
 usage() {
     echo "Usage: $0 <number_of_fibonacci_numbers>"
     echo "Generates the first N Fibonacci numbers."
     exit 1
 }
 
-# Check if an argument is provided
 if [ -z "$1" ]; then
     usage
 fi
 
-# Get the number of Fibonacci numbers to generate from the first argument
 N=$1
 
-# Validate input: Ensure N is a positive integer
 if ! [[ "$N" =~ ^[0-9]+$ ]] || [ "$N" -le 0 ]; then
     echo "Error: N must be a positive integer."
     usage
 fi
 
-# Initialize the first two Fibonacci numbers
 a=0
 b=1
 
-# Initialize a counter for the loop
 count=0
 
 echo "The first $N Fibonacci numbers are:"
 
-# Handle the case for N=1 and N=2 separately to avoid issues with initial values
 if [ "$N" -ge 1 ]; then
     echo -n "$a "
     count=$((count + 1))
@@ -267,16 +253,15 @@ if [ "$N" -ge 2 ]; then
     count=$((count + 1))
 fi
 
-# Generate Fibonacci numbers using a while loop
 while [ "$count" -lt "$N" ]; do
-    fn=$((a + b)) # Calculate the next Fibonacci number
-    echo -n "$fn " # Print the next Fibonacci number
-    a=$b          # Update 'a' to the previous 'b'
-    b=$fn         # Update 'b' to the newly calculated 'fn'
-    count=$((count + 1)) # Increment the counter
+    fn=$((a + b)) 
+    echo -n "$fn " 
+    a=$b         
+    b=$fn         
+    count=$((count + 1))
 done
 
-echo "" # Print a newline for better formatting
+echo "" 
 ```
 <img width="2940" height="1912" alt="VirtualBox_Ubuntu_19_09_2025_00_52_45" src="https://github.com/user-attachments/assets/62b1cf3d-e9e7-41bf-a570-7e8f67423945" />
 
@@ -284,16 +269,11 @@ echo "" # Print a newline for better formatting
 ```bash
 #!/bin/bash
 
-# Define the regular expression for email validation
-# This regex broadly covers common email formats but might not catch all edge cases
-# according to RFC standards, which are very complex.
 regex="^[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,}$"
 
-# Prompt the user to enter an email address
 echo "Enter an email address:"
 read email_address
 
-# Validate the entered email address using the regex
 if [[ "$email_address" =~ $regex ]]; then
   echo "'$email_address' is a valid email address."
 else
@@ -308,7 +288,6 @@ fi
 
 echo "Starting script..."
 
-# Intentional error: attempting to call a non-existent command
 non_existent_command "hello world"
 
 echo "Script finished."
