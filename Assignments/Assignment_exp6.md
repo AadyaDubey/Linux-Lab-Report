@@ -17,7 +17,7 @@ done
 echo "Factorial of the given number is: $factorial"
 ```
 ### Output
-<img width="2940" height="1912" alt="VirtualBox_Ubuntu_19_09_2025_00_33_56" src="https://github.com/user-attachments/assets/e902e965-8315-4814-bd06-a3205be713f2" />
+![](./images/VirtualBox_Ubuntu_19_09_2025_00_33_56.png)
 
 ## 2. Write a script that reads a filename and counts how many times a given word appears in it.
 ### Script
@@ -42,7 +42,7 @@ count=$(grep -o -i -w "$word_to_count" "$filename" | wc -l)
 echo "The word '$word_to_count' appears $count times in '$filename'."
 ```
 ### Output
-<img width="2940" height="1912" alt="VirtualBox_Ubuntu_19_09_2025_00_46_27" src="https://github.com/user-attachments/assets/5356046c-d578-4e83-b46d-4e5944508199" />
+![](./images/VirtualBox_Ubuntu_19_09_2025_00_46_27.png)
 
 ## 3. Write a script that generates the first N Fibonacci numbers using a while loop.
 ### Script
@@ -94,7 +94,7 @@ done
 echo "" 
 ```
 ### Output
-<img width="2940" height="1912" alt="VirtualBox_Ubuntu_19_09_2025_00_52_45" src="https://github.com/user-attachments/assets/62b1cf3d-e9e7-41bf-a570-7e8f67423945" />
+![](./images/VirtualBox_Ubuntu_19_09_2025_00_52_45.png)
 
 ## 4. Write a script that validates whether the entered string is a proper email address using a regular expression.
 ### Script
@@ -113,7 +113,7 @@ else
 fi
 ```
 ### Output
-<img width="2940" height="1912" alt="VirtualBox_Ubuntu_19_09_2025_00_56_23" src="https://github.com/user-attachments/assets/223835e4-b418-4a8b-9933-51a3b6bda9cc" />
+![](./images/VirtualBox_Ubuntu_19_09_2025_00_56_23.png)
 
 ## 5. Write a script with an intentional error, run it with `bash -x`, and explain the debug output.
 ### Script
@@ -127,7 +127,7 @@ non_existent_command "hello world"
 echo "Script finished."
 ```
 ### Output
-<img width="2940" height="1912" alt="VirtualBox_Ubuntu_19_09_2025_01_41_59" src="https://github.com/user-attachments/assets/1faffcda-2a09-414a-bfad-d748ab73615f" />
+![](./images/VirtualBox_Ubuntu_19_09_2025_01_41_59.png)
 
 **Explanation of the Debug Output:**  
 * `+ echo 'Starting script...'`:

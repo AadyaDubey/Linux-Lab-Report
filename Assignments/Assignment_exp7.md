@@ -20,7 +20,7 @@ while true; do
 done
 ```
 ###  Output
-<img width="2940" height="1912" alt="assignment1" src="https://github.com/user-attachments/assets/f9d47b25-02c5-4311-b232-ad64ed06c461" />
+![](./images/assignment1.png)
 
 ## 2.  Write a script that accepts a PID from the user and displays its details (state, parent process, memory usage).
 Hint: Use `ps -p <PID> -o pid,ppid,state,comm,%mem`.
@@ -38,7 +38,7 @@ else
 fi
 ```
 ###  Output
-<img width="2940" height="1912" alt="assingment2" src="https://github.com/user-attachments/assets/5b1abafb-444f-4b84-bce1-9d1fe6b845b7" />
+![](./images/assignment2.png)
 
 ## 3. Create a script that schedules a task to append the current date and time to a log file every minute using cron.
 ### Script
@@ -57,7 +57,7 @@ In crontab,
 * * * * * /home/aadya/exp7/assignment/logfile.log
 ```
 ###  Output
-<img width="2940" height="1912" alt="assingment3" src="https://github.com/user-attachments/assets/1a8cbe0b-7d87-472d-8573-5bbd8930c1a1" />
+![](./images/assignment3.png)
 
 ## 4. Modify the factorial function to check if input is negative. If yes, display an error message.
 ### Script
@@ -93,7 +93,7 @@ if [ $? -eq 0 ]; then
 fi
 ```
 ###  Output
-<img width="2940" height="1912" alt="assingment4" src="https://github.com/user-attachments/assets/b852ef7d-41d5-4088-9f50-6d869b0b2818" />
+![](./images/assignment4.png)
 
 ## 5. Write a script that accepts a filename as an argument. If the file exists, display the number of lines starting with a vowel.
 Hint: Use `grep -i "^[aeiou]" filename | wc -l`.
@@ -117,5 +117,5 @@ else
 fi
 ```
 ###  Output
-<img width="2940" height="1912" alt="assingment5" src="https://github.com/user-attachments/assets/19d4f8e8-a09b-43f3-9b18-e5ddddc76179" />
+![](./images/assignment5.png)
 
