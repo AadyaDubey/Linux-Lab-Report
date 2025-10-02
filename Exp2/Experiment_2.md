@@ -52,6 +52,7 @@ chmod g-w filename
 chmod 755 filename  # rwxr-xr-x
 chmod 644 filename  # rw-r--r--
 ```
+![](./Exp2_images/new1.png)
 **Permission numbers:**
 * 4 = read (r)
 * 2 = write (w)
@@ -185,6 +186,7 @@ rmdir folder1 folder2
 rmdir -p path/to/empty/directories
  ```
 For directories with content use `rm -r` (more about this later).
+![](./Exp2_images/rmdir.png)
 ***
 ## File Operations
 ### 1. `touch` - Create files
@@ -289,6 +291,7 @@ rm -f filename.txt
 # Interactive removal (asks for confirmation)
 rm -i filename.txt
 ```
+![](./Exp2_images/rm.png)
 Safe practice:
 ```bash
 cd ~/practice_linux
@@ -297,6 +300,7 @@ ls
 rm -i test_delete.txt       # Type 'y' to confirm
 ls                          # Confirm it's gone
 ```
+![](./Exp2_images/rm_sp.png)
 ***
 ## File Viewing and Editing
 ### 1. `cat` - Display file contents
@@ -476,7 +480,9 @@ sudo -u username command
 * Only use when necessary
 * Be careful with system files
 * Understand what command does before executing with `sudo`
-* ***
+![](./Exp2_images/um.png)
+
+***
 ## System Information
 Learn to gather information about your Linux system.
 ### 1. `uname` - System Information
@@ -496,6 +502,7 @@ uname -m
 # Operating system
 uname -o
 ```
+![](./Exp2_images/uname.png)
 ### 2. `df` - Disk Space Usage
 ```bash
 # Basic disk usage
@@ -512,6 +519,7 @@ Example output:
 Filesystem      Size  Used Avail Use% Mounted on
 /dev/sda1        20G  5.5G   13G  30% /
 ```
+![](./Exp2_images/df.png)
 ### 3. `top` and `htop` - Process Monitoring
 **Using `top`:**
 ```bash
@@ -527,6 +535,7 @@ top
 htop
 ```
 More user friendly the `top` with color coding and easier navigation.
+![](./Exp2_images/top&htop.png)
 ### 4. `history` - Command History
 ```bash
 # Show command history
@@ -544,7 +553,9 @@ history | grep "search_term"
 # Execute command from history by number
 !123
 ```
-
+![](./Exp2_images/history1.png)
+![](./Exp2_images/history2.png)
+![](./Exp2_images/history3.png)
 ***
 ## Practice Exercises
 Lets put everything together with some practical exercises.
