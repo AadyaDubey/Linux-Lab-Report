@@ -1,4 +1,14 @@
 # Experiment 2: Linux file systems and permissions and essential 
+**Name:** Aadya Dubey  
+**Roll No.:** 590029213
+***
+# Aim: 
+To understand the structure of the Linux file system, manage file permissions and ownership, and practice essential Linux commands.
+# Requirments:
+* Operating System: Ubuntu running on Oracle VirtualBox
+* Shell: Bash (Bourne-Again Shell)
+***
+***
 ## Linux file system
 Linux uses tree like directory system starting from the root directory `/`
 
@@ -86,7 +96,7 @@ ls -la /home
 ```
 Is given bellow,
 
-<img width="2940" height="1912" alt="VirtualBox_Ubuntu_17_09_2025_19_06_27" src="https://github.com/user-attachments/assets/cb8f9ee6-eb2c-4a3e-a1f2-8ce371de89c1" />
+![](./Exp2_images/VirtualBox_Ubuntu_17_09_2025_19_06_27.png)
 
 
 ### 2. `pwd` - Print working directory
@@ -98,7 +108,7 @@ pwd
 ```
 Is given bellow,  
 
-<img width="2940" height="1912" alt="VirtualBox_Ubuntu_17_09_2025_19_07_47" src="https://github.com/user-attachments/assets/d149abe6-7aeb-40d4-8013-d304e7925911" />
+![](./Exp2_images/VirtualBox_Ubuntu_17_09_2025_19_07_47.png)
 
 
 ### 3. `cd` - Change Directory
@@ -135,7 +145,7 @@ cd                    # Go to your home
 pwd                   # Confirm location
 ```
 is given below,  
-<img width="2940" height="1912" alt="VirtualBox_Ubuntu_17_09_2025_19_12_46" src="https://github.com/user-attachments/assets/05ea34cb-6cfa-407a-8c0f-cf66151e3965" />
+![](./Exp2_images/VirtualBox_Ubuntu_17_09_2025_19_12_46.png)
 
 ### 4. `mkdir` - Make Directory
 Creates new directories/folders.
@@ -161,8 +171,7 @@ mkdir files documents scripts
 ls                          # See what you created
 ```
 is given below,  
-<img width="2940" height="1912" alt="VirtualBox_Ubuntu_17_09_2025_19_16_16" src="https://github.com/user-attachments/assets/65ea55fa-4db9-44bf-a99c-616167046c38" />
-
+![](./Exp2_images/VirtualBox_Ubuntu_17_09_2025_19_16_16.png)
 ### 5. `rmdir` - Remove Directory
  Remove empty directory only.
  ```bash
@@ -197,8 +206,7 @@ touch readme.txt notes.txt log.txt
 ls -l                        # See the files you created
 ```
 is given below,  
-<img width="2940" height="1912" alt="VirtualBox_Ubuntu_17_09_2025_19_24_28" src="https://github.com/user-attachments/assets/3d7951bf-2a01-49c7-881d-480d1e8f6c7d" />
-
+![](./Exp2_images/VirtualBox_Ubuntu_17_09_2025_19_24_28.png)
 ### 2. `cp` - Copy file and directories
 Basic file copying:
 ```bash
@@ -231,8 +239,7 @@ ls -la backup_files
 ```
 is given below,  
 
-<img width="2940" height="1912" alt="VirtualBox_Ubuntu_17_09_2025_19_56_41" src="https://github.com/user-attachments/assets/580247a2-4566-4090-93b2-76ab9c9d45ae" />
-
+![](./Exp2_images/VirtualBox_Ubuntu_17_09_2025_19_56_41.png)
 ### 3. `mv` - Move and Rename
 Moving files:
 ```bash
@@ -261,7 +268,7 @@ ls ../documents/
 ```
 is given below,  
 
-<img width="2940" height="1912" alt="VirtualBox_Ubuntu_17_09_2025_19_59_14" src="https://github.com/user-attachments/assets/291a80c0-01e4-4238-afae-2f5fd61c6db6" />
+![](./Exp2_images/VirtualBox_Ubuntu_17_09_2025_19_59_14.png)
 
 ### 4. `rm` - Remove Files and Directories
 **Warning** - Be very careful with `rm` command files and directories are not recoverable once removed.
@@ -318,7 +325,7 @@ cat -n sample.txt
 ```
 is given below,  
 
-<img width="2940" height="1912" alt="VirtualBox_Ubuntu_17_09_2025_20_01_47" src="https://github.com/user-attachments/assets/39a959ef-240c-43e5-b0ab-093f8f2af315" />
+![](./Exp2_images/VirtualBox_Ubuntu_17_09_2025_20_01_47.png)
 
 ### 2. `less` and `more` - Paginated Viewing
 Better for viewing larger files.  
@@ -374,7 +381,7 @@ tail numbers.txt
 tail -n 3 numbers.txt
 ```
 is given below,  
-<img width="2940" height="1912" alt="VirtualBox_Ubuntu_17_09_2025_20_05_28" src="https://github.com/user-attachments/assets/aeb2cad4-836f-422b-992e-7e310664fabf" />
+![](./Exp2_images/VirtualBox_Ubuntu_17_09_2025_20_05_28.png)
 
 ### 4. Text Editors: `nano` and `vim`
 **Using `nano` (Beginner-friendly)**
@@ -398,7 +405,7 @@ Type some text, press `Ctrl+O` to save, then `Ctrl+X` to exit.
 
 is given below,  
 
-<img width="2940" height="1912" alt="VirtualBox_Ubuntu_17_09_2025_20_08_07" src="https://github.com/user-attachments/assets/7c1799d6-1fcc-49c4-bbca-54247917fc3f" />
+![](./Exp2_images/VirtualBox_Ubuntu_17_09_2025_20_08_07.png)
 
 
 **Using `vim` (Advanced but powerful)**
@@ -426,7 +433,7 @@ vim quick_test.txt
 
 is given below,  
 
-<img width="2940" height="1912" alt="VirtualBox_Ubuntu_17_09_2025_20_10_59" src="https://github.com/user-attachments/assets/9af5f4ad-559f-4232-9543-f7073412b731" />
+![](./Exp2_images/VirtualBox_Ubuntu_17_09_2025_20_10_59.png)
 
 ***
 ## User Management
@@ -569,7 +576,7 @@ cd ..
 ls -la
 ```
 
-<img width="2940" height="1912" alt="VirtualBox_Ubuntu_17_09_2025_20_18_07" src="https://github.com/user-attachments/assets/0975c41a-58e9-4e83-88db-1c33fdaa8ebf" />
+![](./Exp2_images/VirtualBox_Ubuntu_17_09_2025_20_18_07.png)
 
 
 ### Exercise 2: File Operations and Permissions
@@ -596,7 +603,7 @@ cp practice.txt ../backup/practice_backup_$(date +%Y%m%d).txt
 ls -la ../backup/
 ```
 
-<img width="2940" height="1912" alt="VirtualBox_Ubuntu_17_09_2025_20_20_49" src="https://github.com/user-attachments/assets/6ab84d7e-633f-4c8c-8cb8-c838361717c0" />
+![](./Exp2_images/VirtualBox_Ubuntu_17_09_2025_20_20_49.png)
 
 
 ### Exercise 3: Text Editing and Viewing
@@ -623,8 +630,7 @@ nano numbers.txt
 cat numbers.txt
 ```
 
-<img width="2940" height="1912" alt="VirtualBox_Ubuntu_17_09_2025_20_23_20" src="https://github.com/user-attachments/assets/77658bfd-2c39-43c3-a8cf-830acf735ad4" />
-
+![](./Exp2_images/VirtualBox_Ubuntu_17_09_2025_20_23_20.png)
 
 ### Exercise 4: System Exploration
 ```bash
@@ -647,9 +653,8 @@ whoami
 top
 ```
 
- <img width="2940" height="1912" alt="VirtualBox_Ubuntu_17_09_2025_20_25_56" src="https://github.com/user-attachments/assets/a5c5cb0d-b67d-47db-b2f6-8d8afa1680f0" />
-
-<img width="2940" height="1912" alt="VirtualBox_Ubuntu_17_09_2025_20_26_27" src="https://github.com/user-attachments/assets/dc8e11be-d0b5-4c34-8b15-85041f669981" />
+ ![](./Exp2_images/VirtualBox_Ubuntu_17_09_2025_20_25_56.png)  
+![](./Exp2_images/VirtualBox_Ubuntu_17_09_2025_20_26_27.png)
 
 
 ### Exercise 5: Cleanup
@@ -671,94 +676,29 @@ ls -la
 history | tail -20
 ```
 
-<img width="2940" height="1912" alt="VirtualBox_Ubuntu_17_09_2025_20_28_35" src="https://github.com/user-attachments/assets/0a29002a-277b-4a5e-b604-fe3225dd9192" />
-
-***
-## Quick Reference Card 
-### Essential Commands Summary 
- Command| Purpose| Example|
- |:--------- |:-------------|:-----|
-|`pwd`| Show current directory |`pwd`
-|`ls`|List files|`ls -la`
-|`cd`|Change directory|`cd /home`
-|`mkdir`|Create directory|`mkdir newfolder`
-|`rmdir`|Remove empty directory|`rmdir oldfolder`
-|`touch`|Create empty file|`touch newfile.txt`
-|`cp`|Copy files|`cp file1.txt file2.txt`
-|`mv`|Move/rename files|`mv old.txt new.txt`
-|`rm`|Delete files|`rm -i file.txt`
-|`cat`|Display file content|`cat file.txt`
-|`less`|View file with pagination|`less largefile.txt`
-|`head`|Show file beginning|`head -n 5 file.txt`
-|`tail`|Show file end|`tail -n 5 file.txt`
-|`nano`|Simple text editor|`nano file.txt`
-|`chmod`|Change permissions|`chmod 755 script.sh`
-|`chown`|Change ownership|`sudo chown user:group file`
-|`whoami`|Current user|`whoami`
-|`sudo`|Run as administrator|`sudo command`
-|`history`|Command history|`history`
-
-### Permission Numbers
-
-* `755` = rwxr-xr-x (executable files)
-* `644` = rw-r--r-- (regular files)
-* `700` = rwx------ (private files)
-* `666` = rw-rw-rw- (world-writable)
-
+![](./Exp2_images/VirtualBox_Ubuntu_17_09_2025_20_28_35.png)
 ***
 
-## Question Bank / Lab Exam 
-### Task 1: Directory Navigation
-Create a directory called `test_project` in your home directory, then create subdirectories `docs`, `scripts`, and `data` inside it. Navigate to the `scripts` directory and display your current path. 
-<img width="2940" height="1912" alt="task1" src="https://github.com/user-attachments/assets/c79632da-c8c2-4959-860f-f15182ace1f2" />
+# OBERVATIONS
+
+* The Linux file system structure was explored using commands.
+
+* File permissions and ownership were checked and modified.
+
+* Directories were navigated, and file operations were performed.
+
+* File contents were viewed and edited with text editors.
+
+* User management tasks were carried out using appropriate commands.
+
+* System information and resource usage were monitored during the experiment.
+***
+
+# CONCLUSION
+
+The experiment provided practical experience in using various Linux commands related to file systems, permissions, navigation, file operations, editing, user management, and system monitoring.
+***
 
 
-### Task 2: File Creation and Content
-Create three files in the `docs` directory: `readme.txt`, `notes.txt`, and `todo.txt`. Add the text "Project documentation" to `readme.txt` and "Important notes" to `notes.txt`. Display the contents of both files. 
-<img width="2940" height="1912" alt="task2" src="https://github.com/user-attachments/assets/54e6e99d-e7da-45ff-b9bb-030ad2dabd82" />
 
-
-### Task 3: File Operations
-Copy `readme.txt` to the `data` directory and rename the copy to `project_info.txt`. Then move `todo.txt` from `docs` to `scripts` directory. 
-<img width="2940" height="1912" alt="task3" src="https://github.com/user-attachments/assets/313529be-8430-45a9-8fab-7c2821f66468" />
-
-
-### Task 4: File Permissions
-Create a shell script file called `backup.sh` in the `scripts` directory. Add the content `#!/bin/bash` and echo `"Backup complete"` to it. Make the file executable only for the owner. 
-<img width="2940" height="1912" alt="task4" src="https://github.com/user-attachments/assets/08fbcbd1-a8ec-4eb4-bd71-bc2cd7ddf740" />
-
-
-### Task 5: File Viewing
-Create a file called `numbers.txt` with numbers 1 to 20 (each on a new line). Display only the first 5 lines, then only the last 3 lines, then search for lines containing the number "1".
-<img width="2940" height="1912" alt="task5" src="https://github.com/user-attachments/assets/9bb8d86b-6d76-4c1d-978c-09657c2cf048" />
-
-
-### Task 6: Text Editing
-Using `nano`, create a file called `config.txt` with the following content:
-```bash
-Database=localhost Port=5432 Username=admin
-```
-Save the file and then display its contents. 
-<img width="2940" height="1912" alt="task6" src="https://github.com/user-attachments/assets/0e9b52fa-b068-48d8-9c2e-d5030ae871f3" />
-
-
-### Task 7: System Information
-Create a file called `system_info.txt` that contains: your username, current date, your current directory, and disk usage information in human-readable format. 
-<img width="2940" height="1912" alt="task7" src="https://github.com/user-attachments/assets/312caeb4-e9e1-4ccf-bc2f-32fd3536ed12" />
-
-
-### Task 8: File Organization
-In your `test_project` directory, create a `backup` folder. Copy all `.txt` files from all subdirectories into this backup folder. Then list all files in the backup folder with detailed information. 
-<img width="2940" height="1912" alt="task8" src="https://github.com/user-attachments/assets/431b3152-e110-4f89-ad02-0656e92acd1a" />
-
-
-### Task 9: Process and History
-Display your command history and count how many commands you've executed. Then show the top 10 most recent commands. 
-<img width="2940" height="1912" alt="task9" src="https://github.com/user-attachments/assets/7f2c0f10-f499-4d63-96e8-20ebdcaf37ad" />
-
-
-### Task 10: Comprehensive Cleanup
-Set the permissions of your `backup.sh` script to be readable, writable, and executable by owner, readable and executable by group, and readable by others. Then create a summary file that lists the total number of files and directories in your entire `test_project`. 
-<img width="2940" height="1912" alt="2task10" src="https://github.com/user-attachments/assets/b4fb1110-5df6-445a-bc1d-c27831220e0c" />
-<img width="2940" height="1912" alt="task10" src="https://github.com/user-attachments/assets/110cb6a9-18d9-4c7d-b9f4-18ef8cded08d" />
 
