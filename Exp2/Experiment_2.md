@@ -1,6 +1,7 @@
 # Experiment 2: Linux file systems and permissions and essential 
 **Name:** Aadya Dubey  
-**Roll No.:** 590029213
+**Roll No.:** 590029213  
+**Date**:09/09/2025
 ***
 # Aim: 
 To understand the structure of the Linux file system, manage file permissions and ownership, and practice essential Linux commands.

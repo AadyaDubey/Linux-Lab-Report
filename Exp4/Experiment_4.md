@@ -1,83 +1,40 @@
 # Experiment 4: Shell Programming 
-## Theory Concepts
+**Name:** Aadya Dubey  
+**Roll No.:** 590029213  
+**Date**:15/09/2025
+***
+# Aim: 
+To learn the fundamentals of Shell Scripting in Linux
 
-### 1. BASH (Bourne Again SHell) 
-
-* It is the default shell in most Linux distributions.
-*  It interprets commands entered in the terminal or written in a script file. 
-
-### 2. Basics of Shell Scripting 
-
-* A shell script is just a text file containing commands.
-* By convention, scripts start with a **shebang**: 
-```bash
-     #!/bin/bash
-```
-
-→ This tells the system to run the script using bash.
-
-### 3. Types of Shell 
-
- **Common shells:**
-
-* `sh` (Bourne Shell)
-*  `bash` (Bourne Again Shell)
-*  `zsh`, `ksh`, `csh`
-*  To check your shell: 
-```bash
-     echo $SHELL
-```	 
-
-### 4. Shell Variables 
-
- **User-defined:**
-```bash
-     name="Prateek"
-     echo "Hello $name"
-```
-
-**System variables (predefined by shell, always uppercase):**
-```bash
-     echo $HOME
-     echo $USER
-     echo $PWD
-```     
-
-### 5. Keywords & Operators 
-
-* **Keywords**: reserved words like if, then, else, fi, for, while.
-* **Operators**:
-	* Arithmetic: `+ - * / %`
-	*  Comparison: ``-eq -ne -lt -le -gt -ge ``
-
-### 6. Positional Parameters 
-Used to handle inputs passed while executing a script: 
-```bash
-     ./script.sh arg1 arg2
-```
-* `$0` → script name
-*  `$1` → first argument
-* `$2` → second argument
+# Requirments:
+* Operating System: Ubuntu running on Oracle VirtualBox
+* Shell: Bash (Bourne-Again Shell)
+***
 ***
 
 ## Lab Tasks
 ### i. Hello World Script
+#### Script
 ```bash
 #!/bin/bash
 echo "Hello, World!"
 ```
-<img width="2940" height="1912" alt="VirtualBox_Ubuntu_18_09_2025_18_47_39" src="https://github.com/user-attachments/assets/59a4104c-df8c-4b8d-80c6-662bc5a92161" />
+#### Output
+![](./Exp4_images/VirtualBox_Ubuntu_18_09_2025_18_47_39.png)
 
 ### ii. Personalized Greeting
+#### Script
 ```bash
 #!/bin/bash
 echo "Enter your name: "
 read name     # 'read' takes user input
 echo "Hello, $name! Welcome to Shell Scripting."
 ```
-<img width="2940" height="1912" alt="VirtualBox_Ubuntu_18_09_2025_18_48_41" src="https://github.com/user-attachments/assets/e7c39f1b-3cb1-4f57-8a3f-fb72819c2a5d" />
+#### Output
+![](./Exp4_images/VirtualBox_Ubuntu_18_09_2025_18_48_41.png)
 
 ### iii. Arithmetic Operations
+#### Script
 ```bash
 #!/bin/bash
 echo "Enter first number: "
@@ -90,10 +47,12 @@ echo "Subtraction: $((num1 - num2))"
 echo "Multiplication: $((num1 * num2))"
 echo "Division: $((num1 / num2))"
 ```
+#### Output
 * `$(())` is arithmetic expansion in bash.
-<img width="2940" height="1912" alt="VirtualBox_Ubuntu_18_09_2025_18_49_24" src="https://github.com/user-attachments/assets/349de31b-9991-41b0-835f-218a1906fe7b" />
+![](./Exp4_images/VirtualBox_Ubuntu_18_09_2025_18_49_24.png)
 
 ### iv. Voting Eligibility
+#### Script
 ```bash
 #!/bin/bash
 echo "Enter your age: "
@@ -108,7 +67,21 @@ fi
 ```
 * `if [ condition ]` → condition enclosed in `[ ]`
 *  `-ge` means **greater than or equal**.
+#### Output
+![](./Exp4_images/VirtualBox_Ubuntu_18_09_2025_18_50_03.png)
 
-<img width="2940" height="1912" alt="VirtualBox_Ubuntu_18_09_2025_18_50_03" src="https://github.com/user-attachments/assets/f6636ff6-e10e-4b5f-9946-e105ac4decf3" />
+***
+
+# OBERVATIONS
+* Successfully created and executed multiple shell scripts in Bash.
+* The "Hello, World!" script verified the basic structure of a shell program.
+* Personalized greeting script demonstrated user input handling.
+* Arithmetic script correctly performed addition, subtraction, multiplication, and division on user-provided numbers.
+* Voting eligibility script applied conditional statements to evaluate user input.
+
+***
+
+# CONCLUSION
+The experiment provided hands-on practice with Bash shell scripting, covering the essentials of input/output, variables, arithmetic, and conditional logic.
 
 ***
