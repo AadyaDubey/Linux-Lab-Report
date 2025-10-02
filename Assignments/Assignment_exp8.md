@@ -16,7 +16,7 @@ echo "Terminating the job..."
 kill $!
 ```
 ### Output
-<img width="2940" height="1912" alt="a1" src="https://github.com/user-attachments/assets/6d406959-8829-4819-bb44-d681c99757b8" />
+![](./images/a1.png)
 
 
 ## 2.  Create a script that compares two files and displays whether their contents are identical or different.  
@@ -45,7 +45,7 @@ else
 fi
 ```
 ### Output
-<img width="2940" height="1912" alt="a2" src="https://github.com/user-attachments/assets/8ec27946-e4a5-4cda-8eed-b45b5eb29bad" />
+![](./images/a2.png)
 
 
 ## 3. Write a script that counts the number of processes currently being run by your user.  
@@ -62,7 +62,7 @@ echo "User: $USER"
 echo "Number of processes currently running: $count"
 ```
 ### Output
-<img width="2940" height="1912" alt="a3" src="https://github.com/user-attachments/assets/98cd12d0-abb4-41fe-87e7-82e97a35e8c9" />
+![](./images/a3.png)
 
 
 ## 4. Develop a script that monitors memory usage every 5 seconds and logs it into a file.  
@@ -88,8 +88,7 @@ do
 done
 ```
 ### Output
-<img width="2940" height="1912" alt="a4" src="https://github.com/user-attachments/assets/a133a98e-2948-4dfd-90fd-9fcadc0af296" />
-
+![](./images/a4.png)
 
 ## 5. Write a script that prompts for a filename and a search pattern, then displays the count of matching lines.  
 Hint: Combine `grep -c`.
@@ -111,6 +110,6 @@ count=$(grep -c "$pattern" "$filename")
 echo "The pattern '$pattern' appears in $count line(s) of '$filename'."
 ```
 ### Output
-<img width="2940" height="1912" alt="a5" src="https://github.com/user-attachments/assets/00f18e44-3ee8-43ef-a1d8-3eaec0861cc8" />
+![](./images/a5.png)
 
 
