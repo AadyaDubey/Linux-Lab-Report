@@ -38,7 +38,7 @@ else
 fi
 ```
 ###  Output
-![](./images/assignment2.png)
+![](./images/assingnment2.png)
 
 ## 3. Create a script that schedules a task to append the current date and time to a log file every minute using cron.
 ### Script
@@ -57,7 +57,7 @@ In crontab,
 * * * * * /home/aadya/exp7/assignment/logfile.log
 ```
 ###  Output
-![](./images/assignment3.png)
+![](./images/assingnment3.png)
 
 ## 4. Modify the factorial function to check if input is negative. If yes, display an error message.
 ### Script
@@ -93,7 +93,7 @@ if [ $? -eq 0 ]; then
 fi
 ```
 ###  Output
-![](./images/assignment4.png)
+![](./images/assingnment4.png)
 
 ## 5. Write a script that accepts a filename as an argument. If the file exists, display the number of lines starting with a vowel.
 Hint: Use `grep -i "^[aeiou]" filename | wc -l`.
@@ -117,5 +117,5 @@ else
 fi
 ```
 ###  Output
-![](./images/assignment5.png)
+![](./images/assingnment5.png)
 
