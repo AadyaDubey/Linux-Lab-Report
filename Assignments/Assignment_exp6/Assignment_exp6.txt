@@ -1,0 +1,51 @@
+Script started on 2025-10-03 20:56:50+00:00 [TERM="xterm-256color" TTY="/dev/pts/0" COLUMNS="80" LINES="24"]
+[?2004h[31m[38;5;69maadya[38;5;214m@[38;5;167maadya[38;5;214m:[38;5;71m~[38;5;214m$[00m ./clean_markdown.sh lab_session_6.md [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[11Pscript -a lab_session_6.md5.md[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cexit[K./act3.sh[K[K[K[K[K[K[K[K[K[7mtouch a1.sh a2.sh a3.sh a4.sh a5.sh[27m
+[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Ctouch a1.sh a2.sh a3.sh a4.sh a5.sh
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C
+[?2004l[?2004h[31m[38;5;69maadya[38;5;214m@[38;5;167maadya[38;5;214m:[38;5;71m~[38;5;214m$[00m chmod +x [7ma1.sh a2.sh a3.sh a4.sh a5.sh[27m[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Ca1.sh a2.sh a3.sh a4.sh a5.sh
+[?2004l[?2004h[31m[38;5;69maadya[38;5;214m@[38;5;167maadya[38;5;214m:[38;5;71m~[38;5;214m$[00m [K[31m[38;5;69maadya[38;5;214m@[38;5;167maadya[38;5;214m:[38;5;71m~[38;5;214m$[00m [K[31m[38;5;69maadya[38;5;214m@[38;5;167maadya[38;5;214m:[38;5;71m~[38;5;214m$[00m [K[31m[38;5;69maadya[38;5;214m@[38;5;167maadya[38;5;214m:[38;5;71m~[38;5;214m$[00m [K[31m[38;5;69maadya[38;5;214m@[38;5;167maadya[38;5;214m:[38;5;71m~[38;5;214m$[00m [K[31m[38;5;69maadya[38;5;214m@[38;5;167maadya[38;5;214m:[38;5;71m~[38;5;214m$[00m [K[31m[38;5;69maadya[38;5;214m@[38;5;167maadya[38;5;214m:[38;5;71m~[38;5;214m$[00m [K[31m[38;5;69maadya[38;5;214m@[38;5;167maadya[38;5;214m:[38;5;71m~[38;5;214m$[00m [K[31m[38;5;69maadya[38;5;214m@[38;5;167maadya[38;5;214m:[38;5;71m~[38;5;214m$[00m [K[31m[38;5;69maadya[38;5;214m@[38;5;167maadya[38;5;214m:[38;5;71m~[38;5;214m$[00m [K[31m[38;5;69maadya[38;5;214m@[38;5;167maadya[38;5;214m:[38;5;71m~[38;5;214m$[00m [K[31m[38;5;69maadya[38;5;214m@[38;5;167maadya[38;5;214m:[38;5;71m~[38;5;214m$[00m [K[31m[38;5;69maadya[38;5;214m@[38;5;167maadya[38;5;214m:[38;5;71m~[38;5;214m$[00m [K[31m[38;5;69maadya[38;5;214m@[38;5;167maadya[38;5;214m:[38;5;71m~[38;5;214m$[00m [K[31m[38;5;69maadya[38;5;214m@[38;5;167maadya[38;5;214m:[38;5;71m~[38;5;214m$[00m [K[31m[38;5;69maadya[38;5;214m@[38;5;167maadya[38;5;214m:[38;5;71m~[38;5;214m$[00m ./a1.sh
+[?2004lEnter a number: 
+2
+Factorial of the given number is: 2
+[?2004h[31m[38;5;69maadya[38;5;214m@[38;5;167maadya[38;5;214m:[38;5;71m~[38;5;214m$[00m ./a1.sh
+[?2004lEnter a number: 
+44
+Factorial of the given number is: 2673996885588443136
+[?2004h[31m[38;5;69maadya[38;5;214m@[38;5;167maadya[38;5;214m:[38;5;71m~[38;5;214m$[00m ./a1.sh[1P.sh2.sh[C[C[C text.txt
+[?2004lUsage: ./a2.sh <filename> <word_to_count>
+[?2004h[31m 1 [38;5;69maadya[38;5;214m@[38;5;167maadya[38;5;214m:[38;5;71m~[38;5;214m$[00m ./a2.sh text.txt cat
+[?2004lThe word 'cat' appears 6 times in 'text.txt'.
+[?2004h[31m[38;5;69maadya[38;5;214m@[38;5;167maadya[38;5;214m:[38;5;71m~[38;5;214m$[00m te[K[Kcat text.txt
+[?2004lHello My name is Aadya Dubey
+Cat dog
+cat bird
+Bird dog 
+Cat cat
+cat cammel bird
+Cow cat bird
+457156
+2
+233
+4324
+[?2004h[31m[38;5;69maadya[38;5;214m@[38;5;167maadya[38;5;214m:[38;5;71m~[38;5;214m$[00m cat text.txt./a2.sh text.txt cat[K1.sh[K[1P.sh2.sh[C[1P.sh3.sh[C[C[C 28
+[?2004lThe first 28 Fibonacci numbers are:
+0 1 1 2 3 5 8 13 21 34 55 89 144 233 377 610 987 1597 2584 4181 6765 10946 17711 28657 46368 75025 121393 196418 
+[?2004h[31m[38;5;69maadya[38;5;214m@[38;5;167maadya[38;5;214m:[38;5;71m~[38;5;214m$[00m ./a3.sh 28[C[C[K[K[K[1P.sh4.sh
+[?2004lEnter an email address:
+29aadyadubey@gmail.con m
+'29aadyadubey@gmail.com' is a valid email address.
+[?2004h[31m[38;5;69maadya[38;5;214m@[38;5;167maadya[38;5;214m:[38;5;71m~[38;5;214m$[00m ./a4.sh
+[?2004lEnter an email address:
+heiurh
+'heiurh' is NOT a valid email address.
+[?2004h[31m[38;5;69maadya[38;5;214m@[38;5;167maadya[38;5;214m:[38;5;71m~[38;5;214m$[00m ./a4.sh[1P.sh5.shb./a5.sha./a5.shs./a5.shh./a5.sh ./a5.sh-./a5.shx./a5.sh ./a5.sh
+[?2004l+ echo 'Starting script...'
+Starting script...
++ non_existent_command 'hello world'
+./a5.sh: line 5: non_existent_command: command not found
++ echo 'Script finished.'
+Script finished.
+[?2004h[31m[38;5;69maadya[38;5;214m@[38;5;167maadya[38;5;214m:[38;5;71m~[38;5;214m$[00m exit
+[?2004lexit
+
+Script done on 2025-10-03 21:02:18+00:00 [COMMAND_EXIT_CODE="0"]

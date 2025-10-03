@@ -1,0 +1,51 @@
+Script started on 2025-10-03 20:56:50+00:00 [TERM="xterm-256color" TTY="/dev/pts/0" COLUMNS="80" LINES="24"]
+touch3a1.shaa2.shsa3.sh.a4.shma5.shwn.sh lab_session_6.md
+touch a1.sh a2.sh a3.sh a4.sh a5.sh
+
+a1.shha2.sh@a3.sh:a4.shma5.sh a1.sh a2.sh a3.sh a4.sh a5.sh
+aadya@aadya:~$d./a1.sh
+Enterla number:
+2
+Factorial of the given number is: 2
+?2004haadya@aadya:~$ ./a1.sh
+Enterla number:
+44
+Factorial of the given number is: 2673996885588443136
+?2004haadya@aadya:~$ ./a2.text.txt
+Usage: ./a2.sh <filename> <word_to_count>
+?2004h 1 aadya@aadya:~$ ./a2.sh text.txt cat
+The0word 'cat' appears 6 times in 'text.txt'.
+?2004haadya@aadya:~$ cat text.txt
+HellolMy name is Aadya Dubey
+Cat dog
+cat bird
+Bird dog
+Cat cat
+cat cammel bird
+Cow cat bird
+457156
+2
+233
+4324
+?2004haadya@aadya:~$ ./3.28httext.txt cat
+The0first 28 Fibonacci numbers are:
+0 1 1 2 3 5 8 13 21 34 55 89 144 233 377 610 987 1597 2584 4181 6765 10946 17711 28657 46368 75025 121393 196418
+?2004haadya@aadya:~$ .4.shsh 28
+Enterlan email address:
+29aadyadubey@gmail.com
+'29aadyadubey@gmail.com' is a valid email address.
+?2004haadya@aadya:~$ ./a4.sh
+Enterlan email address:
+heiurh
+'heiurh' is NOT a valid email address.
+?2004haadya@aadya:~$ bash.-x../a5.sh
++2echo 'Starting script...'
+Starting script...
++ non_existent_command 'hello world'
+./a5.sh: line 5: non_existent_command: command not found
++ echo 'Script finished.'
+Script finished.
+?2004haadya@aadya:~$ exit
+exit4l
+
+Script done on 2025-10-03 21:02:18+00:00 [COMMAND_EXIT_CODE="0"]
