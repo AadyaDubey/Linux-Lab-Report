@@ -1,6 +1,6 @@
 # Assignment 
 ## 1. Write a script that monitors the top 5 processes consuming the most CPU and logs them into a file every 10 seconds.
-Hint: Use `ps -eo pid,comm,%cpu --sort=-%cpu | head -6`.
+
 ### Script
 ```bash
 #!/bin/bash
@@ -23,7 +23,7 @@ done
 ![](./images/as1.png)
 
 ## 2.  Write a script that accepts a PID from the user and displays its details (state, parent process, memory usage).
-Hint: Use `ps -p <PID> -o pid,ppid,state,comm,%mem`.
+
 ### Script
 ```bash
 #!/bin/bash
@@ -96,7 +96,7 @@ fi
 ![](./images/as4.png)
 
 ## 5. Write a script that accepts a filename as an argument. If the file exists, display the number of lines starting with a vowel.
-Hint: Use `grep -i "^[aeiou]" filename | wc -l`.
+
 ### Script
 ```bash
 #!/bin/bash
