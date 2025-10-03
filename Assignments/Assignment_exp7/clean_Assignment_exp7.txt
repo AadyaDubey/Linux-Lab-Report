@@ -1,0 +1,65 @@
+Script started on 2025-10-03 21:14:48+00:00 [TERM="xterm-256color" TTY="/dev/pts/0" COLUMNS="69" LINES="36"]
+touchha1.sh@a2.sh:a3.shua4.sh.a5.sh.sh a3.sh a4.sh a5.sh
+?2004haadya@aadya:~$ chmod +x a1.sh a2.sh a3.sh a4.sh a5.sh
+chmod +x a1.sh a2.sh a3.sh a4.sh a5.sh
+
+?2004haadya@aadya:~$ ./a1.sh
+Starting CPU monitoring. Logging to cpu_monitor.log every 10 seconds.
+Press Ctrl+C to stop.
+^C
+?2004h?2004ladya@aadya:~$ cat ^C?2004l
+cat1cpu_monitor.logdya:~$ chmods+x a1.sh a2.sh a3.sh a4.sh a5.sh
+---02025-10-03 21:20:35 ---
+    PID COMMAND		%CPU
+   2542 gnome-shell	31.3
+   3252 firefox		 6.3
+   6611 gnome-text-edit	 4.9
+   4166 Isolated Web Co	 2.9
+   5786 nautilus	 1.4
+
+?2004haadya@aadya:~$ ps
+?200PID TTY	     TIME CMD
+   6495 pts/1	 00:00:00 bash
+   6760 pts/1	 00:00:00 ps
+?2004haadya@aadya:~$ ./a2.sh
+Enterlthe PID: 6760
+No process found with PID 6760
+?2004haadya@aadya:~$ ./a2.sh
+Enterlthe PID: 6495
+Process details:
+    PID	   PPID S COMMAND	  %MEM
+   6495	   6494 S bash		   0.1
+?2004haadya@aadya:~$ crontab -e
+?1l?2004lcrontab:tinstallingonewbcrontab/crontab?25l?12l?25h?25ll?25BMB?12l?25h?25ltB[lWriting...n]BBMBB[?Wrotep1FlineC]BB^OBeWrite?OutBB^FB2WhereoIsatB^KBMCutlB^TBeExecuteBXBTExitowse2lB^RB2Read2File?B^\B1Replace5l?B^UB2Paste?12l?B^JB5Justify?12l?25h?25l?25l?12l?25?25l?12l?2s?25l?12l?25?25l?12l?25?25l?12l?25?25l?12l?25?25l?12l?25?25l?12l?25?25l?12l?25?25l?12l?25hl?25l?12l?25ho?25l?12l?25hg?25l?12l?25hf?25l?12l?25hi?25l?12l?25hl?25l?12l?25he?25l?12l?25h.?25l?12l?25hl?25l?12l?25ho?25l?12l?25hg?25l?12l?25h
+?2004haadya@aadya:~$ ./a3.sh
+./a3.sh: line 4: /home/aadya/exp7/assignment/logfile.log: No such file or directory
+?2004h 1 aadya@aadya:~$ touch logfile.log
+crontaba-ea@aadya:~$ touch logfile.log
+?1l?2004lcrontab:tinstallingonewbcrontab/crontabend?BM-BB5Backup?FileBB?12l?25h?25l5B[?Writing...F]BB[tWrote-1Blinep]BB^OB5WriteBOutoB^FB.Where1Is?2B^KB2Cut1B^TB5ExecuteBXB?Exit?25l?1B^RB5Read5FilelB^\BeReplacel?2B^UB2Pastel?25hB^JBlJustify?12l?25h?25l5hd?25l
+./a3.shadya@aadya:~$ touchalogfile.log
+./a3.sh: line 4: /home/aadya/exp7/assignment/logfile.log: No such file or directory
+?10aadya@aadya:~$dcrontab -e
+?1l?2004lcrontab:tinstallingonewbcrontab/crontab25l?12l?25ho?25l?12l?25hB?12l?25h?25lfB[5Writing...?]BB?BB[?Wrote21lline?]BB^OB5Write?Out.?B^FB1WherehIs25lB^KB?Cuto?25l?12B^TB?ExecutBXB5Exit?12l?25B^RB?Read2Filel?B^\B2Replace2l?2B^UBlPaste25?25lB^JB?Justify?12l?25h?25l2l?25?25lB*B?12l?25h?25l?12l?25h/logfile.log?25l	BM-DB DOS Format   BM-AB Append	      BM-BB Backup FilBCB Cancel	BM-MB Mac Format   BM-PB Prepend      B^TB Browse
+?2004haadya@aadya:~$ ./a3.sh -e
+./a3.sh: line 4: /home/aadya/exp7/assignment/logfile.log: No such file or directory
+?2004h 1 aadya@aadya:~$ ./a3.sh
+?2004haadya@aadya:~$ cat logfile.log
+2025-10-03 21:25:16
+?2004haadya@aadya:~$ ./a4.shfile.log
+Enterla non-negative integer: 78
+The factorial of 78 is: 0
+?2004haadya@aadya:~$ ./a4.sh
+Enterla non-negative integer: 6
+The factorial of 6 is: 720
+?2004haadya@aadya:~$ ./a4.sh
+Enterla non-negative integer: 9
+The factorial of 9 is: 362880
+?2004haadya@aadya:~$ ./a4.sh
+Enterla non-negative integer: 7
+The factorial of 7 is: 5040
+?2004haadya@aadya:~$ ./a5.text.txt
+Number of lines starting with a vowel in 'text.txt': 0
+?2004haadya@aadya:~$ exit
+exit4l
+
+Script done on 2025-10-03 21:27:03+00:00 [COMMAND_EXIT_CODE="0"]
