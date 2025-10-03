@@ -20,7 +20,7 @@ kill $!
 
 
 ## 2.  Create a script that compares two files and displays whether their contents are identical or different.  
-Hint: Use `cmp` or `diff`.
+
 ### Input
 ```bash
 #!/bin/bash
@@ -49,7 +49,7 @@ fi
 
 
 ## 3. Write a script that counts the number of processes currently being run by your user.  
-Hint: Use `ps -u $USER | wc -l`.
+
 ### Input
 ```bash
 #!/bin/bash
@@ -66,7 +66,7 @@ echo "Number of processes currently running: $count"
 
 
 ## 4. Develop a script that monitors memory usage every 5 seconds and logs it into a file.  
-Hint: Use `free -m` inside a loop with `sleep`.
+
 ### Input
 ```bash
 #!/bin/bash
@@ -91,7 +91,7 @@ done
 ![](./images/a4.png)
 
 ## 5. Write a script that prompts for a filename and a search pattern, then displays the count of matching lines.  
-Hint: Combine `grep -c`.
+
 ### Input
 ```bash
 #!/bin/bash
