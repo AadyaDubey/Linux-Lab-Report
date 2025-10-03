@@ -1,0 +1,98 @@
+Script started on 2025-10-03 20:42:20+00:00 [TERM="xterm-256color" TTY="/dev/pts/0" COLUMNS="67" LINES="36"]
+?2004haadya@aadya:~$ vim forloop.sh
+"forloop.sh"1[New]?25h?25li1--?INSERTl--0,1All?25h?25lfor izin%1 2 3 4 5   >c10;?11;?~									~								   ~								      ~									 ~								    ~								       ~								  ~								     ~									~								   ~								      ~									 ~								    ~								       ~								  ~								     ~									~								   ~								      ~									 ~								    ~								       ~								  ~								     ~									~								   ~								      ~									 ~								    ~								       ~								  ~								     ~									~								   0,0-1All?25h?4m+q436f+q6b75+q6b64+q6b72+q6b6c+q2332+q2334+q2569+q2a37+q6b31$q q?12$p?25l030/0a0a/2	       ~								  ~								     ~									~								   ~								      ~									 ~								    ~								       ~								  ~								     ~									~								   ~								      ~									 ~								    ~								       ~								  ~								     ~									~								   ~								      ~									 ~								    ~								       ~								  ~								     ~									~								   ~								      ~									 ~								    ~								       ~								  ~								     0,0-1All
+?25l?2004l>4;m"forloop.sh"e[New]56L,562B2written,3?25h?25l1,5?25h?25l4?25h?25l3?25h?25l2?25h?25l1?25h?25lfor i in 1 2 3 4 52,1All?25h?25lfor i in 1 2 3 4 53,1All?25h?25l2?25h?25l1?25h?25l#2?25h?25l!3?25h?25l/4?25h?25lb5?25h?25li6?25h?25ln7?25h?25l/8?25h?25lb9?25h?25la10?25h?25ls1?25h?25lh2?25h?25l^[  1,11All?25h?25l::?25hwq
+?1004l?2004l?1l?1049l?25h>4;m?2004haadya@aadya:~$ chmodf+xfforloop.sh
+?2004haadya@aadya:~$ ./forloop.shhhhhhhh
+Number: 1
+Number: 2
+Number: 3
+Number: 4
+Number: 5
+?2004haadya@aadya:~$ vim whileloop.sh
+"whileloop.sh"?[New]?25h?25loh--2INSERTw--2,1All?25h?25l~]▽  zz0%m	     >c10;?11;?~				   1?25h?25l#2?25h?25l!3?25h?25l/4?25h?25lb5?25h?25li6?25h?25ln7?25h?25l/8?25h?25lb9?25h?25la10?25h?25ls1?25h?25lh2?25h?25l2,1 ?25h?25l3?25h?25li=1			~								   ~								      ~									 ~								    ~								       ~								  ~								     ~									~								   ~								      ~									 ~								    ~								       ~								  ~								     ~									~								   ~								      ~									 ~								    ~								       ~								  ~								     ~									~								   ~								      ~									 ~								    ~								       ~								  ~								     0,0-1All?25h?4m+q436f+q6b75+q6b64+q6b72+q6b6c+q2332+q2334+q2569+q2a37+q6b31$q q?12$p?25l030/0a0a/2		 ~								    ~								       ~								  ~								     ~									~								   ~								      ~									 ~								    ~								       ~								  ~								     ~									~								   ~								      ~									 ~								    ~								       ~								  ~								     ~									~								   ~								      ~									 ~								    ~								       ~								  ~								     ~									~								   ~								      ~									 ~								    ~								       0,0-1All
+while [ $i -le 5 ]do	echo "Count: $i"   ?25h?25l i=$((i+1))
+?25l?2004l>4;m"whileloop.sh"h[New]:8L,h80B written
+?1004l?2004l?1l?1049l?25h>4;m?2004haadya@aadya:~$ chmod+xwwhileloop.sh
+?2004haadya@aadya:~$ ./whileloop.shhhhhhhh
+Count: 1
+Count: 2
+Count: 3
+Count: 4
+Count: 5
+?2004haadya@aadya:~$ vim untilloop.sh
+"untilloop.sh"?[New]?25h?25lih--2INSERTu--0,1All?25h?25li=1  zz0%m	     >c10;?11;?~								  ~								     ~									~								   ~								      ~									 ~								    ~								       ~								  ~								     ~									~								   ~								      ~									 ~								    ~								       ~								  ~								     ~									~								   ~								      ~									 ~								    ~								       ~								  ~								     ~									~								   ~								      ~									 ~								    ~								       ~								  ~								     0,0-1All?25h?4m+q436f+q6b75+q6b64+q6b72+q6b6c+q2332+q2334+q2569+q2a37+q6b31$q q?12$p?25l:3030/0a0a		 ~								    ~								       ~								  ~								     ~									~								   ~								      ~									 ~								    ~								       ~								  ~								     ~									~								   ~								      ~									 ~								    ~								       ~								  ~								     ~									~								   ~								      ~									 ~								    ~								       ~								  ~								     ~									~								   ~								      ~									 ~								    ~								       0,0-1All
+?25l?2004l>4;m"untilloop.sh"u[New]i6L,$59B+written?25ldone6,5?25h?25l^[	 6,4All?25h?25l::?25hwq
+?1004l?2004l?1l?1049l?25h>4;m?2004haadya@aadya:~$chmod+xuuntilloop.sh
+?2004haadya@aadya:~$ ./untilloop.shhhhhhhh
+Count: 1
+Count: 2
+Count: 3
+Count: 4
+Count: 5
+?2004haadya@aadya:~$ vim loop_control.sh
+"loop_control.sh"0[New]?25h?25l^[l?^[l"?25h?25lir--.INSERTe--0,1All?25h?25lfor i>in0{1..5}~								     ~									~								   ~								      ~									 ~								    ~								       ~								  ~								     ~									~								   ~								      ~									 ~								    ~								       ~								  ~								     ~									~								   ~								      ~									 ~								    ~								       ~								  ~								     ~									~								   ~								      ~									 ~								    ~								       ~								  ~								     ~									0,0-1All?25h?4m+q436f+q6b75+q6b64+q6b72+q6b6c+q2332+q2334+q2569+q2a37+q6b31$q q?12$p?25l:3030/0a0a	    ~								       ~								  ~								     ~									~								   ~								      ~									 ~								    ~								       ~								  ~								     ~									~								   ~								      ~									 ~								    ~								       ~								  ~								     ~									~								   ~								      ~									 ~								    ~								       ~								  ~								     ~									~								   ~								      ~									 ~								    ~								       ~								  0,0-1All
+do    if [ $i -eq 3 ]; then	   c?25h?25continue
+<oop_control.sh"o[New]n7L,l96B"written?25l^[  7,4All?25h?25l::?25hwq
+?1004l?2004l?1l?1049l?25h>4;m?2004haadya@aadya:~$ chmodl+xlloop_control.sh
+?2004haadya@aadya:~$ ./loop_control.shhhhhhhh
+Number: 1
+Number: 2
+Number: 4
+Number: 5
+echo4"Hello"a>dfile.txtho "Hello" > file.txt
+?2004haadya@aadya:~$ cat file.txt
+Hellol
+echo4"World"a>>yfile.txto "World" >> file.txt
+?2004haadya@aadya:~$ cat file.txt
+Hellol
+World
+?2004haadya@aadya:~$ cat < file.txt
+Hellol
+World
+ls0/notexista2>yerror.lognotexist 2> error.log
+?2004h 2 aadya@aadya:~$ cat error.log
+ls:0cannot access '/notexist': No such file or directory
+?2004haadya@aadya:~$ greet() {
+    echo "Hello $1"
+}
+aadya@aadya:~$ greet() {
+    echo "Hello $1"
+}
+greet "User
+?2004haadya@aadya:~$ greet Aadya
+HellolAadya
+?2004haadya@aadya:~$ touch act1.sh act2.sh act3.sh
+?2004haadya@aadya:~1@c1@h1@m1@o1@d1@1@+1@x1@ct3.sh
+?2004haadya@aadya:~$ ./act1.sh
+Enterla number:
+3
+3 is a palindrome.
+?2004haadya@aadya:~$ ./act1.sh
+Enterla number:
+8347
+8347 is not a palindrome.
+./act2.shya@aadya:~$ chmod1+xhact1.sh act2.sh act3.sh
+Enterltwo numbers:
+2 4
+GCD: 2
+LCM: 4
+?2004haadya@aadya:~$ ./act3.sh
+Enterlnumbers separated by space:
+3 6 9098 34 830818
+Ascending Order:
+3
+6
+34
+9098
+830818
+Descending Order:
+830818
+9098
+34
+6
+3
+?2004haadya@aadya:~$ exit
+exit4l
+
+Script done on 2025-10-03 20:51:42+00:00 [COMMAND_EXIT_CODE="0"]
