@@ -1,0 +1,327 @@
+Script started on 2025-10-03 13:36:10+00:00 [TERM="xterm-256color" TTY="/dev/pts/0" COLUMNS="80" LINES="24"]
+?2004haadya@aadya:~$ ps
+?200PID TTY	     TIME CMD
+   4577 pts/1	 00:00:00 bash
+   4590 pts/1	 00:00:00 ps
+?2004haadya@aadya:~$ top
+?1h?25lBtop - 13:36:49 up 4 min,  2 users,  load average: 0.87, 0.42, 0.17BB
+Tasks:B 249 Btotal,B   1 Brunning,B 248 Bsleeping,B   0 Bstopped,B   0 BzombieBB
+%Cpu(s):B  2.5 Bus,B  0.0 Bsy,B	 0.0 Bni,B 97.5 Bid,B  0.0 Bwa,B  0.0 Bhi,B  0.0 Bsi,B	0.0 BstBB BB
+MiB Mem :B   3384.5 Btotal,B	 97.6 Bfree,B	2007.9 Bused,B	 1444.8 Bbuff/cacheBB BB    BB
+MiB Swap:B   3185.0 Btotal,B   3184.5 Bfree,B	   0.5 Bused.B	 1376.6 Bavail Mem BB
+
+    PID USER	  PR  NI    VIRT    RES	   SHR S  %CPU	%MEM	 TIME+ COMMAND	B
+B   2518 aadya	   20	0 4792204 604932 199720 S  10.0	 17.5	1:04.59 gnome-s+ B
+B      1 root	   20	0   25336  14376   9384 S   0.0	  0.4	0:01.18 systemd	 B
+B      2 root	   20	0	0      0      0 S   0.0	  0.0	0:00.00 kthreadd B
+B      3 root	   20	0	0      0      0 S   0.0	  0.0	0:00.00 pool_wo+ B
+B      4 root	    0 -20	0      0      0 I   0.0	  0.0	0:00.00 kworker+ B
+B      5 root	    0 -20	0      0      0 I   0.0	  0.0	0:00.00 kworker+ B
+B      6 root	    0 -20	0      0      0 I   0.0	  0.0	0:00.00 kworker+ B
+B      7 root	    0 -20	0      0      0 I   0.0	  0.0	0:00.00 kworker+ B
+B      8 root	    0 -20	0      0      0 I   0.0	  0.0	0:00.00 kworker+ B
+B      9 root	   20	0	0      0      0 I   0.0	  0.0	0:00.00 kworker+ B
+B     10 root	   20	0	0      0      0 I   0.0	  0.0	0:00.22 kworker+ B
+B     11 root	    0 -20	0      0      0 I   0.0	  0.0	0:00.00 kworker+ B
+B     12 root	   20	0	0      0      0 I   0.0	  0.0	0:01.40 kworker+ B
+B     13 root	    0 -20	0      0      0 I   0.0	  0.0	0:00.00 kworker+ B
+B     14 root	   20	0	0      0      0 I   0.0	  0.0	0:00.00 rcu_tas+ B
+B     15 root	   20	0	0      0      0 I   0.0	  0.0	0:00.00 rcu_tas+ B
+B     16 root	   20	0	0      0      0 I   0.0	  0.0	0:00.00 rcu_tas+ B?1l
+?12l?25h?2004haadya@aadya:~$ pstree
+systemd─┬─ModemManager───3*[{ModemManager}]
+	├─NetworkManager───3*[{NetworkManager}]
+	├─VBoxDRMClient───5*[{VBoxDRMClient}]
+	├─VBoxService───8*[{VBoxService}]
+	├─accounts-daemon───3*[{accounts-daemon}]
+	├─avahi-daemon───avahi-daemon
+	├─colord───3*[{colord}]
+	├─cron
+	├─cups-browsed───3*[{cups-browsed}]
+	├─cupsd───dbus
+	├─dbus-daemon
+	├─gdm3─┬─gdm-session-wor─┬─gdm-wayland-ses─┬─gnome-session-b───3*[{gnom+
+	│      │		 │		   └─3*[{gdm-wayland-ses}]
+	│      │		 └─3*[{gdm-session-wor}]
+	│      └─3*[{gdm3}]
+	├─gnome-remote-de───3*[{gnome-remote-de}]
+	├─multipathd───6*[{multipathd}]
+	├─packagekitd───3*[{packagekitd}]
+	├─polkitd───3*[{polkitd}]
+	├─power-profiles-───3*[{power-profiles-}]
+	├─rsyslogd───3*[{rsyslogd}]
+	├─rtkit-daemon───2*[{rtkit-daemon}]
+	├─snapd───9*[{snapd}]
+	├─switcheroo-cont───3*[{switcheroo-cont}]
+	├─systemd─┬─(sd-pam)
+	│	  ├─VBoxClient───VBoxClient───3*[{VBoxClient}]
+	│	  ├─VBoxClient───VBoxClient───2*[{VBoxClient}]
+	│	  ├─at-spi2-registr───3*[{at-spi2-registr}]
+	│	  ├─crashhelper───{crashhelper}
+	│	  ├─dbus-daemon
+	│	  ├─dconf-service───3*[{dconf-service}]
+	│	  ├─evolution-addre───6*[{evolution-addre}]
+	│	  ├─evolution-calen───9*[{evolution-calen}]
+	│	  ├─evolution-sourc───4*[{evolution-sourc}]
+	│	  ├─gcr-ssh-agent───2*[{gcr-ssh-agent}]
+	│	  ├─2*[gjs───7*[{gjs}]]
+	│	  ├─gnome-keyring-d───4*[{gnome-keyring-d}]
+	│	  ├─gnome-session-b─┬─at-spi-bus-laun─┬─dbus-daemon
+	│	  │		    │		      └─4*[{at-spi-bus-laun}]
+	│	  │		    ├─deja-dup-monito───4*[{deja-dup-monito}]
+	│	  │		    ├─evolution-alarm───7*[{evolution-alarm}]
+	│	  │		    ├─gsd-disk-utilit───3*[{gsd-disk-utilit}]
+	│	  │		    ├─update-notifier───5*[{update-notifier}]
+	│	  │		    └─4*[{gnome-session-b}]
+	│	  ├─gnome-session-c───{gnome-session-c}
+	│	  ├─gnome-shell─┬─Xwayland
+	│	  │		├─firefox─┬─forkserver─┬─Isolated Web Co───21*[+
+	│	  │		│	  │	       ├─Isolated Web Co───22*[+
+	│	  │		│	  │	       ├─Privileged Cont───22*[+
+	│	  │		│	  │	       ├─RDD Process───3*[{RDD +
+	│	  │		│	  │	       ├─Socket Process───5*[{S+
+	│	  │		│	  │	       ├─Utility Process───3*[{+
+	│	  │		│	  │	       ├─Web Content───19*[{Web+
+	│	  │		│	  │	       ├─2*[Web Content───15*[{+
+	│	  │		│	  │	       └─WebExtensions───21*[{W+
+	│	  │		│	  └─88*[{firefox}]
+	│	  │		├─gjs───8*[{gjs}]
+	│	  │		├─mutter-x11-fram───14*[{mutter-x11-fram}]
+	│	  │		└─20*[{gnome-shell}]
+	│	  ├─gnome-shell-cal───6*[{gnome-shell-cal}]
+	│	  ├─gnome-terminal-─┬─bash───script───bash───pstree
+	│	  │		    └─5*[{gnome-terminal-}]
+	│	  ├─goa-daemon───4*[{goa-daemon}]
+	│	  ├─goa-identity-se───3*[{goa-identity-se}]
+	│	  ├─gsd-a11y-settin───4*[{gsd-a11y-settin}]
+	│	  ├─gsd-color───4*[{gsd-color}]
+	│	  ├─gsd-datetime───4*[{gsd-datetime}]
+	│	  ├─gsd-housekeepin───4*[{gsd-housekeepin}]
+	│	  ├─gsd-keyboard───4*[{gsd-keyboard}]
+	│	  ├─gsd-media-keys───4*[{gsd-media-keys}]
+	│	  ├─gsd-power───4*[{gsd-power}]
+	│	  ├─gsd-print-notif───3*[{gsd-print-notif}]
+	│	  ├─gsd-printer───3*[{gsd-printer}]
+	│	  ├─gsd-rfkill───3*[{gsd-rfkill}]
+	│	  ├─gsd-screensaver───3*[{gsd-screensaver}]
+	│	  ├─gsd-sharing───4*[{gsd-sharing}]
+	│	  ├─gsd-smartcard───4*[{gsd-smartcard}]
+	│	  ├─gsd-sound───4*[{gsd-sound}]
+	│	  ├─gsd-wacom───4*[{gsd-wacom}]
+	│	  ├─gsd-xsettings───4*[{gsd-xsettings}]
+	│	  ├─gvfs-afc-volume───4*[{gvfs-afc-volume}]
+	│	  ├─gvfs-goa-volume───3*[{gvfs-goa-volume}]
+	│	  ├─gvfs-gphoto2-vo───3*[{gvfs-gphoto2-vo}]
+	│	  ├─gvfs-mtp-volume───3*[{gvfs-mtp-volume}]
+	│	  ├─gvfs-udisks2-vo───4*[{gvfs-udisks2-vo}]
+	│	  ├─gvfsd─┬─gvfsd-dnssd───3*[{gvfsd-dnssd}]
+	│	  │	  ├─gvfsd-network───4*[{gvfsd-network}]
+	│	  │	  ├─gvfsd-recent───3*[{gvfsd-recent}]
+	│	  │	  ├─gvfsd-trash───4*[{gvfsd-trash}]
+	│	  │	  ├─gvfsd-wsdd─┬─python3
+	│	  │	  │	       └─3*[{gvfsd-wsdd}]
+	│	  │	  └─3*[{gvfsd}]
+	│	  ├─gvfsd-fuse───6*[{gvfsd-fuse}]
+	│	  ├─gvfsd-metadata───3*[{gvfsd-metadata}]
+	│	  ├─ibus-daemon─┬─ibus-engine-sim───3*[{ibus-engine-sim}]
+	│	  │		├─ibus-extension-───4*[{ibus-extension-}]
+	│	  │		├─ibus-memconf───3*[{ibus-memconf}]
+	│	  │		└─3*[{ibus-daemon}]
+	│	  ├─ibus-portal───3*[{ibus-portal}]
+	│	  ├─ibus-x11───3*[{ibus-x11}]
+	│	  ├─localsearch-3───7*[{localsearch-3}]
+	│	  ├─mpris-proxy
+	│	  ├─nautilus───15*[{nautilus}]
+	│	  ├─pipewire───2*[{pipewire}]
+	│	  ├─pipewire───{pipewire}
+	│	  ├─pipewire-pulse───2*[{pipewire-pulse}]
+	│	  ├─snap───9*[{snap}]
+	│	  ├─wireplumber───5*[{wireplumber}]
+	│	  ├─2*[xdg-desktop-por───5*[{xdg-desktop-por}]]
+	│	  ├─xdg-desktop-por───4*[{xdg-desktop-por}]
+	│	  ├─xdg-document-po─┬─fusermount3
+	│	  │		    └─6*[{xdg-document-po}]
+	│	  └─xdg-permission-───3*[{xdg-permission-}]
+	├─systemd-journal
+	├─systemd-logind
+	├─systemd-network
+	├─systemd-oomd
+	├─systemd-resolve
+	├─systemd-timesyn───{systemd-timesyn}
+	├─systemd-udevd
+	├─udisksd───5*[{udisksd}]
+	├─unattended-upgr───{unattended-upgr}
+	├─upowerd───3*[{upowerd}]
+	└─wpa_supplicant
+?2004haadya@aadya:~$ sleep 30 &
+[1]04632
+?2004haadya@aadya:~$ ps
+?200PID TTY	     TIME CMD
+   4577 pts/1	 00:00:00 bash
+   4632 pts/1	 00:00:00 sleep
+   4639 pts/1	 00:00:00 ps
+?2004haadya@aadya:~$ kill 4632
+[1]+4lTerminated	      sleep 30
+?2004haadya@aadya:~$ nice -n 15 sleep 30 &
+[1]04658
+?2004haadya@aadya:~$ clear
+?2004haadya@aadya:~$ ps
+?200PID TTY	     TIME CMD
+   4577 pts/1	 00:00:00 bash
+   4658 pts/1	 00:00:00 sleep
+   4679 pts/1	 00:00:00 ps
+renice1@1@7ue>d-p:4658enice <value> -p <PID>
+renice: failed to get priority for 4658 (process ID): No such process
+[1]+  Done		      nice -n 15 sleep 30
+?2004h 1 aadya@aadya:~$ clear
+?2004haadya@aadya:~$ nice -n 10 sleep 190 &
+[1]04729
+renicea<value>e-pv4729>c-p-<PID>sleep 190 &
+4729
+1@11@5
+47294(process ID) old priority 10, new priority 15
+aadya@aadya:~$dclear
+aadya@aadya:~$dat:now
+Command 'at' not found, but can be installed with:
+sudo apt install at
+?2004h 127 aadya@aadya:~$ sudo apt install at
+sudo apt install at
+
+[sudo] password for aadya:
+Thevfollowingdpackage.was0automatically installed and is no longer required:
+  libutempter0
+Use 'sudo apt autoremove' to remove it.
+
+Installing:
+  at
+
+Suggested packages:
+  default-mta  | mail-transport-agent
+
+Summary:
+  Upgrading: 0, Installing: 1, Removing: 0, Not Upgrading: 84
+  Download size: 39.5 kB
+  Space needed: 208 kB / 1,273 MB available
+
+Get:1ahttp://ports.ubuntu.com/ubuntu-ports plucky/universe arm64 at arm64 3.2.5-2.1ubuntu4 [39.5 kB]
+Fetchedo39.5gkBkin32s5(16.47kB/s)
+
+Selecting previously unselected package at.
+(Reading database ... 213345 files and directories currently installed.)
+Preparing to unpack .../at_3.2.5-2.1ubuntu4_arm64.deb ...
+Progress: [  0%] [					  ] Progress: [ 20%] [████████				      ] Unpacking at (3.2.5-2.1ubuntu4) ...
+Progress: [ 40%] [████████████████			  ] Setting up at (3.2.5-2.1ubuntu4) ...
+Progress: [ 60%] [████████████████████████		  ] Created symlink '/etc/systemd/system/multi-user.target.wants/atd.service' → '/usr/lib/systemd/system/atd.service'.
+Progress: [ 80%] [████████████████████████████████	  ] Processing triggers for man-db (2.13.0-1) ...
+
+Scanning processes... [======================================]
+Scanning processor microcode... [			     ]
+Scanning linux images... [===================================]
+
+Running kernel seems to be up-to-date.
+
+Failed to check for processor microcode upgrades.
+
+No services need to be restarted.
+
+No containers need to be restarted.
+
+No user sessions are running outdated binaries.
+
+No VM guests are running outdated hypervisor (qemu) binaries
+ on this host.
+clearwaadya@aadya:~$ sudo apt install at
+atenowaadya@aadya:~$ sudorapt install at
+warning: commands will be executed using /bin/sh
+at Fri Oct  3 13:42:00 2025
+at> sleep 60 &&^echo "Hey[There!!!"
+at>
+at> > output.txt<EOT>
+at>
+at> sleep 60 && echo "Hey There!!!" > output.txt<EOT>
+at> echo "ls > output.txt" | at now + 1 minute
+at>
+at> q
+at> ^C[1]+  Done		    nice -n 10 sleep 190
+?2004h 1 aadya@aadya:~$ ps
+?200PID TTY	     TIME CMD
+   4577 pts/1	 00:00:00 bash
+   5349 pts/1	 00:00:00 ps
+?2004haadya@aadya:~$ clear
+?2004haadya@aadya:~$ echo "ls > output.txt" | at now + 1 minute
+echo "ls > output.txt" | at now + 1 minute
+
+warning: commands will be executed using /bin/sh
+job 2 at Fri Oct  3 13:49:00 2025
+?2004haadya@aadya:~$ cat output.txt
+clean_markdown.sh
+Desktop
+Documents
+Downloads
+exp8
+exp9
+lab_session_7.md
+Music
+output.txt
+Pictures
+practice_linux
+projects
+Public
+snap
+Templates
+Videos
+aadya@aadya:~$dclear
+aadya@aadya:~$dcrontab -e
+crontab -e
+
+?1l?2004lcrontab:tinstallingonewbcrontab/crontabM-ABeAppendiBM-BBBBacB?12l?25h?25laB[eWriting...M]BB2BB[1Wrotet15lineP]BB^OBeWrite2Out^B^FBrWhere5Is12B^KB?Cut?B^TB2ExecuteBXB2Exitl?12l?B^RB5ReadlFile2B^\B2Replacel?1B^UB5Paste12l?2B^JBlJustify?12l?25h?25l25l?12l?25?25l?12l?25?25l?12l?25?25l?12l?25?25l?12l?25?25l?12l?25?25l?12l?25?25l?12l?25?25l?12l?25?25l?12l?25?25l?12l?25?25l?12l?25?25l?12l?25?25l?12l?25?25l?12l?25?25l?12l?25?25l?12l?25?25l?12l?25?25l?12l?25?25l?12l?25?25l?12l?25?25l?12l?25?25l?12l?25?25l?12l?25?25l?12l?25?25l?12l?25?25l?12l?25?25l?12l?25?25l?12l?25?25l?12l?25?25l?12l?25?25l?12l?25?25l?12l?25?25l?12l?25?25l?12l?25?25l?12l?25?25l?12l?25?25l?12l?25?25l?12l?25?25l?12l?25?25l?12l?25?25l?12l?25?25l?12l?25?25l?12l?25?25l?12l?25?25l?12l?25?25l?12l?25?25l?12l?25?25l?12l?25h?25l?12l?25?25l?12l?25?25l?12l?25?25l?12l?25?25l?12l?25?25l?12l?25?25l?12l?25?25l?12l?25?25l?12l?25?25l?12l?25?25l?12l?25?25l?12l?25?25l?12l?25?25l?12l?25?25l?12l?25?25l?12l?25?25l?12l?25?25l?12l?25?25l?12l?25?25l?12l?25?25l?12l?25?25l?12l?25?25l?12l?25?25l?12l?25?25l?12l?25?25l?12l?25?25l?12l?25?25l?12l?25?25l?12l?25?25l?12l?25?25l?12l?25?25l?12l?25?25l?12l?25?25l?12l?25?25l?12l?25?25l?12l?25?25l?12l?25?25l?12l?25?25l?12l?25?25l?12l?25?25l?12l?25?25l?12l?25?25l?12l?25?25l?12l?25?25l?12l?25?25l?12l?25?25l?12l?25?25l?12l?25?25l?12l?25?25l?12l?25?25l?12l?25?25l?12l?25?25l?12l?25?25l?12l?25?25l?12l?25?25l?12l?25?25l?12l?25?25l?12l?25?25l?12l?25?25l?12l?25?25l?12l?25?25l?12l?25?25l?12l?25?25l?12l?25h?25l?12l?25?25l?12l?25?25l?12l?25h?25l?12l?25?25l?12l?25?25l?12l?25?25l?12l?25?25l?12l?25?25l?12l?25?25l?12l?25?25l?12l?25?25l?12l?25?25l?12l?25?25l?12l?25?25l?12l?25?25l?12l?25?25l?12l?25?25l?12l?25?25l?12l?25?25l?12l?25?25l?12l?25?25l?12l?25?25l?12l?25?25l?12l?25?25l?12l?25?25l?12l?25?25l?12l?25?25l?12l?25?25l?12l?25?25l?12l?25?25l?12l?25?25l?12l?25?25l?12l?25?25l?12l?25?25l?12l?25?25l?12l?25?25l?12l?25?25l?12l?25?25l?12l?25?25l?12l?25?25l?12l?25?25l?12l?25?25l?12l?25?25l?12l?25h?25l?12l?25?25l?12l?25?25l?12l?25?25l?12l?25?25l?12l?25?25l?12l?25?25l?12l?25?25l?12l?25?25l?12l?25?25l?12l?25?25l?12l?25?25l?12l?25?25l?12l?25?25l?12l?25?25l?12l?25?25l?12l?25?25l?12l?25?25l?12l?25?25l?12l?25?25l?12l?25?25l?12l?25?25l?12l?25?25l?12l?25?25l?12l?25?25l?12l?25?25l?12l?25?25l?12l?25?25l?12l?25?25l?12l?25?25l?12l?25?25l?12l?25?25l?12l?25?25l?12l?25?25l?12l?25?25l?12l?25?25l?12l?25?25l?12l?25?25l?12l?25?25l?12l?25?25l?12l?25?25l?12l?25?25l?12l?25?25l?12l?25?25l?12l?25?25l?12l?25?25l?12l?25?25l?12l?25?25l?12l?25?25l?12l?25?25l?12l?25?25l?12l?25?25l?12l?25?25l?12l?25?25l?12l?25?25l?12l?25?25l?12l?25?25l?12l?25?25l?12l?25?25l?12l?25?25l?12l?25?25l?12l?25?25l?12l?25?25l?12l?25h?25l?12l?25?25l?12l?25?25l?12l?25h?25l?12l?25?25l?12l?25?25l?12l?25?25l?12l?25?25l?12l?25?25l?12l?25?25l?12l?25?25l?12l?25?25l?12l?25?25l?12l?25?25l?12l?25?25l?12l?25?25l?12l?25?25l?12l?25?25l?12l?25?25l?12l?25?25l?12l?25?25l?12l?25?25l?12l?25?25l?12l?25?25l?12l?25?25l?12l?25?25l?12l?25?25l?12l?25?25l?12l?25?25l?12l?25?25l?12l?25?25l?12l?25?25l?12l?25?25l?12l?25?25l?12l?25?25l?12l?25?25l?12l?25?25l?12l?25?25l?12l?25?25l?12l?25?25l?12l?25?25l?12l?25?25l?12l?25?25l?12l?25?25l?12l?25?25l?12l?25?25l?12l?25?25l?12l?25?25l?12l?25?25l?12l?25?25l?12l?25?25l?12l?25?25l?12l?25?25l?12l?25?25l?12l?25?25l?12l?25?25l?12l?25?25l?12l?25?25l?12l?25?25l?12l?25?25l?12l?25?25l?12l?25?25l?12l?25?25l?12l?25?25l?12l?25?25l?12l?25?25l?12l?25?25l?12l?25h?25l?12l?25?25l?12l?25?25l?12l?25?25l?12l?25?25l?12l?25?25l?12l?25?25l?12l?25?25l?12l?25?25l?12l?25?25l?12l?25?25l?12l?25?25l?12l?25?25l?12l?25?25l?12l?25?25l?12l?25?25l?12l?25?25l?12l?25?25l?12l?25?25l?12l?25?25l?12l?25?25l?12l?25?25l?12l?25?25l?12l?25?25l?12l?25?25l?12l?25?25l?12l?25?25l?12l?25?25l?12l?25?25l?12l?25?25l?12l?25?25l?12l?25?25l?12l?25?25l?12l?25?25l?12l?25?25l?12l?25?25l?12l?25?25l?12l?25?25l?12l?25?25l?12l?25?25l?12l?25?25l?12l?25?25l?12l?25?25l?12l?25?25l?12l?25?25l?12l?25?25l?12l?25?25l?12l?25?25l?12l?25?25l?12l?25?25l?12l?25?25l?12l?25?25l?12l?25?25l?12l?25?25l?12l?25?25l?12l?25?25l?12l?25?25l?12l?25h?25l?12l?25?25l?12l?25?25l?12l?25?25l?12l?25?25l?12l?25?25l?12l?25?25l?12l?25?25l?12l?25?25l?12l?25?25l?12l?25?25l?12l?25?25l?12l?25?25l?12l?25?25l?12l?25?25l?12l?25?25l?12l?25?25l?12l?25?25l?12l?25?25l?12l?25?25l?12l?25?25l?12l?25?25l?12l?25?25l?12l?25?25l?12l?25?25l?12l?25?25l?12l?25?25l?12l?25?25l?12l?25?25l?12l?25?25l?12l?25?25l?12l?25?25l?12l?25?25l?12l?25?25l?12l?25?25l?12l?25?25l?12l?25?25l?12l?25?25l?12l?25?25l?12l?25?25l?12l?25?25l?12l?25?25l?12l?25?25l?12l?25?25l?12l?25?25l?12l?25?25l?12l?25?25l?12l?25?25l?12l?25?25l?12l?25?25l?12l?25?25l?12l?25?25l?12l?25?25l?12l?25?25l?12l?25?25l?12l?25?25l?12l?25?25l?12l?25h?25l?12l?25?25l?12l?25?25l?12l?25h?25l?12l?25?25l?12l?25?25l?12l?25?25l?12l?25?25l?12l?25?25l?12l?25?25l?12l?25?25l?12l?25?25l?12l?25?25l?12l?25?25l?12l?25?25l?12l?25?25l?12l?25?25l?12l?25?25l?12l?25?25l?12l?25?25l?12l?25?25l?12l?25?25l?12l?25?25l?12l?25?25l?12l?25?25l?12l?25?25l?12l?25?25l?12l?25?25l?12l?25?25l?12l?25?25l?12l?25?25l?12l?25?25l?12l?25?25l?12l?25?25l?12l?25?25l?12l?25?25l?12l?25?25l?12l?25?25l?12l?25?25l?12l?25?25l?12l?25?25l?12l?25?25l?12l?25h?25l?12l?25?25l?12l?25?25l?12l?25?25l?12l?25?25l?12l?25?25l?12l?25?25l?12l?25?25l?12l?25?25l?12l?25?25l?12l?25?25l?12l?25?25l?12l?25?25l?12l?25?25l?12l?25?25l?12l?25?25l?12l?25?25l?12l?25?25l?12l?25?25l?12l?25?25l?12l?25?25l?12l?25?25l?12l?25?25l?12l?25?25l?12l?25?25l?12l?25?25l?12l?25?25l?12l?25?25l?12l?25?25l?12l?25?25l?12l?25?25l?12l?25?25l?12l?25?25l?12l?25?25l?12l?25?25l?12l?25?25l?12l?25?25l?12l?25?25l?12l?25?25l?12l?25?25l?12l?25?25l?12l?25?25l?12l?25?25l?12l?25?25l?12l?25?25l?12l?25?25l?12l?25?25l?12l?25?25l?12l?25?25l?12l?25?25l?12l?25?25l?12l?25?25l?12l?25?25l?12l?25?25l?12l?25?25l?12l?25?25l?12l?25?25l?12l?25?25l?12l?25?25l?12l?25?25l?12l?25?25l?12l?25h?25l?12l?25?25l?12l?25?25l?12l?25?25l?12l?25?25l?12l?25?25l?12l?25?25l?12l?25?25l?12l?25?25l?12l?25?25l?12l?25?25l?12l?25?25l?12l?25?25l?12l?25?25l?12l?25?25l?12l?25?25l?12l?25?25l?12l?25?25l?12l?25?25l?12l?25?25l?12l?25?25l?12l?25?25l?12l?25?25l?12l?25?25l?12l?25?25l?12l?25?25l?12l?25?25l?12l?25?25l?12l?25?25l?12l?25?25l?12l?25?25l?12l?25?25l?12l?25?25l?12l?25?25l?12l?25?25l?12l?25?25l?12l?25?25l?12l?25?25l?12l?25?25l?12l?25?25l?12l?25?25l?12l?25?25l?12l?25?25l?12l?25?25l?12l?25?25l?12l?25?25l?12l?25?25l?12l?25?25l?12l?25?25l?12l?25?25l?12l?25?25l?12l?25?25l?12l?25?25l?12l?25?25l?12l?25?25l?12l?25?25l?12l?25?25l?12l?25?25l?12l?25?25l?12l?25h?25l?12l?25?25l?12l?25?25l?12l?25h?25l?12l?25?25l?12l?25?25l?12l?25?25l?12l?25?25l?12l?25?25l?12l?25?25l?12l?25?25l?12l?25?25l?12l?25?25l?12l?25?25l?12l?25?25l?12l?25?25l?12l?25?25l?12l?25?25l?12l?25?25l?12l?25?25l?12l?25?25l?12l?25?25l?12l?25?25l?12l?25?25l?12l?25?25l?12l?25?25l?12l?25?25l?12l?25?25l?12l?25?25l?12l?25?25l?12l?25?25l?12l?25?25l?12l?25?25l?12l?25?25l?12l?25?25l?12l?25?25l?12l?25?25l?12l?25?25l?12l?25?25l?12l?25?25l?12l?25?25l?12l?25?25l?12l?25?25l?12l?25?25l?12l?25?25l?12l?25?25l?12l?25?25l?12l?25?25l?12l?25?25l?12l?25?25l?12l?25?25l?12l?25?25l?12l?25?25l?12l?25?25l?12l?25?25l?12l?25?25l?12l?25?25l?12l?25?25l?12l?25h?25l?12l?25h?25l?12l?25h?25l?12l?25h?25l?12l?25h?25l?12l?25h?25l?12l?25h?25l?12l?25h?25l?12l?25h?25l?12l?25h?25l?12l?25h?25l?12l?25h?25l?12l?25h?25l?12l?25h?25l?12l?25h?25l?12l?25h?25l?12l?25h?25l?12l?25h?25l?12l?25h?25l?12l?25h?25l* * * * * date >> time.log
+aadya@aadya:~$dclear
+?2004haadya@aadya:~$ vim act1.sh
+"act1.sh"2[New]?25h?25li4--1INSERT?--0,1All?25h?25l#!/bin/bash		>c10;?11;?~								      ~									  ~								      ~									  ~								      ~									  ~								      ~									  ~								      ~									  ~								      ~									  ~								      ~									  ~								      ~									  ~								      ~									  ~								      ~									  ~								      ~									  ~								      ~									  ~								      ~									  ~								      ~									  ~								      ~									  ~								      ~									  ~								      ~									  ~								      0,0-1All?25h?4m+q436f+q6b75+q6b64+q6b72+q6b6c+q2332+q2334+q2569+q2a37+q6b31$q q?12$p?25l030/0a0a/2	  ~								      ~									  ~								      ~									  ~								      ~									  ~								      ~									  ~								      ~									  ~								      ~									  ~								      ~									  ~								      ~									  ~								      ~									  ~								      ~									  ~								      ~									  ~								      ~									  ~								      ~									  ~								      ~									  ~								      ~									  ~								      ~									  ~								      ~									  ~								      0,0-1All
+echo "Enter filename: "read fileif [ ?25h?25l-e "$file" ]
+then	echo "File exists. Contents are:"    ?25h?25lcat "$file"
+else	echo "File does not exist."    echo "Do?25h?25l you want to create it? (y/n)"
+    read choice	   if [ "$choi?25h?25lce" = "y" ]; then
+	touch "$file"	     echo "File $fi?25h?25lle created."
+?25l?2004l>4;m"act1.sh" [New]l17L,h320B:written
+?1004l?2004l?1l?1049l?25h>4;m?2004haadya@aadya:~$ ./act1.sh
+bash:l./act1.sh: Permission denied
+?2004h 126 aadya@aadya:~$ chmod +x act1.sh
+?2004haadya@aadya:~$ ./act1.shact1.sh
+Enterlfilename:
+text.txt
+File exists. Contents are:
+Hello My name is Aadya Dubey
+cat dog
+cat bird
+bird dog
+cat cat
+cat cammel bird
+cow cat bird
+?2004haadya@aadya:~$ touch act2.sh act3.sh act4.sh
+chmod1+xhact2.act3.shtact4.sht2.sh act3.sh act4.sh
+?2004haadya@aadya:~$ ./act2.sh
+12004l
+2
+3
+4
+5
+6
+7
+8
+9
+10
+?2004haadya@aadya:~$ ./act3.sh
+Usage: ./act3.sh filename
+?2004h 1 aadya@aadya:~$ ./act3.sh text.txt
+Lines: 7
+Words: 20
+Characters: 93
+?2004haadya@aadya:~$ ./act4.sh
+Factorial of 5 is: 120
+Factorial of 7 is: 5040
+Factorial of 10 is: 3628800
+?2004haadya@aadya:~$ exit
+exit4l
+
+Script done on 2025-10-03 14:04:42+00:00 [COMMAND_EXIT_CODE="0"]
