@@ -1,0 +1,1874 @@
+Script started on 2025-10-03 14:28:28+00:00 [TERM="xterm-256color" TTY="/dev/pts/0" COLUMNS="80" LINES="24"]
+?2004haadya@aadya:~$ clear
+?2004haadya@aadya:~$ sleep 200 &
+[1]04539
+?2004haadya@aadya:~$ ps
+?200PID TTY	     TIME CMD
+   4477 pts/1	 00:00:00 bash
+   4539 pts/1	 00:00:00 sleep
+   4543 pts/1	 00:00:00 ps
+?2004haadya@aadya:~$ kill -9 1234
+kill -9 1234
+4539
+[1]+4lKilled		      sleep 200
+aadya@aadya:~$dclear
+?2004haadya@aadya:~$ top
+?1h?25lBtop - 14:31:12 up 7 min,  2 users,  load average: 0.28, 0.4BB
+Tasks:B 237 Btotal,B   1 Brunning,B 236 Bsleeping,B   0 Bstopped,B  BB
+%Cpu(s):B  0.0 Bus,B  2.4 Bsy,B	 0.0 Bni,B 97.6 Bid,B  0.0 Bwa,B  0.0 BB
+MiB Mem :B   3384.5 Btotal,B	152.6 Bfree,B	1968.6 Bused,B	 1BB
+MiB Swap:B   3185.0 Btotal,B   3184.5 Bfree,B	   0.5 Bused.B	 1BB
+
+    PID USER	  PR  NI    VIRT    RES	   SHR S  %CPU B
+B      1 root	   20	0   25156  14312   9448 S   0.0 B
+B      2 root	   20	0	0      0      0 S   0.0 B
+B      3 root	   20	0	0      0      0 S   0.0 B
+B      4 root	    0 -20	0      0      0 I   0.0 B
+B      5 root	    0 -20	0      0      0 I   0.0 B
+B      6 root	    0 -20	0      0      0 I   0.0 B
+B      7 root	    0 -20	0      0      0 I   0.0 B
+B      8 root	    0 -20	0      0      0 I   0.0 B
+B     10 root	    0 -20	0      0      0 I   0.0 B
+B     11 root	   20	0	0      0      0 I   0.0 B
+B     12 root	   20	0	0      0      0 I   0.0 B
+B     13 root	    0 -20	0      0      0 I   0.0 B
+B     14 root	   20	0	0      0      0 I   0.0 B
+B     15 root	   20	0	0      0      0 I   0.0 B
+B     16 root	   20	0	0      0      0 I   0.0 B
+B     17 root	   20	0	0      0      0 S   0.0 B
+B     18 root	   20	0	0      0      0 I   0.0 B
+B     19 root	   20	0	0      0      0 S   0.0 B
+B     20 root	   20	0	0      0      0 S   0.0 B
+B     21 root	   rt	0	0      0      0 S   0.0 B
+B     22 root	  -51	0	0      0      0 S   0.0 B
+B     23 root	   20	0	0      0      0 S   0.0 B
+B     24 root	   20	0	0      0      0 S   0.0 B
+B     25 root	  -51	0	0      0      0 S   0.0 B
+B     26 root	   rt	0	0      0      0 S   0.0 B
+B     27 root	   20	0	0      0      0 S   0.0 B
+B     28 root	   20	0	0      0      0 I   0.0 B
+B     29 root	    0 -20	0      0      0 I   0.0 B
+B     30 root	   20	0	0      0      0 S   0.0 B?1l
+aadya@aadya:~$aclearaadya:~$
+aadya@aadya:~$dhtop$
+?1l?2004haadya@aadya:~$9htop8708 04360||2824|R||66.7▽M0.1||0:00.030htopB1dBroot: B137BB 204BB 0hB25B156k14B312B19B448nBS  10.0.B%0.4Lo0:01.49a/sbin/init3565Broot3   2B[B.19]B-1p59B228B25B572324B292[BS0%]0.0mB[0.7||0:00.34|/usr/lib/syste380/systemd-oopB[20|B490KB17B596B[6B732B 5B964 BS	0.0 B 0.2  0:00.10 /usr/lib/syste407 Broot	 B-11 B	 0 B 346M 25B180  6B236 BS   0.0 B 0.7	0:00.05 /sbin/multipat419 root	     B 20 B  0 B 346M 25B180	 0 BS	0.0 B 0.7 B 0:00.00 B/sbin/multipatB421 root	   B-11 B  0 B 346M 25B180     0 BS   0.0 B 0.7 B 0:00.00 B/sbin/multipatB422 root	 B-11 B	 0 B 346M 25B180     0 BS   0.0 B 0.7 B 0:00.00 B/sbin/multipatB423 root       B-11 B  0 B 346M 25B180	   0 BS	  0.0 B 0.7 B 0:00.00 B/sbin/multipatB424 root	     B-11 B  0 B 346M 25B180	 0 BS	0.0 B 0.7  0:00.03 /sbin/multipatB425 root	 B-11 B	 0 B 346M 25B180     0 BS   0.0 B 0.7  0:00.01 /sbin/multipatB432 systemd-re B 20 B  0 B22B852 13B324 10B764 BS	  0.0 B 0.4  0:00.19 /usr/lib/syste437 Broot	   B 20 B  0 B38B792 11B140  7B044 BS	0.0 B 0.3  0:00.20 /usr/lib/syste789 systemd-ti B 20 B	0 B91B256  7B112  6B216 BS   0.0 B 0.2	0:00.03 /usr/lib/syste793 systemd-ti B 20 B  0 B91B256	7B112	  0 BS	 0.0 B 0.2 B 0:00.00 B/usr/lib/systeB930 systemd-ne B 20 B  0 B20B340 10B228  8B908 BS	 0.0 B 0.3  0:00.07 /usr/lib/syste1147 Bavahi	   B 20 B  0 B 6B568  3B652  3B396 BS	0.0 B 0.1  0:00.10 avahi-daemon:1148 messagebus B 20 B	0 B11B904  7B508  3B796 BS   0.0 B 0.2	0:00.67 @dbus-daemon -1152 Bgnome-remo B 20 B  0 B 447M 15B128 12B824 BS   0.0 B 0.4  0:00.03 /usr/libexec/g1155 Bpolkitd    B 20 B  0 B 306M 10B956  7B620 BS	 0.0 B 0.3  0:00.25 /usr/lib/polki1159 Broot	   B 20 B  0 B1876M 36B248 23B348 BS   0.0 B 1.0  0:01.27 /usr/lib/snapd1161 Broot	 B 20 B	 0 B 302M  6B640  6B000 BS   0.0 B 0.2	0:00.05 /usr/libexec/a1164 Broot       B 20 B  0 B 301M	 6B300	5B916 BS   0.0 B 0.2  0:00.03 /usr/libexec/s1167 Broot	     B 20 B  0 B18B452	8B408  7B136 BS	  0.0 B 0.2  0:00.22 /usr/lib/syste1169 Broot	    B 20 B  0 B 462M 13B572 10B884 BS	0.0 B 0.4  0:00.08 /usr/libexec/uF1Help	 BF2Setup BF3SearchBF4FilterBF5Tree  BF6SortByBF7Nice -BF8Nice +BF9Kill	 BF10Quit B||B1.3%B||B24 0.44B|B1.341B||B1.4B25264912M	609M  207M S   1.3 18.0	 0:21.50 /usr/bin/gnomeB2555 aadya20 B	0 B4891M  609M B    0 BS B  1.3 18.0  0:27.18 /usr/bin/gnomeB2553 aadya5 -15 4891M  609M B    0 BS B  0.7 18.0	0:01.70 /usr/bin/gnomeB2556 aadya20 B  0 B4891M	 609M B	   0 BS B  0.7 18.0  0:26.72 /usr/bin/gnomeB2557 aadya20 B  0 B4891M  609M B	0 BS B	0.7 18.0  0:26.65 /usr/bin/gnomeB2558 aadya20 B	 0 B4891M  609M B    0 BS B  0.7 18.0  0:26.54 /usr/bin/gnomeB3278 aadya20 B  0 B 711M 67B404 54B392 BS B  0.7	1.9  0:02.46 /usr/libexec/g4591 aadya20 B  0 B 8B736  4B488  2B952 R B	0.7  0.1  0:00.04 htop
+?1l?2004haadya@aadya:~$9clear4891M45609M2B36aR0sBS.B▽M0.7B18.00.0:27.33B/usr/bin/gnomeBn20424[root5B156a1-1112a09B346MB25180.0BB.0.S  00.0.40.7sb0:00.033/sbin/multipatBB|19||-1|59B228|25B572|24B2920BS%B]0.0mB[0.7||0:00.34|/usr/lib/syste380/systemd-oopB[20|B490KB17B596B[6B732B 5B964 BS	0.0 B 0.2  0:00.10 /usr/lib/syste407 Broot	 B-11 B	 0 B 346M 25B180  6B236 BS   0.0 B 0.7	0:00.05 /sbin/multipat419 root	     B 20 B  0 B 346M 25B180	 0 BS	0.0 B 0.7 B 0:00.00 B/sbin/multipatB421 root	   B-11 B  0 B 346M 25B180     0 BS   0.0 B 0.7 B 0:00.00 B/sbin/multipatB422 root	 B-11 B	 0 B 346M 25B180     0 BS   0.0 B 0.7 B 0:00.00 B/sbin/multipatB423 root       B-11 B  0 B 346M 25B180	   0 BS	  0.0 B 0.7 B 0:00.00 B/sbin/multipatB424 root	     B-11 B  0 B 346M 25B180	 0 BS	0.0 B 0.7  0:00.03 /sbin/multipatB425 root	 B-11 B	 0 B 346M 25B180     0 BS   0.0 B 0.7  0:00.01 /sbin/multipatB432 systemd-re B 20 B  0 B22B852 13B324 10B764 BS	  0.0 B 0.4  0:00.19 /usr/lib/syste437 Broot	   B 20 B  0 B38B792 11B140  7B044 BS	0.0 B 0.3  0:00.20 /usr/lib/syste789 systemd-ti B 20 B	0 B91B256  7B112  6B216 BS   0.0 B 0.2	0:00.03 /usr/lib/syste793 systemd-ti B 20 B  0 B91B256	7B112	  0 BS	 0.0 B 0.2 B 0:00.00 B/usr/lib/systeB930 systemd-ne B 20 B  0 B20B340 10B228  8B908 BS	 0.0 B 0.3  0:00.07 /usr/lib/syste1147 Bavahi	   B 20 B  0 B 6B568  3B652  3B396 BS	0.0 B 0.1  0:00.10 avahi-daemon:1148 messagebus B 20 B	0 B11B904  7B508  3B796 BS   0.0 B 0.2	0:00.67 @dbus-daemon -1152 Bgnome-remo B 20 B  0 B 447M 15B128 12B824 BS   0.0 B 0.4  0:00.03 /usr/libexec/g1155 Bpolkitd    B 20 B  0 B 306M 10B956  7B620 BS	 0.0 B 0.3  0:00.25 /usr/lib/polki1159 Broot	   B 20 B  0 B1876M 36B248 23B348 BS   0.0 B 1.0  0:01.27 /usr/lib/snapd1161 Broot	 B 20 B	 0 B 302M  6B640  6B000 BS   0.0 B 0.2	0:00.05 /usr/libexec/a1164 Broot       B 20 B  0 B 301M	 6B300	5B916 BS   0.0 B 0.2  0:00.03 /usr/libexec/s1167 Broot	     B 20 B  0 B18B452	8B408  7B136 BS	  0.0 B 0.2  0:00.22 /usr/lib/syste1169 Broot	    B 20 B  0 B 462M 13B572 10B884 BS	0.0 B 0.4  0:00.08 /usr/libexec/uF1Help	 BF2Setup BF3SearchBF4FilterBF5Tree  BF6SortByBF7Nice -BF8Nice +BF9Kill	 BF10Quit B||B4B||B2.7B||B46B||B4.0%B25554891M	609M	 0 S   2.7 18.0	 0:27.30 /usr/bin/gnomeB2526 aadya20 B	0 B4912M  609M	207M BS B  2.0 18.0  0:21.59 /usr/bin/gnome2556 aadya20 B  0 B4891M  609M B    0 BS B  2.0 18.0	 0:26.83 /usr/bin/gnomeB2557 aadya20 B	0 B4891M  609M B    0 BS B  2.0 18.0  0:26.77 /usr/bin/gnomeB2558 aadya20 B  0 B4891M  609M B	 0 BS B	 2.0 18.0  0:26.66 /usr/bin/gnomeB3278 aadya20 B  0 B 711M 67B532 54B392 BS B  1.3  1.9	 0:02.51 /usr/libexec/g2396 aadya-21 B	0 B 103M 12B372	    0 BS B  0.7	 0.4  0:00.42 /usr/bin/pipewB2553 aadya5 -15 4891M  609M B    0 BS B  0.7 18.0	0:01.71 /usr/bin/gnomeB3567 aadya20 B  0 B2445M	 154M B	   0 BS B  0.7	4.6  0:00.07 /snap/firefox/B4598 aadya20 B  0 B 8B732  4B756  2B964 R B	 0.7  0.1  0:00.03 htopB 1.3 1.3 1.381.3B69121.36.85912B1.39912B1.384598B732  4B756  2B964 R B0.1  0:00.05 htop1167 Broot	B 20 B	0 B18B452  8B408  7B136223 /usr/lib/syste520 B	0 B4912B27.305939  19  718M 31B744 18B0680.9/usr/libexec/l327711M 67B532 54B392 BS B1.9	 0:02.52 /usr/libexec/g1147 Bavahi	B 20 B	0 B 6B568  3B652  3B396 BS   0.0 B 0.1	0:00.10 avahi-daemon:1148 messagebus B 20 B  0 B11B904	7B508  3B796 BS	  0.0 B 0.2  0:00.67 @dbus-daemon -B2B|0.092.0B02207M S	  0.71.60B5891B0.77.326891B0.7860.761152 Bgnome-remo B 20 B  0 B 447M 15B128 12B824 BS	 0.0 B 0.4  0:00.03 /usr/libexec/g1155 Bpolkitd	   B 20 B  0 B 306M 10B956  7B620 BS   0.0 B 0.3  0:00.25 /usr/lib/polki1159 Broot	 B 20 B	 0 B1876M 36B248 23B348 BS   0.0 B 1.0	0:01.27 /usr/lib/snapd1161 Broot       B 20 B  0 B 302M	 6B640	6B000 BS   0.0 B 0.2  0:00.05 /usr/libexec/a|B0.71  0.00 0.42B|B7511.3B57   0 S	  1.36.81B26912 207M B1.61 /usr/bin/gnome912B72558 aadya20 B  0 B4912M	609M B	  0 BS B  0.7 18.0  0:26.69 /usr/bin/gnomeB7|B98 kthrB; B1B runnin|B1.3B|B2 B4598 8732	4756  2964 R 0.1  0:00.09 htopB1633 root	285M  2B952	0  0.1	0:00.06 /usr/sbin/VBoxB39-21 B	0 B 103M 12B372	 0.4  0:00.43pipewB26891 207M B1.62 /usr/bin/gnome327711M 67B532 54B392 BS B1.9	 0:02.53 /usr/libexec/gB2B|04B|B0.7B25554891M  609M	0 S   0.7 18.0	0:27.33 /usr/bin/gnomeB4350 aadya      2360M 69B452 55B3522.011 /snap/firefox/4365 20 B	 0 B2360M 69B452.005 /snap/firefox/B44412360M 69B284	 0  200.01 /snap/firefox/B4598B732  4B756  2B964 R B0.1	 0:00.10 htop
+?2004haadya@aadya:~$ ps aux
+USER4l	     PID %CPU %MEM    VSZ   RSS TTY	 STAT START   TIME COMMAND
+root	       1  0.2  0.4  25156 14312 ?	 Ss   14:24   0:01 /sbin/init
+root	       2  0.0  0.0	0     0 ?	 S    14:24   0:00 [kthreadd]
+root	       3  0.0  0.0	0     0 ?	 S    14:24   0:00 [pool_workqueu
+root	       4  0.0  0.0	0     0 ?	 I<   14:24   0:00 [kworker/R-rcu
+root	       5  0.0  0.0	0     0 ?	 I<   14:24   0:00 [kworker/R-syn
+root	       6  0.0  0.0	0     0 ?	 I<   14:24   0:00 [kworker/R-kvf
+root	       7  0.0  0.0	0     0 ?	 I<   14:24   0:00 [kworker/R-slu
+root	       8  0.0  0.0	0     0 ?	 I<   14:24   0:00 [kworker/R-net
+root	      10  0.0  0.0	0     0 ?	 I<   14:24   0:00 [kworker/0:0H-
+root	      11  0.0  0.0	0     0 ?	 I    14:24   0:00 [kworker/0:1-e
+root	      12  0.3  0.0	0     0 ?	 I    14:24   0:01 [kworker/u16:0
+root	      13  0.0  0.0	0     0 ?	 I<   14:24   0:00 [kworker/R-mm_
+root	      14  0.0  0.0	0     0 ?	 I    14:24   0:00 [rcu_tasks_kth
+root	      15  0.0  0.0	0     0 ?	 I    14:24   0:00 [rcu_tasks_rud
+root	      16  0.0  0.0	0     0 ?	 I    14:24   0:00 [rcu_tasks_tra
+root	      17  0.0  0.0	0     0 ?	 S    14:24   0:00 [ksoftirqd/0]
+root	      18  0.1  0.0	0     0 ?	 I    14:24   0:00 [rcu_preempt]
+root	      19  0.0  0.0	0     0 ?	 S    14:24   0:00 [rcu_exp_par_g
+root	      20  0.0  0.0	0     0 ?	 S    14:24   0:00 [rcu_exp_gp_kt
+root	      21  0.0  0.0	0     0 ?	 S    14:24   0:00 [migration/0]
+root	      22  0.0  0.0	0     0 ?	 S    14:24   0:00 [idle_inject/0
+root	      23  0.0  0.0	0     0 ?	 S    14:24   0:00 [cpuhp/0]
+root	      24  0.0  0.0	0     0 ?	 S    14:24   0:00 [cpuhp/1]
+root	      25  0.0  0.0	0     0 ?	 S    14:24   0:00 [idle_inject/1
+root	      26  0.0  0.0	0     0 ?	 S    14:24   0:00 [migration/1]
+root	      27  0.0  0.0	0     0 ?	 S    14:24   0:00 [ksoftirqd/1]
+root	      28  0.0  0.0	0     0 ?	 I    14:24   0:00 [kworker/1:0-e
+root	      29  0.0  0.0	0     0 ?	 I<   14:24   0:00 [kworker/1:0H-
+root	      30  0.0  0.0	0     0 ?	 S    14:24   0:00 [cpuhp/2]
+root	      31  0.0  0.0	0     0 ?	 S    14:24   0:00 [idle_inject/2
+root	      32  0.0  0.0	0     0 ?	 S    14:24   0:00 [migration/2]
+root	      33  0.0  0.0	0     0 ?	 S    14:24   0:00 [ksoftirqd/2]
+root	      35  0.0  0.0	0     0 ?	 I<   14:24   0:00 [kworker/2:0H-
+root	      36  0.0  0.0	0     0 ?	 S    14:24   0:00 [cpuhp/3]
+root	      37  0.0  0.0	0     0 ?	 S    14:24   0:00 [idle_inject/3
+root	      38  0.0  0.0	0     0 ?	 S    14:24   0:00 [migration/3]
+root	      39  0.0  0.0	0     0 ?	 S    14:24   0:00 [ksoftirqd/3]
+root	      41  0.0  0.0	0     0 ?	 I<   14:24   0:00 [kworker/3:0H-
+root	      42  0.0  0.0	0     0 ?	 S    14:24   0:00 [kdevtmpfs]
+root	      43  0.0  0.0	0     0 ?	 I<   14:24   0:00 [kworker/R-ine
+root	      44  0.0  0.0	0     0 ?	 S    14:24   0:00 [kauditd]
+root	      45  0.0  0.0	0     0 ?	 S    14:24   0:00 [khungtaskd]
+root	      46  0.0  0.0	0     0 ?	 S    14:24   0:00 [oom_reaper]
+root	      48  0.0  0.0	0     0 ?	 I<   14:24   0:00 [kworker/R-wri
+root	      49  0.0  0.0	0     0 ?	 S    14:24   0:00 [kcompactd0]
+root	      50  0.0  0.0	0     0 ?	 SN   14:24   0:00 [ksmd]
+root	      51  0.0  0.0	0     0 ?	 SN   14:24   0:00 [khugepaged]
+root	      52  0.0  0.0	0     0 ?	 I<   14:24   0:00 [kworker/R-kin
+root	      53  0.0  0.0	0     0 ?	 I<   14:24   0:00 [kworker/R-kbl
+root	      54  0.0  0.0	0     0 ?	 I<   14:24   0:00 [kworker/R-blk
+root	      55  0.0  0.0	0     0 ?	 I    14:24   0:00 [kworker/2:1-e
+root	      56  0.0  0.0	0     0 ?	 I    14:24   0:00 [kworker/3:1-c
+root	      57  0.0  0.0	0     0 ?	 I<   14:24   0:00 [kworker/R-tpm
+root	      58  0.0  0.0	0     0 ?	 I<   14:24   0:00 [kworker/R-ata
+root	      59  0.0  0.0	0     0 ?	 I<   14:24   0:00 [kworker/R-md]
+root	      60  0.0  0.0	0     0 ?	 I<   14:24   0:00 [kworker/R-md_
+root	      61  0.0  0.0	0     0 ?	 I<   14:24   0:00 [kworker/R-eda
+root	      62  0.0  0.0	0     0 ?	 I<   14:24   0:00 [kworker/R-dev
+root	      63  0.0  0.0	0     0 ?	 I    14:24   0:00 [kworker/1:1-e
+root	      64  0.0  0.0	0     0 ?	 S    14:24   0:00 [watchdogd]
+root	      65  0.0  0.0	0     0 ?	 I<   14:24   0:00 [kworker/0:1H-
+root	      66  0.0  0.0	0     0 ?	 S    14:24   0:00 [kswapd0]
+root	      67  0.0  0.0	0     0 ?	 S    14:24   0:00 [ecryptfs-kthr
+root	      68  0.0  0.0	0     0 ?	 I<   14:24   0:00 [kworker/R-kth
+root	      70  0.0  0.0	0     0 ?	 I<   14:24   0:00 [kworker/R-acp
+root	      71  0.0  0.0	0     0 ?	 S    14:24   0:00 [scsi_eh_0]
+root	      72  0.0  0.0	0     0 ?	 I<   14:24   0:00 [kworker/R-scs
+root	      73  0.3  0.0	0     0 ?	 I    14:24   0:01 [kworker/u16:2
+root	      74  0.0  0.0	0     0 ?	 I<   14:24   0:00 [kworker/3:1H-
+root	      75  0.0  0.0	0     0 ?	 I<   14:24   0:00 [kworker/2:1H-
+root	      76  0.0  0.0	0     0 ?	 I<   14:24   0:00 [kworker/1:1H-
+root	      78  0.0  0.0	0     0 ?	 I<   14:24   0:00 [kworker/R-mld
+root	      79  0.0  0.0	0     0 ?	 I<   14:24   0:00 [kworker/R-ipv
+root	      81  1.0  0.0	0     0 ?	 I    14:24   0:05 [kworker/u16:4
+root	      87  0.0  0.0	0     0 ?	 I<   14:24   0:00 [kworker/R-kst
+root	      91  0.0  0.0	0     0 ?	 I    14:24   0:00 [kworker/0:3-c
+root	      93  0.0  0.0	0     0 ?	 I<   14:24   0:00 [kworker/R-cha
+root	     199  0.0  0.0	0     0 ?	 I    14:24   0:00 [kworker/3:2-m
+root	     201  0.0  0.0	0     0 ?	 I<   14:24   0:00 [kworker/R-kdm
+root	     230  0.0  0.0	0     0 ?	 I<   14:24   0:00 [kworker/R-rai
+root	     273  0.0  0.0	0     0 ?	 S    14:24   0:00 [jbd2/dm-0-8]
+root	     274  0.0  0.0	0     0 ?	 I<   14:24   0:00 [kworker/R-ext
+root	     356  0.0  0.7  59228 25572 ?	 S<s  14:24   0:00 /usr/lib/syste
+root	     378  0.0  0.0	0     0 ?	 I<   14:24   0:00 [kworker/R-kmp
+root	     379  0.0  0.0	0     0 ?	 I<   14:24   0:00 [kworker/R-kmp
+systemd+     380  0.0  0.1  17596  6732 ?	 Ss   14:24   0:00 /usr/lib/syste
+root	     387  0.0  0.0	0     0 ?	 I    14:24   0:00 [kworker/2:2-c
+root	     407  0.0  0.7 354624 25180 ?	 SLsl 14:24   0:00 /sbin/multipat
+systemd+     432  0.0  0.3  22852 13324 ?	 Ss   14:24   0:00 /usr/lib/syste
+root	     437  0.0  0.3  38792 11140 ?	 Ss   14:24   0:00 /usr/lib/syste
+root	     441  0.0  0.0	0     0 ?	 S    14:24   0:00 [psimon]
+root	     626  0.0  0.0	0     0 ?	 I<   14:24   0:00 [kworker/R-ipr
+root	     669  0.0  0.0	0     0 ?	 S    14:24   0:00 [irq/15-vmwgfx
+root	     670  0.0  0.0	0     0 ?	 I<   14:24   0:00 [kworker/R-ttm
+systemd+     789  0.0  0.2  91256  7112 ?	 Ssl  14:24   0:00 /usr/lib/syste
+root	     796  0.0  0.0	0     0 ?	 S    14:24   0:00 [jbd2/sda2-8]
+root	     797  0.0  0.0	0     0 ?	 I<   14:24   0:00 [kworker/R-ext
+root	     812  0.7  0.0	0     0 ?	 I    14:24   0:03 [kworker/u16:5
+systemd+     930  0.0  0.2  20340 10228 ?	 Ss   14:24   0:00 /usr/lib/syste
+root	    1027  0.0  0.0	0     0 ?	 I<   14:24   0:00 [kworker/R-cfg
+avahi	    1147  0.0  0.1   6568  3652 ?	 Ss   14:24   0:00 avahi-daemon:
+message+    1148  0.1  0.2  11904  7508 ?	 Ss   14:24   0:00 @dbus-daemon -
+gnome-r+    1152  0.0  0.4 457860 15128 ?	 Ssl  14:24   0:00 /usr/libexec/g
+polkitd	    1155  0.0  0.3 313428 10956 ?	 Ssl  14:24   0:00 /usr/lib/polki
+root	    1159  0.3  1.0 1922004 36248 ?	 Ssl  14:24   0:01 /usr/lib/snapd
+root	    1161  0.0  0.1 309672  6640 ?	 Ssl  14:24   0:00 /usr/libexec/a
+root	    1164  0.0  0.1 308412  6300 ?	 Ssl  14:24   0:00 /usr/libexec/s
+root	    1167  0.0  0.2  18452  8408 ?	 Ss   14:24   0:00 /usr/lib/syste
+root	    1169  0.0  0.3 473452 13572 ?	 Ssl  14:24   0:00 /usr/libexec/u
+avahi	    1198  0.0  0.0   6380  1800 ?	 S    14:24   0:00 avahi-daemon:
+syslog	    1203  0.0  0.1 220832  4712 ?	 Ssl  14:24   0:00 /usr/sbin/rsys
+root	    1245  0.0  0.5 339044 17812 ?	 Ssl  14:24   0:00 /usr/sbin/Netw
+root	    1253  0.0  0.1  16900  5712 ?	 Ss   14:24   0:00 /usr/sbin/wpa_
+root	    1285  0.0  0.3 397032 11308 ?	 Ssl  14:24   0:00 /usr/sbin/Mode
+root	    1613  0.0  0.0	0     0 ?	 S    14:24   0:00 [psimon]
+root	    1625  0.0  0.0 353496  2396 ?	 Sl   14:24   0:00 /usr/bin/VBoxD
+root	    1627  0.0  0.0 292312  2952 ?	 Sl   14:24   0:00 /usr/sbin/VBox
+root	    1642  0.0  0.3  32276 10772 ?	 Ss   14:24   0:00 /usr/sbin/cups
+root	    1646  0.0  0.8 121156 28056 ?	 Ssl  14:24   0:00 /usr/bin/pytho
+lp	    1652  0.0  0.1  16152  5604 ?	 S    14:24   0:00 /usr/lib/cups/
+cups-br+    1806  0.0  0.5 210396 18896 ?	 Ssl  14:26   0:00 /usr/sbin/cups
+root	    1810  0.0  0.0   6960  2480 ?	 Ss   14:26   0:00 /usr/sbin/cron
+daemon	    1812  0.0  0.0   3912  2044 ?	 Ss   14:26   0:00 /usr/sbin/atd
+root	    1826  0.0  0.2 311648  8084 ?	 Ssl  14:26   0:00 /usr/sbin/gdm3
+root	    1839  0.0  0.1 309864  6652 ?	 Ssl  14:26   0:00 /usr/libexec/p
+rtkit	    1877  0.0  0.0  21364  2632 ?	 SNsl 14:26   0:00 /usr/libexec/r
+colord	    1958  0.0  0.3 317420 13464 ?	 Ssl  14:26   0:00 /usr/libexec/c
+root	    1997  0.0  0.2 319136  9188 ?	 Ssl  14:26   0:00 /usr/libexec/u
+root	    2299  0.0  0.0	0     0 ?	 I<   14:26   0:00 [kworker/u17:1
+root	    2300  0.0  0.0	0     0 ?	 I<   14:26   0:00 [kworker/u17:2
+root	    2355  0.0  0.2 176044  9320 ?	 Sl   14:26   0:00 gdm-session-wo
+aadya	    2368  0.1  0.3  22960 12544 ?	 Ss   14:26   0:00 /usr/lib/syste
+aadya	    2369  0.0  0.1  23728  3640 ?	 S    14:26   0:00 (sd-pam)
+aadya	    2382  0.0  0.0   7272  2992 ?	 Ss   14:26   0:00 /usr/bin/mpris
+aadya	    2383  0.1  0.3 105964 12372 ?	 S<sl 14:26   0:00 /usr/bin/pipew
+aadya	    2385  0.0  0.1  85004  4484 ?	 Ssl  14:26   0:00 /usr/bin/pipew
+aadya	    2386  0.1  0.5 484156 17856 ?	 S<sl 14:26   0:00 /usr/bin/wirep
+aadya	    2387  0.0  0.3 115852 12528 ?	 S<Lsl 14:26   0:00 /usr/bin/pipe
+aadya	    2388  0.1  0.1  10124  5852 ?	 Ss   14:26   0:00 /usr/bin/dbus-
+aadya	    2389  0.0  0.2 183536  9608 ?	 SLsl 14:26   0:00 /usr/bin/gnome
+aadya	    2416  0.0  0.1 168472  5724 tty2	 Ssl+ 14:26   0:00 /usr/libexec/g
+aadya	    2421  0.0  0.3 199508 12840 tty2	 Sl+  14:26   0:00 /usr/libexec/g
+aadya	    2468  0.0  0.1  97688  6604 ?	 Ssl  14:26   0:00 /usr/libexec/g
+aadya	    2469  0.0  0.1  87568  4956 ?	 Ssl  14:26   0:00 /usr/libexec/g
+aadya	    2484  0.0  0.2 313272  7540 ?	 Ssl  14:26   0:00 /usr/libexec/g
+aadya	    2491  0.0  0.1 392944  6592 ?	 Sl   14:26   0:00 /usr/libexec/g
+aadya	    2497  0.0  0.4 561416 14556 ?	 Ssl  14:26   0:00 /usr/libexec/g
+aadya	    2526 41.7 18.0 5008416 624844 ?	 Ssl  14:26   2:22 /usr/bin/gnome
+aadya	    2527  0.0  0.1 382244  6692 ?	 Sl   14:26   0:00 /usr/libexec/a
+aadya	    2541  0.0  0.1   8724  4048 ?	 S    14:26   0:00 /usr/bin/dbus-
+aadya	    2574  0.0  0.1 170128  6592 ?	 Sl   14:26   0:00 /usr/libexec/a
+aadya	    2590  0.0  0.1 307696  5748 ?	 Ssl  14:26   0:00 /usr/libexec/x
+aadya	    2591  0.0  0.4 661620 16668 ?	 Sl   14:26   0:00 /usr/libexec/g
+aadya	    2602  0.0  1.1 610480 40760 ?	 Ssl  14:26   0:00 /usr/libexec/e
+aadya	    2612  0.0  0.7 2658044 26788 ?	 Sl   14:26   0:00 /usr/bin/gjs -
+aadya	    2618  0.0  0.3 386316 10564 ?	 Ssl  14:26   0:00 /usr/bin/ibus-
+aadya	    2619  0.0  0.1 242948  6404 ?	 Ssl  14:26   0:00 /usr/libexec/g
+aadya	    2625  0.0  0.5 415252 19588 ?	 Ssl  14:26   0:00 /usr/libexec/g
+aadya	    2626  0.0  0.2 256168  9212 ?	 Ssl  14:26   0:00 /usr/libexec/g
+aadya	    2627  0.0  0.2 384264  7748 ?	 Ssl  14:26   0:00 /usr/libexec/g
+aadya	    2634  0.0  0.5 413568 19244 ?	 Ssl  14:26   0:00 /usr/libexec/g
+aadya	    2635  0.0  0.6 582492 22376 ?	 Ssl  14:26   0:00 /usr/libexec/g
+aadya	    2636  0.0  0.5 491348 20492 ?	 Ssl  14:26   0:00 /usr/libexec/g
+aadya	    2638  0.0  0.2 322212 10192 ?	 Ssl  14:26   0:00 /usr/libexec/g
+aadya	    2639  0.0  0.1 390788  6696 ?	 Ssl  14:26   0:00 /usr/libexec/g
+aadya	    2644  0.0  0.1 308116  6148 ?	 Ssl  14:26   0:00 /usr/libexec/g
+aadya	    2653  0.0  0.3 467460 10868 ?	 Ssl  14:26   0:00 /usr/libexec/g
+aadya	    2655  0.0  0.2 385028  8072 ?	 Ssl  14:26   0:00 /usr/libexec/g
+aadya	    2656  0.0  0.2 255436  8688 ?	 Ssl  14:26   0:00 /usr/libexec/g
+aadya	    2657  0.0  0.5 415412 20388 ?	 Ssl  14:26   0:00 /usr/libexec/g
+aadya	    2680  0.0  1.7 841228 59064 ?	 Sl   14:26   0:00 /usr/libexec/e
+aadya	    2683  0.0  0.2 306884  6952 ?	 Sl   14:26   0:00 /usr/libexec/g
+aadya	    2776  0.0  0.3 418768 13320 ?	 Sl   14:26   0:00 /usr/libexec/g
+aadya	    2788  0.0  0.6 597380 22224 ?	 Sl   14:26   0:00 /usr/libexec/g
+aadya	    2816  0.0  0.1 169744  6900 ?	 Sl   14:26   0:00 /usr/libexec/i
+aadya	    2824  0.6  0.8 425332 31112 ?	 Sl   14:26   0:02 /usr/libexec/i
+aadya	    2831  0.0  0.2 309128  7064 ?	 Sl   14:26   0:00 /usr/libexec/i
+aadya	    2849  0.0  0.6 897800 23492 ?	 Ssl  14:26   0:00 /usr/libexec/e
+aadya	    2852  0.0  0.2 388700  8876 ?	 Sl   14:26   0:00 /usr/libexec/g
+aadya	    2854  0.0  0.3 535284 10792 ?	 Ssl  14:26   0:00 /usr/libexec/g
+aadya	    2870  0.0  0.1 308256  6276 ?	 Ssl  14:26   0:00 /usr/libexec/g
+aadya	    2877  0.0  0.2 390036  7720 ?	 Ssl  14:26   0:00 /usr/libexec/g
+aadya	    2889  0.0  0.1 308488  6268 ?	 Ssl  14:26   0:00 /usr/libexec/g
+aadya	    2890  0.0  0.7 828976 27396 ?	 Ssl  14:26   0:00 /usr/libexec/e
+aadya	    2898  0.0  0.1 309800  6636 ?	 Ssl  14:26   0:00 /usr/libexec/g
+aadya	    2908  0.0  1.9 206444 66192 ?	 S    14:26   0:00 /usr/bin/Xwayl
+aadya	    2928  0.3  6.4 2326888 224900 ?	 Sl   14:26   0:01 /usr/bin/nauti
+aadya	    2929  0.0  0.2 608804  8776 ?	 Sl   14:26   0:00 /usr/libexec/g
+aadya	    2949  0.0  0.2 169872  7032 ?	 Sl   14:26   0:00 /usr/libexec/i
+aadya	    2984  0.0  0.1 165672  5632 ?	 Ssl  14:26   0:00 /usr/libexec/d
+aadya	    2990  0.0  0.1 169452  6148 ?	 Ssl  14:26   0:00 /usr/libexec/g
+aadya	    2994  0.0  0.4 706184 17136 ?	 Ssl  14:26   0:00 /usr/libexec/x
+aadya	    3001  0.0  0.1 607076  6472 ?	 Ssl  14:26   0:00 /usr/libexec/x
+root	    3007  0.0  0.0   2356  1540 ?	 Ss   14:26   0:00 fusermount3 -o
+aadya	    3019  0.1  2.0 2791252 71460 ?	 Sl   14:26   0:00 gjs /usr/share
+aadya	    3059  0.0  0.9 735816 31744 ?	 SNsl 14:26   0:00 /usr/libexec/l
+aadya	    3060  0.0  1.1 690408 38748 ?	 Ssl  14:26   0:00 /usr/libexec/x
+aadya	    3086  0.0  2.3 465348 82828 ?	 Ssl  14:26   0:00 /usr/libexec/g
+aadya	    3096  0.0  0.7 2592640 26668 ?	 Sl   14:26   0:00 /usr/bin/gjs -
+aadya	    3115  0.0  3.1 1404572 108788 ?	 Sl   14:26   0:00 /usr/libexec/m
+aadya	    3117  0.0  0.0  17276  1748 ?	 S    14:26   0:00 /usr/bin/VBoxC
+aadya	    3118  0.0  0.1 216748  4028 ?	 Sl   14:26   0:00 /usr/bin/VBoxC
+aadya	    3172  0.0  0.0  17276  1740 ?	 S    14:26   0:00 /usr/bin/VBoxC
+aadya	    3174  0.0  0.0 149500  1992 ?	 Sl   14:26   0:00 /usr/bin/VBoxC
+aadya	    3182  0.0  0.3 182020 12120 ?	 Sl   14:26   0:00 /usr/libexec/i
+aadya	    3219  0.0  0.7 419484 25920 ?	 Ssl  14:26   0:00 /usr/libexec/x
+aadya	    3246  0.0  0.2 387540  8184 ?	 Sl   14:26   0:00 /usr/libexec/g
+aadya	    3247  0.0  0.2 387784  8196 ?	 Sl   14:26   0:00 /usr/libexec/g
+aadya	    3257  0.0  0.2 389240  8336 ?	 Sl   14:26   0:00 /usr/libexec/g
+aadya	    3263  0.0  0.2 387092  7740 ?	 Sl   14:26   0:00 /usr/libexec/g
+aadya	    3268  0.0  0.8  41596 29956 ?	 S    14:26   0:00 python3 /usr/b
+aadya	    3278  0.8  1.9 728860 68196 ?	 Ssl  14:26   0:02 /usr/libexec/g
+aadya	    3295  0.0  0.1   9092  5656 pts/0	 Ss   14:26   0:00 bash
+aadya	    3339 10.2 14.6 3215216 506276 ?	 Sl   14:27   0:30 /snap/firefox/
+aadya	    3417  0.0  0.0  19860  2596 ?	 Sl   14:27   0:00 /snap/firefox/
+aadya	    3512  0.0  0.9 288108 31840 ?	 S    14:27   0:00 /snap/firefox/
+aadya	    3517  0.0  0.9 302872 32796 ?	 Sl   14:27   0:00 /snap/firefox/
+aadya	    3538  0.8  4.5 2503668 158036 ?	 Sl   14:27   0:02 /snap/firefox/
+aadya	    3546  0.0  1.1 411076 39560 ?	 Sl   14:27   0:00 /snap/firefox/
+aadya	    3586  0.0  0.7 1912676 24536 ?	 Sl   14:27   0:00 /usr/bin/snap
+aadya	    3761  0.1  3.0 2466148 104360 ?	 Sl   14:27   0:00 /snap/firefox/
+aadya	    4081  0.0  0.8 301832 30720 ?	 Sl   14:27   0:00 /snap/firefox/
+aadya	    4089  0.8  4.2 2501004 145628 ?	 Sl   14:27   0:02 /snap/firefox/
+aadya	    4244  1.0  6.2 2582556 216588 ?	 Sl   14:27   0:03 /snap/firefox/
+aadya	    4312  0.0  2.0 2417184 69560 ?	 Sl   14:27   0:00 /snap/firefox/
+aadya	    4350  0.0  2.0 2417184 69452 ?	 Sl   14:27   0:00 /snap/firefox/
+aadya	    4379  0.0  0.8 571392 30748 ?	 Sl   14:27   0:00 /usr/bin/updat
+aadya	    4435  0.0  1.9 2417184 69284 ?	 Sl   14:27   0:00 /snap/firefox/
+aadya	    4476  0.0  0.0   5364  1828 pts/0	 S+   14:28   0:00 script -a lab_
+aadya	    4477  0.0  0.1   9492  5960 pts/1	 Ss   14:28   0:00 bash -i
+root	    4596  0.0  0.0	0     0 ?	 I    14:31   0:00 [kworker/0:0]
+aadya	    4610  0.0  0.1   9492  3996 pts/1	 R+   14:32   0:00 ps aux
+aadya@aadya:~$dclear
+?2004haadya@aadya:~$ free -h
+?2004l	       total	    used	free	  shared  buff/cache   available
+Mem:	       3.3Gi	   1.9Gi       153Mi	   126Mi       1.4Gi	   1.4Gi
+Swap:	       3.1Gi	   512Ki       3.1Gi
+aadya@aadya:~$dclear
+aadya@aadya:~$duptime
+?14:34:09 up 10 min,  2 users,	load average: 0.32, 0.40, 0.24
+aadya@aadya:~$dclear
+?2004haadya@aadya:~$ ps aux | grep bash
+ps aux | grep bash
+
+aadyal	    3295  0.0  0.1   9092  5656 pts/0	 Ss   14:26   0:00 bash
+aadya	    4477  0.0  0.1   9492  5960 pts/1	 Ss   14:28   0:00 bash -i
+aadya	    4675  0.0  0.0   6288  2040 pts/1	 S+   14:35   0:00 grep --color=auto bash
+aadya@aadya:~$dclear
+aadya@aadya:~$dvim~wait.sh
+"wait.sh"2[New]?25h?25li4--1INSERT?--0,1All?25h?25l#!▽/bin/bash		>c10;?11;?~								     ~									~								   ~								      ~									 ~								    ~								       ~								  ~								     ~									~								   ~								      ~									 ~								    ~								       ~								  ~								     ~									~								   ~								      ~									 ~								    ~								       ~								  ~								     ~									~								   ~								      ~									 ~								    ~								       ~								  ~								     ~									0,0-1All?25h?4m+q436f+q6b75+q6b64+q6b72+q6b6c+q2332+q2334+q2569+q2a37+q6b31$q q?12$p?25l030/0a0a/2	    ~								       ~								  ~								     ~									~								   ~								      ~									 ~								    ~								       ~								  ~								     ~									~								   ~								      ~									 ~								    ~								       ~								  ~								     ~									~								   ~								      ~									 ~								    ~								       ~								  ~								     ~									~								   ~								      ~									 ~								    ~								       ~								  0,0-1All
+echo " Starting processes"nice -n 4 sl?25h?2sleep 5 & PID1=$!
+echo " sleep 5 is completed with PID = $PID1?25h?25l "
+nice-n 6 sleep 3 &PID2=$! waitecho " sleep 3 is complet?25h?25led with PID = $PID2
+nice-n 7 sleep 7 &PID3=$! waitecho " sl?25h?25leep 7 is completed with PID = $PID3 "
+echo " All the processes?25h?25l are completed "
+?25l?2004l>4;m"wait.sh"4[New]514L,l319B5written
+?1004l?2004l?1l?1049l?25h>4;m?2004haadya@aadya:~$ chmod +x wait.sh
+?2004haadya@aadya:~$ ./wait.sh
+?Starting processes
+ sleep 5 is completed with PID = 4726
+0
+./wait.sh: line 6: -n: command not found
+./wait.sh: line 13: unexpected EOF while looking for matching `"'
+?2004h 2 aadya@aadya:~$ clear
+?2004haadya@aadya:~$ sleep55 &
+[1]04814
+?2004haadya@aadya:~$ wait
+[1]+4lDone		      sleep 5
+echo4"Finisheddafter 5cseconds"shed after 5 seconds"
+Finished after 5 seconds
+?2004haadya@aadya:~$ clear
+?2004haadya@aadya:~$ vim wait.sh
+"wait.sh"2[New]?25h?25l--hINSERT2--0,1Allsleep"5[&ew]▽	zz0%m		>c10;?11;?~								     ~									~								   ~								      ~									 ~								    ~								       ~								  ~								     ~									~								   ~								      ~									 ~								    ~								       ~								  ~								     ~									~								   ~								      ~									 ~								    ~								       ~								  ~								     ~									~								   ~								      ~									 ~								    ~								       ~								  ~								     ~									0,0-1All?25h?4m+q436f+q6b75+q6b64+q6b72+q6b6c+q2332+q2334+q2569+q2a37+q6b31$q q?12$p?25l:3030/0a0a	    ~								       ~								  ~								     ~									~								   ~								      ~									 ~								    ~								       ~								  ~								     ~									~								   ~								      ~									 ~								    ~								       ~								  ~								     ~									~								   ~								      ~									 ~								    ~								       ~								  ~								     ~									~								   ~								      ~									 ~								    ~								       ~								  0,0-1All
+?25l?2004l>4;m"wait.sh"r[New]c6L,s61B0written5h?25l~@k	 3,1  ?25h?25l~@k   2?25h?25l~@k   1?25h?25l^M	2?25h?25l~@k   1?25h?25li -- INSERT --1,1All?25h?25lsleep 5 &2,1All?25h?25l1?25h?25l#2?25h?25l!3?25h?25l/4?25h?25lb5?25h?25lu6?25h?25l5?25h?25li6?25h?25ln7?25h?25l/8?25h?25lb9?25h?25la10?25h?25ls1?25h?25lh2?25h?25l2,1All?25h?25l^[	2,0-1All?25h?25l::?25hwq
+?1004l?2004l?1l?1049l?25h>4;m?2004haadya@aadya:~$ chmod +x wait.shh
+?2004haadya@aadya:~$ ./wait.sh
+Finished after 5 seconds
+aadya@aadya:~$dclear
+?2004haadya@aadya:~$ sleep 30 &
+[1]04947
+?2004haadya@aadya:~$ ps
+?200PID TTY	     TIME CMD
+   4477 pts/1	 00:00:00 bash
+   4947 pts/1	 00:00:00 sleep
+   4951 pts/1	 00:00:00 ps
+aadya@aadya:~$djobs$
+[1]+4lDone		      sleep 30
+?2004haadya@aadya:~$ clear 30 &
+?2004haadya@aadya:~$ sleep 30 &
+[1]04968
+?2004haadya@aadya:~$ jobsr 30 &
+[1]+4lRunning		      sleep 30 &
+aadya@aadya:~$dclear
+[1]+4lDone		      sleep 30
+?2004haadya@aadya:~$ clear
+?2004haadya@aadya:~$ sleep 30 &
+[1]04988
+?2004haadya@aadya:~$ jobsp 30 &
+[1]+4lRunning		      sleep 30 &
+?2004haadya@aadya:~$ fg %1
+sleepl30
+bg %1
+^C
+?2004h 130 aadya@aadya:~$ 1@b%1
+bash:lbg: %1: no such job
+?2004h 1 aadya@aadya:~$ clear
+?2004haadya@aadyasleep60&&&
+[1]05010
+?2004haadya@aadyajobsfge%1 60 &
+[1]+4lRunning		      sleep 60 &
+?2004haadya@aadya:~$ fge%1 60 &
+sleepl60
+^C
+?2004h 130 aadya@aadya:~$ bge%1 60 &
+bash:lbg: %1: no such job
+?2004h 1 aadya@aadya:~$ clear
+?2004haadya@aadya:~$ dmesg | less
+dmesg: read kernel buffer failed: Operation not permitted
+...skipping...
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+...skipping...
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+...skipping...
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+...skipping...
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+...skipping...
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+...skipping...
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+...skipping...
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+...skipping...
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+(ESC;...skipping...
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+(:w...skipping...
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+?1l?1049l?2004haadya@aadya:~$ dmesg | less
+dmesg:?read kernel buffer failed: Operation not permitted
+...skipping...
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+...skipping...
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+...skipping...
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+...skipping...
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+(ESCOD...skipping...
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+(ESC:...skipping...
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+(ESC:...skipping...
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+...skipping...
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+?1l?1049l?2004haadya@aadya:~$ clear
+?2004haadya@aadya:~$ 1@s1@u1@1@o1@
+[sudo]?password for aadya:
+[    0.000000] Booting Linux on physical CPU 0x0000000000 [0x610f0000]
+[    0.000000] Linux version 6.14.0-32-generic (buildd@bos03-arm64-105) (aarch64-linux-gnu-gcc-14 (Ubuntu 14.2.0-19ubuntu2) 14.2.0, GNU ld (GNU Binutils for Ubuntu) 2.44) #32-Ubuntu SMP PREEMPT_DYNAMIC Fri Aug 29 14:04:54 UTC 2025 (Ubuntu 6.14.0-32.32-generic 6.14.11)
+[    0.000000] KASLR disabled due to lack of seed
+[    0.000000] efi: EFI v2.7 by EDK II
+[    0.000000] efi: ACPI 2.0=0xde13d018 MEMATTR=0xddec7018 MOKvar=0xdd9a0000 INITRD=0xddecca18 MEMRESERVE=0xddecc398
+[    0.000000] secureboot: Secure boot disabled
+[    0.000000] ACPI: Early table checksum verification disabled
+[    0.000000] ACPI: RSDP 0x00000000DE13D018 000024 (v02 ORCLVB)
+[    0.000000] ACPI: XSDT 0x00000000DE13DF18 00004C (v01 ORCLVB ORCLFACP 00000001      01000013)
+[    0.000000] ACPI: FACP 0x00000000DE13DB18 000114 (v06 ORCLVB ORCLFACP 00000001 ORCL 00000001)
+[    0.000000] ACPI: DSDT 0x00000000DDFC8018 000922 (v06 ORCL	VBOXDSDT 00000001 VBOX 00000001)
+[    0.000000] ACPI: GTDT 0x00000000DE13DC98 000068 (v06 ORCLVB ORCLGTDT 00000001 ORCL 00000001)
+[    0.000000] ACPI: APIC 0x00000000DE13D098 00019C (v06 ORCLVB ORCLAPIC 00000001 ORCL 00000001)
+[    0.000000] ACPI: MCFG 0x00000000DE13D998 00003C (v06 ORCLVB ORCLMCFG 00000001 ORCL 00000001)
+[    0.000000] ACPI: BGRT 0x00000000DE13DA18 000038 (v01 INTEL	EDK2	 00000002      01000013)
+[    0.000000] ACPI: Use ACPI SPCR as default console: Yes
+[    0.000000] NUMA: Faking a node at [mem 0x0000000008000000-0x0000000127ffffff]
+[    0.000000] NODE_DATA(0) allocated [mem 0x1278085c0-0x12780dfff]
+[    0.000000] Zone ranges:
+[    0.000000]	 DMA	  [mem 0x0000000008000000-0x00000000ffffffff]
+[    0.000000]	 DMA32	  empty
+:[    0.000000] Booting Linux on physical CPU 0x0000000000 [0x610f0000]
+[    0.000000] Linux version 6.14.0-32-generic (buildd@bos03-arm64-105) (aarch64-linux-gnu-gcc-14 (Ubuntu 14.2.0-19ubuntu2) 14.2.0, GNU ld (GNU Binutils for Ubuntu) 2.44) #32-Ubuntu SMP PREEMPT_DYNAMIC Fri Aug 29 14:04:54 UTC 2025 (Ubuntu 6.14.0-32.32-generic 6.14.11)
+[    0.000000] KASLR disabled due to lack of seed
+[    0.000000] efi: EFI v2.7 by EDK II
+[    0.000000] efi: ACPI 2.0=0xde13d018 MEMATTR=0xddec7018 MOKvar=0xdd9a0000 INITRD=0xddecca18 MEMRESERVE=0xddecc398
+[    0.000000] secureboot: Secure boot disabled
+[    0.000000] ACPI: Early table checksum verification disabled
+[    0.000000] ACPI: RSDP 0x00000000DE13D018 000024 (v02 ORCLVB)
+[    0.000000] ACPI: XSDT 0x00000000DE13DF18 00004C (v01 ORCLVB ORCLFACP 00000001      01000013)
+[    0.000000] ACPI: FACP 0x00000000DE13DB18 000114 (v06 ORCLVB ORCLFACP 00000001 ORCL 00000001)
+[    0.000000] ACPI: DSDT 0x00000000DDFC8018 000922 (v06 ORCL	VBOXDSDT 00000001 VBOX 00000001)
+[    0.000000] ACPI: GTDT 0x00000000DE13DC98 000068 (v06 ORCLVB ORCLGTDT 00000001 ORCL 00000001)
+[    0.000000] ACPI: APIC 0x00000000DE13D098 00019C (v06 ORCLVB ORCLAPIC 00000001 ORCL 00000001)
+[    0.000000] ACPI: MCFG 0x00000000DE13D998 00003C (v06 ORCLVB ORCLMCFG 00000001 ORCL 00000001)
+[    0.000000] ACPI: BGRT 0x00000000DE13DA18 000038 (v01 INTEL	EDK2	 00000002      01000013)
+[    0.000000] ACPI: Use ACPI SPCR as default console: Yes
+[    0.000000] NUMA: Faking a node at [mem 0x0000000008000000-0x0000000127ffffff]
+[    0.000000] NODE_DATA(0) allocated [mem 0x1278085c0-0x12780dfff]
+[    0.000000] Zone ranges:
+[    0.000000]	 DMA	  [mem 0x0000000008000000-0x00000000ffffffff]
+[    0.000000]	 DMA32	  empty
+:[    0.000000] Booting Linux on physical CPU 0x0000000000 [0x610f0000]
+[    0.000000] Linux version 6.14.0-32-generic (buildd@bos03-arm64-105) (aarch64-linux-gnu-gcc-14 (Ubuntu 14.2.0-19ubuntu2) 14.2.0, GNU ld (GNU Binutils for Ubuntu) 2.44) #32-Ubuntu SMP PREEMPT_DYNAMIC Fri Aug 29 14:04:54 UTC 2025 (Ubuntu 6.14.0-32.32-generic 6.14.11)
+[    0.000000] KASLR disabled due to lack of seed
+[    0.000000] efi: EFI v2.7 by EDK II
+[    0.000000] efi: ACPI 2.0=0xde13d018 MEMATTR=0xddec7018 MOKvar=0xdd9a0000 INITRD=0xddecca18 MEMRESERVE=0xddecc398
+[    0.000000] secureboot: Secure boot disabled
+[    0.000000] ACPI: Early table checksum verification disabled
+[    0.000000] ACPI: RSDP 0x00000000DE13D018 000024 (v02 ORCLVB)
+[    0.000000] ACPI: XSDT 0x00000000DE13DF18 00004C (v01 ORCLVB ORCLFACP 00000001      01000013)
+[    0.000000] ACPI: FACP 0x00000000DE13DB18 000114 (v06 ORCLVB ORCLFACP 00000001 ORCL 00000001)
+[    0.000000] ACPI: DSDT 0x00000000DDFC8018 000922 (v06 ORCL	VBOXDSDT 00000001 VBOX 00000001)
+[    0.000000] ACPI: GTDT 0x00000000DE13DC98 000068 (v06 ORCLVB ORCLGTDT 00000001 ORCL 00000001)
+[    0.000000] ACPI: APIC 0x00000000DE13D098 00019C (v06 ORCLVB ORCLAPIC 00000001 ORCL 00000001)
+[    0.000000] ACPI: MCFG 0x00000000DE13D998 00003C (v06 ORCLVB ORCLMCFG 00000001 ORCL 00000001)
+[    0.000000] ACPI: BGRT 0x00000000DE13DA18 000038 (v01 INTEL	EDK2	 00000002      01000013)
+[    0.000000] ACPI: Use ACPI SPCR as default console: Yes
+[    0.000000] NUMA: Faking a node at [mem 0x0000000008000000-0x0000000127ffffff]
+[    0.000000] NODE_DATA(0) allocated [mem 0x1278085c0-0x12780dfff]
+[    0.000000] Zone ranges:
+[    0.000000]	 DMA	  [mem 0x0000000008000000-0x00000000ffffffff]
+[    0.000000]	 DMA32	  empty
+[    0.000000]	 Normal	  [mem 0x0000000100000000-0x0000000127ffffff]
+[    0.000000]	 Device	  empty
+:[    0.000000] Booting Linux on physical CPU 0x0000000000 [0x610f0000]
+[    0.000000] Linux version 6.14.0-32-generic (buildd@bos03-arm64-105) (aarch64-linux-gnu-gcc-14 (Ubuntu 14.2.0-19ubuntu2) 14.2.0, GNU ld (GNU Binutils for Ubuntu) 2.44) #32-Ubuntu SMP PREEMPT_DYNAMIC Fri Aug 29 14:04:54 UTC 2025 (Ubuntu 6.14.0-32.32-generic 6.14.11)
+[    0.000000] KASLR disabled due to lack of seed
+[    0.000000] efi: EFI v2.7 by EDK II
+[    0.000000] efi: ACPI 2.0=0xde13d018 MEMATTR=0xddec7018 MOKvar=0xdd9a0000 INITRD=0xddecca18 MEMRESERVE=0xddecc398
+[    0.000000] secureboot: Secure boot disabled
+[    0.000000] ACPI: Early table checksum verification disabled
+[    0.000000] ACPI: RSDP 0x00000000DE13D018 000024 (v02 ORCLVB)
+[    0.000000] ACPI: XSDT 0x00000000DE13DF18 00004C (v01 ORCLVB ORCLFACP 00000001      01000013)
+[    0.000000] ACPI: FACP 0x00000000DE13DB18 000114 (v06 ORCLVB ORCLFACP 00000001 ORCL 00000001)
+[    0.000000] ACPI: DSDT 0x00000000DDFC8018 000922 (v06 ORCL	VBOXDSDT 00000001 VBOX 00000001)
+[    0.000000] ACPI: GTDT 0x00000000DE13DC98 000068 (v06 ORCLVB ORCLGTDT 00000001 ORCL 00000001)
+[    0.000000] ACPI: APIC 0x00000000DE13D098 00019C (v06 ORCLVB ORCLAPIC 00000001 ORCL 00000001)
+[    0.000000] ACPI: MCFG 0x00000000DE13D998 00003C (v06 ORCLVB ORCLMCFG 00000001 ORCL 00000001)
+[    0.000000] ACPI: BGRT 0x00000000DE13DA18 000038 (v01 INTEL	EDK2	 00000002      01000013)
+[    0.000000] ACPI: Use ACPI SPCR as default console: Yes
+[    0.000000] NUMA: Faking a node at [mem 0x0000000008000000-0x0000000127ffffff]
+[    0.000000] NODE_DATA(0) allocated [mem 0x1278085c0-0x12780dfff]
+[    0.000000] Zone ranges:
+[    0.000000]	 DMA	  [mem 0x0000000008000000-0x00000000ffffffff]
+[    0.000000]	 DMA32	  empty
+[    0.000000]	 Normal	  [mem 0x0000000100000000-0x0000000127ffffff]
+[    0.000000]	 Device	  empty
+[    0.000000] Movable zone start for each node
+:[    0.000000] Booting Linux on physical CPU 0x0000000000 [0x610f0000]
+[    0.000000] Linux version 6.14.0-32-generic (buildd@bos03-arm64-105) (aarch64-linux-gnu-gcc-14 (Ubuntu 14.2.0-19ubuntu2) 14.2.0, GNU ld (GNU Binutils for Ubuntu) 2.44) #32-Ubuntu SMP PREEMPT_DYNAMIC Fri Aug 29 14:04:54 UTC 2025 (Ubuntu 6.14.0-32.32-generic 6.14.11)
+[    0.000000] KASLR disabled due to lack of seed
+[    0.000000] efi: EFI v2.7 by EDK II
+[    0.000000] efi: ACPI 2.0=0xde13d018 MEMATTR=0xddec7018 MOKvar=0xdd9a0000 INITRD=0xddecca18 MEMRESERVE=0xddecc398
+[    0.000000] secureboot: Secure boot disabled
+[    0.000000] ACPI: Early table checksum verification disabled
+[    0.000000] ACPI: RSDP 0x00000000DE13D018 000024 (v02 ORCLVB)
+[    0.000000] ACPI: XSDT 0x00000000DE13DF18 00004C (v01 ORCLVB ORCLFACP 00000001      01000013)
+[    0.000000] ACPI: FACP 0x00000000DE13DB18 000114 (v06 ORCLVB ORCLFACP 00000001 ORCL 00000001)
+[    0.000000] ACPI: DSDT 0x00000000DDFC8018 000922 (v06 ORCL	VBOXDSDT 00000001 VBOX 00000001)
+[    0.000000] ACPI: GTDT 0x00000000DE13DC98 000068 (v06 ORCLVB ORCLGTDT 00000001 ORCL 00000001)
+[    0.000000] ACPI: APIC 0x00000000DE13D098 00019C (v06 ORCLVB ORCLAPIC 00000001 ORCL 00000001)
+[    0.000000] ACPI: MCFG 0x00000000DE13D998 00003C (v06 ORCLVB ORCLMCFG 00000001 ORCL 00000001)
+[    0.000000] ACPI: BGRT 0x00000000DE13DA18 000038 (v01 INTEL	EDK2	 00000002      01000013)
+[    0.000000] ACPI: Use ACPI SPCR as default console: Yes
+[    0.000000] NUMA: Faking a node at [mem 0x0000000008000000-0x0000000127ffffff]
+[    0.000000] NODE_DATA(0) allocated [mem 0x1278085c0-0x12780dfff]
+[    0.000000] Zone ranges:
+[    0.000000]	 DMA	  [mem 0x0000000008000000-0x00000000ffffffff]
+[    0.000000]	 DMA32	  empty
+[    0.000000]	 Normal	  [mem 0x0000000100000000-0x0000000127ffffff]
+[    0.000000]	 Device	  empty
+[    0.000000] Movable zone start for each node
+[    0.000000] Early memory node ranges
+[    0.000000]	 node	0: [mem 0x0000000008000000-0x00000000dd99ffff]
+[    0.000000]	 node	0: [mem 0x00000000dd9a0000-0x00000000dd9affff]
+[    0.000000]	 node	0: [mem 0x00000000dd9b0000-0x00000000de15ffff]
+[    0.000000]	 node	0: [mem 0x00000000de160000-0x00000000de35ffff]
+[    0.000000]	 node	0: [mem 0x00000000de360000-0x00000000de3bffff]
+[    0.000000]	 node	0: [mem 0x00000000de3c0000-0x00000000de4dffff]
+[    0.000000]	 node	0: [mem 0x00000000de4e0000-0x00000000de63ffff]
+:[    0.000000] Booting Linux on physical CPU 0x0000000000 [0x610f0000]
+[    0.000000] Linux version 6.14.0-32-generic (buildd@bos03-arm64-105) (aarch64-linux-gnu-gcc-14 (Ubuntu 14.2.0-19ubuntu2) 14.2.0, GNU ld (GNU Binutils for Ubuntu) 2.44) #32-Ubuntu SMP PREEMPT_DYNAMIC Fri Aug 29 14:04:54 UTC 2025 (Ubuntu 6.14.0-32.32-generic 6.14.11)
+[    0.000000] KASLR disabled due to lack of seed
+[    0.000000] efi: EFI v2.7 by EDK II
+[    0.000000] efi: ACPI 2.0=0xde13d018 MEMATTR=0xddec7018 MOKvar=0xdd9a0000 INITRD=0xddecca18 MEMRESERVE=0xddecc398
+[    0.000000] secureboot: Secure boot disabled
+[    0.000000] ACPI: Early table checksum verification disabled
+[    0.000000] ACPI: RSDP 0x00000000DE13D018 000024 (v02 ORCLVB)
+[    0.000000] ACPI: XSDT 0x00000000DE13DF18 00004C (v01 ORCLVB ORCLFACP 00000001      01000013)
+[    0.000000] ACPI: FACP 0x00000000DE13DB18 000114 (v06 ORCLVB ORCLFACP 00000001 ORCL 00000001)
+[    0.000000] ACPI: DSDT 0x00000000DDFC8018 000922 (v06 ORCL	VBOXDSDT 00000001 VBOX 00000001)
+[    0.000000] ACPI: GTDT 0x00000000DE13DC98 000068 (v06 ORCLVB ORCLGTDT 00000001 ORCL 00000001)
+[    0.000000] ACPI: APIC 0x00000000DE13D098 00019C (v06 ORCLVB ORCLAPIC 00000001 ORCL 00000001)
+[    0.000000] ACPI: MCFG 0x00000000DE13D998 00003C (v06 ORCLVB ORCLMCFG 00000001 ORCL 00000001)
+[    0.000000] ACPI: BGRT 0x00000000DE13DA18 000038 (v01 INTEL	EDK2	 00000002      01000013)
+[    0.000000] ACPI: Use ACPI SPCR as default console: Yes
+[    0.000000] NUMA: Faking a node at [mem 0x0000000008000000-0x0000000127ffffff]
+[    0.000000] NODE_DATA(0) allocated [mem 0x1278085c0-0x12780dfff]
+[    0.000000] Zone ranges:
+[    0.000000]	 DMA	  [mem 0x0000000008000000-0x00000000ffffffff]
+[    0.000000]	 DMA32	  empty
+[    0.000000]	 Normal	  [mem 0x0000000100000000-0x0000000127ffffff]
+[    0.000000]	 Device	  empty
+[    0.000000] Movable zone start for each node
+[    0.000000] Early memory node ranges
+[    0.000000]	 node	0: [mem 0x0000000008000000-0x00000000dd99ffff]
+[    0.000000]	 node	0: [mem 0x00000000dd9a0000-0x00000000dd9affff]
+[    0.000000]	 node	0: [mem 0x00000000dd9b0000-0x00000000de15ffff]
+[    0.000000]	 node	0: [mem 0x00000000de160000-0x00000000de35ffff]
+[    0.000000]	 node	0: [mem 0x00000000de360000-0x00000000de3bffff]
+[    0.000000]	 node	0: [mem 0x00000000de3c0000-0x00000000de4dffff]
+[    0.000000]	 node	0: [mem 0x00000000de4e0000-0x00000000de63ffff]
+:[    0.000000] Booting Linux on physical CPU 0x0000000000 [0x610f0000]
+[    0.000000] Linux version 6.14.0-32-generic (buildd@bos03-arm64-105) (aarch64-linux-gnu-gcc-14 (Ubuntu 14.2.0-19ubuntu2) 14.2.0, GNU ld (GNU Binutils for Ubuntu) 2.44) #32-Ubuntu SMP PREEMPT_DYNAMIC Fri Aug 29 14:04:54 UTC 2025 (Ubuntu 6.14.0-32.32-generic 6.14.11)
+[    0.000000] KASLR disabled due to lack of seed
+[    0.000000] efi: EFI v2.7 by EDK II
+[    0.000000] efi: ACPI 2.0=0xde13d018 MEMATTR=0xddec7018 MOKvar=0xdd9a0000 INITRD=0xddecca18 MEMRESERVE=0xddecc398
+[    0.000000] secureboot: Secure boot disabled
+[    0.000000] ACPI: Early table checksum verification disabled
+[    0.000000] ACPI: RSDP 0x00000000DE13D018 000024 (v02 ORCLVB)
+[    0.000000] ACPI: XSDT 0x00000000DE13DF18 00004C (v01 ORCLVB ORCLFACP 00000001      01000013)
+[    0.000000] ACPI: FACP 0x00000000DE13DB18 000114 (v06 ORCLVB ORCLFACP 00000001 ORCL 00000001)
+[    0.000000] ACPI: DSDT 0x00000000DDFC8018 000922 (v06 ORCL	VBOXDSDT 00000001 VBOX 00000001)
+[    0.000000] ACPI: GTDT 0x00000000DE13DC98 000068 (v06 ORCLVB ORCLGTDT 00000001 ORCL 00000001)
+[    0.000000] ACPI: APIC 0x00000000DE13D098 00019C (v06 ORCLVB ORCLAPIC 00000001 ORCL 00000001)
+[    0.000000] ACPI: MCFG 0x00000000DE13D998 00003C (v06 ORCLVB ORCLMCFG 00000001 ORCL 00000001)
+[    0.000000] ACPI: BGRT 0x00000000DE13DA18 000038 (v01 INTEL	EDK2	 00000002      01000013)
+[    0.000000] ACPI: Use ACPI SPCR as default console: Yes
+[    0.000000] NUMA: Faking a node at [mem 0x0000000008000000-0x0000000127ffffff]
+[    0.000000] NODE_DATA(0) allocated [mem 0x1278085c0-0x12780dfff]
+[    0.000000] Zone ranges:
+[    0.000000]	 DMA	  [mem 0x0000000008000000-0x00000000ffffffff]
+[    0.000000]	 DMA32	  empty
+[    0.000000]	 Normal	  [mem 0x0000000100000000-0x0000000127ffffff]
+[    0.000000]	 Device	  empty
+[    0.000000] Movable zone start for each node
+[    0.000000] Early memory node ranges
+[    0.000000]	 node	0: [mem 0x0000000008000000-0x00000000dd99ffff]
+[    0.000000]	 node	0: [mem 0x00000000dd9a0000-0x00000000dd9affff]
+[    0.000000]	 node	0: [mem 0x00000000dd9b0000-0x00000000de15ffff]
+[    0.000000]	 node	0: [mem 0x00000000de160000-0x00000000de35ffff]
+[    0.000000]	 node	0: [mem 0x00000000de360000-0x00000000de3bffff]
+[    0.000000]	 node	0: [mem 0x00000000de3c0000-0x00000000de4dffff]
+[    0.000000]	 node	0: [mem 0x00000000de4e0000-0x00000000de63ffff]
+[    0.000000]	 node	0: [mem 0x00000000de640000-0x00000000de65ffff]
+:[    0.000000] Booting Linux on physical CPU 0x0000000000 [0x610f0000]
+[    0.000000] Linux version 6.14.0-32-generic (buildd@bos03-arm64-105) (aarch64-linux-gnu-gcc-14 (Ubuntu 14.2.0-19ubuntu2) 14.2.0, GNU ld (GNU Binutils for Ubuntu) 2.44) #32-Ubuntu SMP PREEMPT_DYNAMIC Fri Aug 29 14:04:54 UTC 2025 (Ubuntu 6.14.0-32.32-generic 6.14.11)
+[    0.000000] KASLR disabled due to lack of seed
+[    0.000000] efi: EFI v2.7 by EDK II
+[    0.000000] efi: ACPI 2.0=0xde13d018 MEMATTR=0xddec7018 MOKvar=0xdd9a0000 INITRD=0xddecca18 MEMRESERVE=0xddecc398
+[    0.000000] secureboot: Secure boot disabled
+[    0.000000] ACPI: Early table checksum verification disabled
+[    0.000000] ACPI: RSDP 0x00000000DE13D018 000024 (v02 ORCLVB)
+[    0.000000] ACPI: XSDT 0x00000000DE13DF18 00004C (v01 ORCLVB ORCLFACP 00000001      01000013)
+[    0.000000] ACPI: FACP 0x00000000DE13DB18 000114 (v06 ORCLVB ORCLFACP 00000001 ORCL 00000001)
+[    0.000000] ACPI: DSDT 0x00000000DDFC8018 000922 (v06 ORCL	VBOXDSDT 00000001 VBOX 00000001)
+[    0.000000] ACPI: GTDT 0x00000000DE13DC98 000068 (v06 ORCLVB ORCLGTDT 00000001 ORCL 00000001)
+[    0.000000] ACPI: APIC 0x00000000DE13D098 00019C (v06 ORCLVB ORCLAPIC 00000001 ORCL 00000001)
+[    0.000000] ACPI: MCFG 0x00000000DE13D998 00003C (v06 ORCLVB ORCLMCFG 00000001 ORCL 00000001)
+[    0.000000] ACPI: BGRT 0x00000000DE13DA18 000038 (v01 INTEL	EDK2	 00000002      01000013)
+[    0.000000] ACPI: Use ACPI SPCR as default console: Yes
+[    0.000000] NUMA: Faking a node at [mem 0x0000000008000000-0x0000000127ffffff]
+[    0.000000] NODE_DATA(0) allocated [mem 0x1278085c0-0x12780dfff]
+[    0.000000] Zone ranges:
+[    0.000000]	 DMA	  [mem 0x0000000008000000-0x00000000ffffffff]
+[    0.000000]	 DMA32	  empty
+[    0.000000]	 Normal	  [mem 0x0000000100000000-0x0000000127ffffff]
+[    0.000000]	 Device	  empty
+[    0.000000] Movable zone start for each node
+[    0.000000] Early memory node ranges
+[    0.000000]	 node	0: [mem 0x0000000008000000-0x00000000dd99ffff]
+[    0.000000]	 node	0: [mem 0x00000000dd9a0000-0x00000000dd9affff]
+[    0.000000]	 node	0: [mem 0x00000000dd9b0000-0x00000000de15ffff]
+[    0.000000]	 node	0: [mem 0x00000000de160000-0x00000000de35ffff]
+[    0.000000]	 node	0: [mem 0x00000000de360000-0x00000000de3bffff]
+[    0.000000]	 node	0: [mem 0x00000000de3c0000-0x00000000de4dffff]
+[    0.000000]	 node	0: [mem 0x00000000de4e0000-0x00000000de63ffff]
+[    0.000000]	 node	0: [mem 0x00000000de640000-0x00000000de65ffff]
+:[    0.000000] Booting Linux on physical CPU 0x0000000000 [0x610f0000]
+[    0.000000] Linux version 6.14.0-32-generic (buildd@bos03-arm64-105) (aarch64-linux-gnu-gcc-14 (Ubuntu 14.2.0-19ubuntu2) 14.2.0, GNU ld (GNU Binutils for Ubuntu) 2.44) #32-Ubuntu SMP PREEMPT_DYNAMIC Fri Aug 29 14:04:54 UTC 2025 (Ubuntu 6.14.0-32.32-generic 6.14.11)
+[    0.000000] KASLR disabled due to lack of seed
+[    0.000000] efi: EFI v2.7 by EDK II
+[    0.000000] efi: ACPI 2.0=0xde13d018 MEMATTR=0xddec7018 MOKvar=0xdd9a0000 INITRD=0xddecca18 MEMRESERVE=0xddecc398
+[    0.000000] secureboot: Secure boot disabled
+[    0.000000] ACPI: Early table checksum verification disabled
+[    0.000000] ACPI: RSDP 0x00000000DE13D018 000024 (v02 ORCLVB)
+[    0.000000] ACPI: XSDT 0x00000000DE13DF18 00004C (v01 ORCLVB ORCLFACP 00000001      01000013)
+[    0.000000] ACPI: FACP 0x00000000DE13DB18 000114 (v06 ORCLVB ORCLFACP 00000001 ORCL 00000001)
+[    0.000000] ACPI: DSDT 0x00000000DDFC8018 000922 (v06 ORCL	VBOXDSDT 00000001 VBOX 00000001)
+[    0.000000] ACPI: GTDT 0x00000000DE13DC98 000068 (v06 ORCLVB ORCLGTDT 00000001 ORCL 00000001)
+[    0.000000] ACPI: APIC 0x00000000DE13D098 00019C (v06 ORCLVB ORCLAPIC 00000001 ORCL 00000001)
+[    0.000000] ACPI: MCFG 0x00000000DE13D998 00003C (v06 ORCLVB ORCLMCFG 00000001 ORCL 00000001)
+[    0.000000] ACPI: BGRT 0x00000000DE13DA18 000038 (v01 INTEL	EDK2	 00000002      01000013)
+[    0.000000] ACPI: Use ACPI SPCR as default console: Yes
+[    0.000000] NUMA: Faking a node at [mem 0x0000000008000000-0x0000000127ffffff]
+[    0.000000] NODE_DATA(0) allocated [mem 0x1278085c0-0x12780dfff]
+[    0.000000] Zone ranges:
+[    0.000000]	 DMA	  [mem 0x0000000008000000-0x00000000ffffffff]
+[    0.000000]	 DMA32	  empty
+[    0.000000]	 Normal	  [mem 0x0000000100000000-0x0000000127ffffff]
+[    0.000000]	 Device	  empty
+[    0.000000] Movable zone start for each node
+[    0.000000] Early memory node ranges
+[    0.000000]	 node	0: [mem 0x0000000008000000-0x00000000dd99ffff]
+[    0.000000]	 node	0: [mem 0x00000000dd9a0000-0x00000000dd9affff]
+[    0.000000]	 node	0: [mem 0x00000000dd9b0000-0x00000000de15ffff]
+[    0.000000]	 node	0: [mem 0x00000000de160000-0x00000000de35ffff]
+[    0.000000]	 node	0: [mem 0x00000000de360000-0x00000000de3bffff]
+[    0.000000]	 node	0: [mem 0x00000000de3c0000-0x00000000de4dffff]
+[    0.000000]	 node	0: [mem 0x00000000de4e0000-0x00000000de63ffff]
+[    0.000000]	 node	0: [mem 0x00000000de640000-0x00000000de65ffff]
+:[    0.000000] Booting Linux on physical CPU 0x0000000000 [0x610f0000]
+[    0.000000] Linux version 6.14.0-32-generic (buildd@bos03-arm64-105) (aarch64-linux-gnu-gcc-14 (Ubuntu 14.2.0-19ubuntu2) 14.2.0, GNU ld (GNU Binutils for Ubuntu) 2.44) #32-Ubuntu SMP PREEMPT_DYNAMIC Fri Aug 29 14:04:54 UTC 2025 (Ubuntu 6.14.0-32.32-generic 6.14.11)
+[    0.000000] KASLR disabled due to lack of seed
+[    0.000000] efi: EFI v2.7 by EDK II
+[    0.000000] efi: ACPI 2.0=0xde13d018 MEMATTR=0xddec7018 MOKvar=0xdd9a0000 INITRD=0xddecca18 MEMRESERVE=0xddecc398
+[    0.000000] secureboot: Secure boot disabled
+[    0.000000] ACPI: Early table checksum verification disabled
+[    0.000000] ACPI: RSDP 0x00000000DE13D018 000024 (v02 ORCLVB)
+[    0.000000] ACPI: XSDT 0x00000000DE13DF18 00004C (v01 ORCLVB ORCLFACP 00000001      01000013)
+[    0.000000] ACPI: FACP 0x00000000DE13DB18 000114 (v06 ORCLVB ORCLFACP 00000001 ORCL 00000001)
+[    0.000000] ACPI: DSDT 0x00000000DDFC8018 000922 (v06 ORCL	VBOXDSDT 00000001 VBOX 00000001)
+[    0.000000] ACPI: GTDT 0x00000000DE13DC98 000068 (v06 ORCLVB ORCLGTDT 00000001 ORCL 00000001)
+[    0.000000] ACPI: APIC 0x00000000DE13D098 00019C (v06 ORCLVB ORCLAPIC 00000001 ORCL 00000001)
+[    0.000000] ACPI: MCFG 0x00000000DE13D998 00003C (v06 ORCLVB ORCLMCFG 00000001 ORCL 00000001)
+[    0.000000] ACPI: BGRT 0x00000000DE13DA18 000038 (v01 INTEL	EDK2	 00000002      01000013)
+[    0.000000] ACPI: Use ACPI SPCR as default console: Yes
+[    0.000000] NUMA: Faking a node at [mem 0x0000000008000000-0x0000000127ffffff]
+[    0.000000] NODE_DATA(0) allocated [mem 0x1278085c0-0x12780dfff]
+[    0.000000] Zone ranges:
+[    0.000000]	 DMA	  [mem 0x0000000008000000-0x00000000ffffffff]
+[    0.000000]	 DMA32	  empty
+[    0.000000]	 Normal	  [mem 0x0000000100000000-0x0000000127ffffff]
+[    0.000000]	 Device	  empty
+[    0.000000] Movable zone start for each node
+[    0.000000] Early memory node ranges
+[    0.000000]	 node	0: [mem 0x0000000008000000-0x00000000dd99ffff]
+[    0.000000]	 node	0: [mem 0x00000000dd9a0000-0x00000000dd9affff]
+[    0.000000]	 node	0: [mem 0x00000000dd9b0000-0x00000000de15ffff]
+[    0.000000]	 node	0: [mem 0x00000000de160000-0x00000000de35ffff]
+[    0.000000]	 node	0: [mem 0x00000000de360000-0x00000000de3bffff]
+[    0.000000]	 node	0: [mem 0x00000000de3c0000-0x00000000de4dffff]
+[    0.000000]	 node	0: [mem 0x00000000de4e0000-0x00000000de63ffff]
+[    0.000000]	 node	0: [mem 0x00000000de640000-0x00000000de65ffff]
+[    0.000000]	 node	0: [mem 0x00000000de660000-0x00000000df2bffff]
+:[    0.000000] Booting Linux on physical CPU 0x0000000000 [0x610f0000]
+[    0.000000] Linux version 6.14.0-32-generic (buildd@bos03-arm64-105) (aarch64-linux-gnu-gcc-14 (Ubuntu 14.2.0-19ubuntu2) 14.2.0, GNU ld (GNU Binutils for Ubuntu) 2.44) #32-Ubuntu SMP PREEMPT_DYNAMIC Fri Aug 29 14:04:54 UTC 2025 (Ubuntu 6.14.0-32.32-generic 6.14.11)
+[    0.000000] KASLR disabled due to lack of seed
+[    0.000000] efi: EFI v2.7 by EDK II
+[    0.000000] efi: ACPI 2.0=0xde13d018 MEMATTR=0xddec7018 MOKvar=0xdd9a0000 INITRD=0xddecca18 MEMRESERVE=0xddecc398
+[    0.000000] secureboot: Secure boot disabled
+[    0.000000] ACPI: Early table checksum verification disabled
+[    0.000000] ACPI: RSDP 0x00000000DE13D018 000024 (v02 ORCLVB)
+[    0.000000] ACPI: XSDT 0x00000000DE13DF18 00004C (v01 ORCLVB ORCLFACP 00000001      01000013)
+[    0.000000] ACPI: FACP 0x00000000DE13DB18 000114 (v06 ORCLVB ORCLFACP 00000001 ORCL 00000001)
+[    0.000000] ACPI: DSDT 0x00000000DDFC8018 000922 (v06 ORCL	VBOXDSDT 00000001 VBOX 00000001)
+[    0.000000] ACPI: GTDT 0x00000000DE13DC98 000068 (v06 ORCLVB ORCLGTDT 00000001 ORCL 00000001)
+[    0.000000] ACPI: APIC 0x00000000DE13D098 00019C (v06 ORCLVB ORCLAPIC 00000001 ORCL 00000001)
+[    0.000000] ACPI: MCFG 0x00000000DE13D998 00003C (v06 ORCLVB ORCLMCFG 00000001 ORCL 00000001)
+[    0.000000] ACPI: BGRT 0x00000000DE13DA18 000038 (v01 INTEL	EDK2	 00000002      01000013)
+[    0.000000] ACPI: Use ACPI SPCR as default console: Yes
+[    0.000000] NUMA: Faking a node at [mem 0x0000000008000000-0x0000000127ffffff]
+[    0.000000] NODE_DATA(0) allocated [mem 0x1278085c0-0x12780dfff]
+[    0.000000] Zone ranges:
+[    0.000000]	 DMA	  [mem 0x0000000008000000-0x00000000ffffffff]
+[    0.000000]	 DMA32	  empty
+[    0.000000]	 Normal	  [mem 0x0000000100000000-0x0000000127ffffff]
+[    0.000000]	 Device	  empty
+[    0.000000] Movable zone start for each node
+[    0.000000] Early memory node ranges
+[    0.000000]	 node	0: [mem 0x0000000008000000-0x00000000dd99ffff]
+[    0.000000]	 node	0: [mem 0x00000000dd9a0000-0x00000000dd9affff]
+[    0.000000]	 node	0: [mem 0x00000000dd9b0000-0x00000000de15ffff]
+[    0.000000]	 node	0: [mem 0x00000000de160000-0x00000000de35ffff]
+[    0.000000]	 node	0: [mem 0x00000000de360000-0x00000000de3bffff]
+[    0.000000]	 node	0: [mem 0x00000000de3c0000-0x00000000de4dffff]
+[    0.000000]	 node	0: [mem 0x00000000de4e0000-0x00000000de63ffff]
+[    0.000000]	 node	0: [mem 0x00000000de640000-0x00000000de65ffff]
+[    0.000000]	 node	0: [mem 0x00000000de660000-0x00000000df2bffff]
+:[    0.000000] Booting Linux on physical CPU 0x0000000000 [0x610f0000]
+[    0.000000] Linux version 6.14.0-32-generic (buildd@bos03-arm64-105) (aarch64-linux-gnu-gcc-14 (Ubuntu 14.2.0-19ubuntu2) 14.2.0, GNU ld (GNU Binutils for Ubuntu) 2.44) #32-Ubuntu SMP PREEMPT_DYNAMIC Fri Aug 29 14:04:54 UTC 2025 (Ubuntu 6.14.0-32.32-generic 6.14.11)
+[    0.000000] KASLR disabled due to lack of seed
+[    0.000000] efi: EFI v2.7 by EDK II
+[    0.000000] efi: ACPI 2.0=0xde13d018 MEMATTR=0xddec7018 MOKvar=0xdd9a0000 INITRD=0xddecca18 MEMRESERVE=0xddecc398
+[    0.000000] secureboot: Secure boot disabled
+[    0.000000] ACPI: Early table checksum verification disabled
+[    0.000000] ACPI: RSDP 0x00000000DE13D018 000024 (v02 ORCLVB)
+[    0.000000] ACPI: XSDT 0x00000000DE13DF18 00004C (v01 ORCLVB ORCLFACP 00000001      01000013)
+[    0.000000] ACPI: FACP 0x00000000DE13DB18 000114 (v06 ORCLVB ORCLFACP 00000001 ORCL 00000001)
+[    0.000000] ACPI: DSDT 0x00000000DDFC8018 000922 (v06 ORCL	VBOXDSDT 00000001 VBOX 00000001)
+[    0.000000] ACPI: GTDT 0x00000000DE13DC98 000068 (v06 ORCLVB ORCLGTDT 00000001 ORCL 00000001)
+[    0.000000] ACPI: APIC 0x00000000DE13D098 00019C (v06 ORCLVB ORCLAPIC 00000001 ORCL 00000001)
+[    0.000000] ACPI: MCFG 0x00000000DE13D998 00003C (v06 ORCLVB ORCLMCFG 00000001 ORCL 00000001)
+[    0.000000] ACPI: BGRT 0x00000000DE13DA18 000038 (v01 INTEL	EDK2	 00000002      01000013)
+[    0.000000] ACPI: Use ACPI SPCR as default console: Yes
+[    0.000000] NUMA: Faking a node at [mem 0x0000000008000000-0x0000000127ffffff]
+[    0.000000] NODE_DATA(0) allocated [mem 0x1278085c0-0x12780dfff]
+[    0.000000] Zone ranges:
+[    0.000000]	 DMA	  [mem 0x0000000008000000-0x00000000ffffffff]
+[    0.000000]	 DMA32	  empty
+[    0.000000]	 Normal	  [mem 0x0000000100000000-0x0000000127ffffff]
+[    0.000000]	 Device	  empty
+[    0.000000] Movable zone start for each node
+[    0.000000] Early memory node ranges
+[    0.000000]	 node	0: [mem 0x0000000008000000-0x00000000dd99ffff]
+[    0.000000]	 node	0: [mem 0x00000000dd9a0000-0x00000000dd9affff]
+[    0.000000]	 node	0: [mem 0x00000000dd9b0000-0x00000000de15ffff]
+[    0.000000]	 node	0: [mem 0x00000000de160000-0x00000000de35ffff]
+[    0.000000]	 node	0: [mem 0x00000000de360000-0x00000000de3bffff]
+[    0.000000]	 node	0: [mem 0x00000000de3c0000-0x00000000de4dffff]
+[    0.000000]	 node	0: [mem 0x00000000de4e0000-0x00000000de63ffff]
+[    0.000000]	 node	0: [mem 0x00000000de640000-0x00000000de65ffff]
+[    0.000000]	 node	0: [mem 0x00000000de660000-0x00000000df2bffff]
+?1l?1049l?2004haadya@aadya:~$
+?2004haadya@aadya:~$ clear
+aadya@aadya:~$djournalctl
+Aug027 14:50:33 aadya kernel: Booting Linux on physical CPU 0x0000>
+Aug 27 14:50:33 aadya kernel: Linux version 6.14.0-29-generic (bui>
+Aug 27 14:50:33 aadya kernel: 0;1;38:5:185m0;1;38:5:185mKASLR disabled due to lack of seed
+Aug 27 14:50:33 aadya kernel: efi: EFI v2.7 by EDK II
+Aug 27 14:50:33 aadya kernel: efi: ACPI 2.0=0xde13d018 MEMATTR=0xd>
+Aug 27 14:50:33 aadya kernel: secureboot: Secure boot disabled
+Aug 27 14:50:33 aadya kernel: ACPI: Early table checksum verificat>
+Aug 27 14:50:33 aadya kernel: ACPI: RSDP 0x00000000DE13D018 000024>
+Aug 27 14:50:33 aadya kernel: ACPI: XSDT 0x00000000DE13DF18 00004C>
+Aug 27 14:50:33 aadya kernel: ACPI: FACP 0x00000000DE13DB18 000114>
+Aug 27 14:50:33 aadya kernel: ACPI: DSDT 0x00000000DDFC8018 000922>
+Aug 27 14:50:33 aadya kernel: ACPI: GTDT 0x00000000DE13DC98 000068>
+Aug 27 14:50:33 aadya kernel: ACPI: APIC 0x00000000DE13D098 00019C>
+Aug 27 14:50:33 aadya kernel: ACPI: MCFG 0x00000000DE13D998 00003C>
+Aug 27 14:50:33 aadya kernel: ACPI: BGRT 0x00000000DE13DA18 000038>
+Aug 27 14:50:33 aadya kernel: ACPI: Use ACPI SPCR as default conso>
+Aug 27 14:50:33 aadya kernel: NUMA: Faking a node at [mem 0x000000>
+Aug 27 14:50:33 aadya kernel: NODE_DATA(0) allocated [mem 0x127808>
+Aug 27 14:50:33 aadya kernel: Zone ranges:
+Aug 27 14:50:33 aadya kernel:	DMA	 [mem 0x0000000008000000-0>
+Aug 27 14:50:33 aadya kernel:	DMA32	 empty
+Aug 27 14:50:33 aadya kernel:	Normal	 [mem 0x0000000100000000-0>
+Aug 27 14:50:33 aadya kernel:	Device	 empty
+Aug 27 14:50:33 aadya kernel: Movable zone start for each node
+Aug 27 14:50:33 aadya kernel: Early memory node ranges
+Aug 27 14:50:33 aadya kernel:	node   0: [mem 0x0000000008000000->
+Aug 27 14:50:33 aadya kernel:	node   0: [mem 0x00000000dd9a0000->
+Aug 27 14:50:33 aadya kernel:	node   0: [mem 0x00000000dd9b0000->
+Aug 27 14:50:33 aadya kernel:	node   0: [mem 0x00000000de160000->
+Aug 27 14:50:33 aadya kernel:	node   0: [mem 0x00000000de360000->
+Aug 27 14:50:33 aadya kernel:	node   0: [mem 0x00000000de3c0000->
+Aug 27 14:50:33 aadya kernel:	node   0: [mem 0x00000000de4e0000->
+Aug 27 14:50:33 aadya kernel:	node   0: [mem 0x00000000de640000->
+Aug 27 14:50:33 aadya kernel:	node   0: [mem 0x00000000de660000->
+Aug 27 14:50:33 aadya kernel:	node   0: [mem 0x00000000df2c0000->
+lines 1-35Aug 27 14:50:33 aadya kernel: Booting Linux on physical CPU 0x0000000000 [>
+Aug 27 14:50:33 aadya kernel: Linux version 6.14.0-29-generic (buildd@bos0>
+Aug 27 14:50:33 aadya kernel: 0;1;38:5:185m0;1;38:5:185mKASLR disabled due to lack of seed
+Aug 27 14:50:33 aadya kernel: efi: EFI v2.7 by EDK II
+Aug 27 14:50:33 aadya kernel: efi: ACPI 2.0=0xde13d018 MEMATTR=0xddec7018 >
+Aug 27 14:50:33 aadya kernel: secureboot: Secure boot disabled
+Aug 27 14:50:33 aadya kernel: ACPI: Early table checksum verification disa>
+Aug 27 14:50:33 aadya kernel: ACPI: RSDP 0x00000000DE13D018 000024 (v02 OR>
+Aug 27 14:50:33 aadya kernel: ACPI: XSDT 0x00000000DE13DF18 00004C (v01 OR>
+Aug 27 14:50:33 aadya kernel: ACPI: FACP 0x00000000DE13DB18 000114 (v06 OR>
+Aug 27 14:50:33 aadya kernel: ACPI: DSDT 0x00000000DDFC8018 000922 (v06 OR>
+Aug 27 14:50:33 aadya kernel: ACPI: GTDT 0x00000000DE13DC98 000068 (v06 OR>
+Aug 27 14:50:33 aadya kernel: ACPI: APIC 0x00000000DE13D098 00019C (v06 OR>
+Aug 27 14:50:33 aadya kernel: ACPI: MCFG 0x00000000DE13D998 00003C (v06 OR>
+Aug 27 14:50:33 aadya kernel: ACPI: BGRT 0x00000000DE13DA18 000038 (v01 IN>
+Aug 27 14:50:33 aadya kernel: ACPI: Use ACPI SPCR as default console: Yes
+Aug 27 14:50:33 aadya kernel: NUMA: Faking a node at [mem 0x00000000080000>
+Aug 27 14:50:33 aadya kernel: NODE_DATA(0) allocated [mem 0x1278085c0-0x12>
+Aug 27 14:50:33 aadya kernel: Zone ranges:
+Aug 27 14:50:33 aadya kernel:	DMA	 [mem 0x0000000008000000-0x0000000>
+Aug 27 14:50:33 aadya kernel:	DMA32	 empty
+Aug 27 14:50:33 aadya kernel:	Normal	 [mem 0x0000000100000000-0x0000000>
+Aug 27 14:50:33 aadya kernel:	Device	 empty
+Aug 27 14:50:33 aadya kernel: Movable zone start for each node
+Aug 27 14:50:33 aadya kernel: Early memory node ranges
+Aug 27 14:50:33 aadya kernel:	node   0: [mem 0x0000000008000000-0x000000>
+Aug 27 14:50:33 aadya kernel:	node   0: [mem 0x00000000dd9a0000-0x000000>
+Aug 27 14:50:33 aadya kernel:	node   0: [mem 0x00000000dd9b0000-0x000000>
+Aug 27 14:50:33 aadya kernel:	node   0: [mem 0x00000000de160000-0x000000>
+Aug 27 14:50:33 aadya kernel:	node   0: [mem 0x00000000de360000-0x000000>
+Aug 27 14:50:33 aadya kernel:	node   0: [mem 0x00000000de3c0000-0x000000>
+Aug 27 14:50:33 aadya kernel:	node   0: [mem 0x00000000de4e0000-0x000000>
+Aug 27 14:50:33 aadya kernel:	node   0: [mem 0x00000000de640000-0x000000>
+Aug 27 14:50:33 aadya kernel:	node   0: [mem 0x00000000de660000-0x000000>
+Aug 27 14:50:33 aadya kernel:	node   0: [mem 0x00000000df2c0000-0x000000>
+lines 1-35Aug 27 14:50:33 aadya kernel: Booting Linux on physical CPU 0x0000000000 [0x610f0000]
+Aug 27 14:50:33 aadya kernel: Linux version 6.14.0-29-generic (buildd@bos03-arm64-066) (aar>
+Aug 27 14:50:33 aadya kernel: 0;1;38:5:185m0;1;38:5:185mKASLR disabled due to lack of seed
+Aug 27 14:50:33 aadya kernel: efi: EFI v2.7 by EDK II
+Aug 27 14:50:33 aadya kernel: efi: ACPI 2.0=0xde13d018 MEMATTR=0xddec7018 MOKvar=0xdd9a0000>
+Aug 27 14:50:33 aadya kernel: secureboot: Secure boot disabled
+Aug 27 14:50:33 aadya kernel: ACPI: Early table checksum verification disabled
+Aug 27 14:50:33 aadya kernel: ACPI: RSDP 0x00000000DE13D018 000024 (v02 ORCLVB)
+Aug 27 14:50:33 aadya kernel: ACPI: XSDT 0x00000000DE13DF18 00004C (v01 ORCLVB ORCLFACP 000>
+Aug 27 14:50:33 aadya kernel: ACPI: FACP 0x00000000DE13DB18 000114 (v06 ORCLVB ORCLFACP 000>
+Aug 27 14:50:33 aadya kernel: ACPI: DSDT 0x00000000DDFC8018 000922 (v06 ORCL   VBOXDSDT 000>
+Aug 27 14:50:33 aadya kernel: ACPI: GTDT 0x00000000DE13DC98 000068 (v06 ORCLVB ORCLGTDT 000>
+Aug 27 14:50:33 aadya kernel: ACPI: APIC 0x00000000DE13D098 00019C (v06 ORCLVB ORCLAPIC 000>
+Aug 27 14:50:33 aadya kernel: ACPI: MCFG 0x00000000DE13D998 00003C (v06 ORCLVB ORCLMCFG 000>
+Aug 27 14:50:33 aadya kernel: ACPI: BGRT 0x00000000DE13DA18 000038 (v01 INTEL  EDK2	000>
+Aug 27 14:50:33 aadya kernel: ACPI: Use ACPI SPCR as default console: Yes
+Aug 27 14:50:33 aadya kernel: NUMA: Faking a node at [mem 0x0000000008000000-0x0000000127ff>
+Aug 27 14:50:33 aadya kernel: NODE_DATA(0) allocated [mem 0x1278085c0-0x12780dfff]
+Aug 27 14:50:33 aadya kernel: Zone ranges:
+Aug 27 14:50:33 aadya kernel:	DMA	 [mem 0x0000000008000000-0x00000000ffffffff]
+Aug 27 14:50:33 aadya kernel:	DMA32	 empty
+Aug 27 14:50:33 aadya kernel:	Normal	 [mem 0x0000000100000000-0x0000000127ffffff]
+Aug 27 14:50:33 aadya kernel:	Device	 empty
+Aug 27 14:50:33 aadya kernel: Movable zone start for each node
+Aug 27 14:50:33 aadya kernel: Early memory node ranges
+Aug 27 14:50:33 aadya kernel:	node   0: [mem 0x0000000008000000-0x00000000dd99ffff]
+Aug 27 14:50:33 aadya kernel:	node   0: [mem 0x00000000dd9a0000-0x00000000dd9affff]
+Aug 27 14:50:33 aadya kernel:	node   0: [mem 0x00000000dd9b0000-0x00000000de15ffff]
+Aug 27 14:50:33 aadya kernel:	node   0: [mem 0x00000000de160000-0x00000000de35ffff]
+Aug 27 14:50:33 aadya kernel:	node   0: [mem 0x00000000de360000-0x00000000de3bffff]
+Aug 27 14:50:33 aadya kernel:	node   0: [mem 0x00000000de3c0000-0x00000000de4dffff]
+Aug 27 14:50:33 aadya kernel:	node   0: [mem 0x00000000de4e0000-0x00000000de63ffff]
+Aug 27 14:50:33 aadya kernel:	node   0: [mem 0x00000000de640000-0x00000000de65ffff]
+Aug 27 14:50:33 aadya kernel:	node   0: [mem 0x00000000de660000-0x00000000df2bffff]
+Aug 27 14:50:33 aadya kernel:	node   0: [mem 0x00000000df2c0000-0x00000000df69ffff]
+lines 1-35Aug 27 14:50:33 aadya kernel: Booting Linux on physical CPU 0x0000000000 [0x610f0000]
+Aug 27 14:50:33 aadya kernel: Linux version 6.14.0-29-generic (buildd@bos03-arm64-066) (aarch64-linux-gnu-gcc-14>
+Aug 27 14:50:33 aadya kernel: 0;1;38:5:185m0;1;38:5:185mKASLR disabled due to lack of seed
+Aug 27 14:50:33 aadya kernel: efi: EFI v2.7 by EDK II
+Aug 27 14:50:33 aadya kernel: efi: ACPI 2.0=0xde13d018 MEMATTR=0xddec7018 MOKvar=0xdd9a0000 INITRD=0xddecca18 ME>
+Aug 27 14:50:33 aadya kernel: secureboot: Secure boot disabled
+Aug 27 14:50:33 aadya kernel: ACPI: Early table checksum verification disabled
+Aug 27 14:50:33 aadya kernel: ACPI: RSDP 0x00000000DE13D018 000024 (v02 ORCLVB)
+Aug 27 14:50:33 aadya kernel: ACPI: XSDT 0x00000000DE13DF18 00004C (v01 ORCLVB ORCLFACP 00000001      01000013)
+Aug 27 14:50:33 aadya kernel: ACPI: FACP 0x00000000DE13DB18 000114 (v06 ORCLVB ORCLFACP 00000001 ORCL 00000001)
+Aug 27 14:50:33 aadya kernel: ACPI: DSDT 0x00000000DDFC8018 000922 (v06 ORCL   VBOXDSDT 00000001 VBOX 00000001)
+Aug 27 14:50:33 aadya kernel: ACPI: GTDT 0x00000000DE13DC98 000068 (v06 ORCLVB ORCLGTDT 00000001 ORCL 00000001)
+Aug 27 14:50:33 aadya kernel: ACPI: APIC 0x00000000DE13D098 00019C (v06 ORCLVB ORCLAPIC 00000001 ORCL 00000001)
+Aug 27 14:50:33 aadya kernel: ACPI: MCFG 0x00000000DE13D998 00003C (v06 ORCLVB ORCLMCFG 00000001 ORCL 00000001)
+Aug 27 14:50:33 aadya kernel: ACPI: BGRT 0x00000000DE13DA18 000038 (v01 INTEL  EDK2	00000002      01000013)
+Aug 27 14:50:33 aadya kernel: ACPI: Use ACPI SPCR as default console: Yes
+Aug 27 14:50:33 aadya kernel: NUMA: Faking a node at [mem 0x0000000008000000-0x0000000127ffffff]
+Aug 27 14:50:33 aadya kernel: NODE_DATA(0) allocated [mem 0x1278085c0-0x12780dfff]
+Aug 27 14:50:33 aadya kernel: Zone ranges:
+Aug 27 14:50:33 aadya kernel:	DMA	 [mem 0x0000000008000000-0x00000000ffffffff]
+Aug 27 14:50:33 aadya kernel:	DMA32	 empty
+Aug 27 14:50:33 aadya kernel:	Normal	 [mem 0x0000000100000000-0x0000000127ffffff]
+Aug 27 14:50:33 aadya kernel:	Device	 empty
+Aug 27 14:50:33 aadya kernel: Movable zone start for each node
+Aug 27 14:50:33 aadya kernel: Early memory node ranges
+Aug 27 14:50:33 aadya kernel:	node   0: [mem 0x0000000008000000-0x00000000dd99ffff]
+Aug 27 14:50:33 aadya kernel:	node   0: [mem 0x00000000dd9a0000-0x00000000dd9affff]
+Aug 27 14:50:33 aadya kernel:	node   0: [mem 0x00000000dd9b0000-0x00000000de15ffff]
+Aug 27 14:50:33 aadya kernel:	node   0: [mem 0x00000000de160000-0x00000000de35ffff]
+Aug 27 14:50:33 aadya kernel:	node   0: [mem 0x00000000de360000-0x00000000de3bffff]
+Aug 27 14:50:33 aadya kernel:	node   0: [mem 0x00000000de3c0000-0x00000000de4dffff]
+Aug 27 14:50:33 aadya kernel:	node   0: [mem 0x00000000de4e0000-0x00000000de63ffff]
+Aug 27 14:50:33 aadya kernel:	node   0: [mem 0x00000000de640000-0x00000000de65ffff]
+Aug 27 14:50:33 aadya kernel:	node   0: [mem 0x00000000de660000-0x00000000df2bffff]
+Aug 27 14:50:33 aadya kernel:	node   0: [mem 0x00000000df2c0000-0x00000000df69ffff]
+lines 1-35Aug 27 14:50:33 aadya kernel: Booting Linux on physical CPU 0x0000000000 [0x610f0000]
+Aug 27 14:50:33 aadya kernel: Linux version 6.14.0-29-generic (buildd@bos03-arm64-066) (aarch64-linux-gnu-gcc-14 (Ubuntu 14.2>
+Aug 27 14:50:33 aadya kernel: 0;1;38:5:185m0;1;38:5:185mKASLR disabled due to lack of seed
+Aug 27 14:50:33 aadya kernel: efi: EFI v2.7 by EDK II
+Aug 27 14:50:33 aadya kernel: efi: ACPI 2.0=0xde13d018 MEMATTR=0xddec7018 MOKvar=0xdd9a0000 INITRD=0xddecca18 MEMRESERVE=0xdd>
+Aug 27 14:50:33 aadya kernel: secureboot: Secure boot disabled
+Aug 27 14:50:33 aadya kernel: ACPI: Early table checksum verification disabled
+Aug 27 14:50:33 aadya kernel: ACPI: RSDP 0x00000000DE13D018 000024 (v02 ORCLVB)
+Aug 27 14:50:33 aadya kernel: ACPI: XSDT 0x00000000DE13DF18 00004C (v01 ORCLVB ORCLFACP 00000001      01000013)
+Aug 27 14:50:33 aadya kernel: ACPI: FACP 0x00000000DE13DB18 000114 (v06 ORCLVB ORCLFACP 00000001 ORCL 00000001)
+Aug 27 14:50:33 aadya kernel: ACPI: DSDT 0x00000000DDFC8018 000922 (v06 ORCL   VBOXDSDT 00000001 VBOX 00000001)
+Aug 27 14:50:33 aadya kernel: ACPI: GTDT 0x00000000DE13DC98 000068 (v06 ORCLVB ORCLGTDT 00000001 ORCL 00000001)
+Aug 27 14:50:33 aadya kernel: ACPI: APIC 0x00000000DE13D098 00019C (v06 ORCLVB ORCLAPIC 00000001 ORCL 00000001)
+Aug 27 14:50:33 aadya kernel: ACPI: MCFG 0x00000000DE13D998 00003C (v06 ORCLVB ORCLMCFG 00000001 ORCL 00000001)
+Aug 27 14:50:33 aadya kernel: ACPI: BGRT 0x00000000DE13DA18 000038 (v01 INTEL  EDK2	00000002      01000013)
+Aug 27 14:50:33 aadya kernel: ACPI: Use ACPI SPCR as default console: Yes
+Aug 27 14:50:33 aadya kernel: NUMA: Faking a node at [mem 0x0000000008000000-0x0000000127ffffff]
+Aug 27 14:50:33 aadya kernel: NODE_DATA(0) allocated [mem 0x1278085c0-0x12780dfff]
+Aug 27 14:50:33 aadya kernel: Zone ranges:
+Aug 27 14:50:33 aadya kernel:	DMA	 [mem 0x0000000008000000-0x00000000ffffffff]
+Aug 27 14:50:33 aadya kernel:	DMA32	 empty
+Aug 27 14:50:33 aadya kernel:	Normal	 [mem 0x0000000100000000-0x0000000127ffffff]
+Aug 27 14:50:33 aadya kernel:	Device	 empty
+Aug 27 14:50:33 aadya kernel: Movable zone start for each node
+Aug 27 14:50:33 aadya kernel: Early memory node ranges
+Aug 27 14:50:33 aadya kernel:	node   0: [mem 0x0000000008000000-0x00000000dd99ffff]
+Aug 27 14:50:33 aadya kernel:	node   0: [mem 0x00000000dd9a0000-0x00000000dd9affff]
+Aug 27 14:50:33 aadya kernel:	node   0: [mem 0x00000000dd9b0000-0x00000000de15ffff]
+Aug 27 14:50:33 aadya kernel:	node   0: [mem 0x00000000de160000-0x00000000de35ffff]
+Aug 27 14:50:33 aadya kernel:	node   0: [mem 0x00000000de360000-0x00000000de3bffff]
+Aug 27 14:50:33 aadya kernel:	node   0: [mem 0x00000000de3c0000-0x00000000de4dffff]
+Aug 27 14:50:33 aadya kernel:	node   0: [mem 0x00000000de4e0000-0x00000000de63ffff]
+Aug 27 14:50:33 aadya kernel:	node   0: [mem 0x00000000de640000-0x00000000de65ffff]
+Aug 27 14:50:33 aadya kernel:	node   0: [mem 0x00000000de660000-0x00000000df2bffff]
+Aug 27 14:50:33 aadya kernel:	node   0: [mem 0x00000000df2c0000-0x00000000df69ffff]
+lines 1-35Aug 27 14:50:33 aadya kernel: Booting Linux on physical CPU 0x0000000000 [0x610f0000]
+Aug 27 14:50:33 aadya kernel: Linux version 6.14.0-29-generic (buildd@bos03-arm64-066) (aarch64-linux-gnu-gcc-14 (Ubuntu 14.2.0-1>
+Aug 27 14:50:33 aadya kernel: 0;1;38:5:185m0;1;38:5:185mKASLR disabled due to lack of seed
+Aug 27 14:50:33 aadya kernel: efi: EFI v2.7 by EDK II
+Aug 27 14:50:33 aadya kernel: efi: ACPI 2.0=0xde13d018 MEMATTR=0xddec7018 MOKvar=0xdd9a0000 INITRD=0xddecca18 MEMRESERVE=0xddecc3>
+Aug 27 14:50:33 aadya kernel: secureboot: Secure boot disabled
+Aug 27 14:50:33 aadya kernel: ACPI: Early table checksum verification disabled
+Aug 27 14:50:33 aadya kernel: ACPI: RSDP 0x00000000DE13D018 000024 (v02 ORCLVB)
+Aug 27 14:50:33 aadya kernel: ACPI: XSDT 0x00000000DE13DF18 00004C (v01 ORCLVB ORCLFACP 00000001      01000013)
+Aug 27 14:50:33 aadya kernel: ACPI: FACP 0x00000000DE13DB18 000114 (v06 ORCLVB ORCLFACP 00000001 ORCL 00000001)
+Aug 27 14:50:33 aadya kernel: ACPI: DSDT 0x00000000DDFC8018 000922 (v06 ORCL   VBOXDSDT 00000001 VBOX 00000001)
+Aug 27 14:50:33 aadya kernel: ACPI: GTDT 0x00000000DE13DC98 000068 (v06 ORCLVB ORCLGTDT 00000001 ORCL 00000001)
+Aug 27 14:50:33 aadya kernel: ACPI: APIC 0x00000000DE13D098 00019C (v06 ORCLVB ORCLAPIC 00000001 ORCL 00000001)
+Aug 27 14:50:33 aadya kernel: ACPI: MCFG 0x00000000DE13D998 00003C (v06 ORCLVB ORCLMCFG 00000001 ORCL 00000001)
+Aug 27 14:50:33 aadya kernel: ACPI: BGRT 0x00000000DE13DA18 000038 (v01 INTEL  EDK2	00000002      01000013)
+Aug 27 14:50:33 aadya kernel: ACPI: Use ACPI SPCR as default console: Yes
+Aug 27 14:50:33 aadya kernel: NUMA: Faking a node at [mem 0x0000000008000000-0x0000000127ffffff]
+Aug 27 14:50:33 aadya kernel: NODE_DATA(0) allocated [mem 0x1278085c0-0x12780dfff]
+Aug 27 14:50:33 aadya kernel: Zone ranges:
+Aug 27 14:50:33 aadya kernel:	DMA	 [mem 0x0000000008000000-0x00000000ffffffff]
+Aug 27 14:50:33 aadya kernel:	DMA32	 empty
+Aug 27 14:50:33 aadya kernel:	Normal	 [mem 0x0000000100000000-0x0000000127ffffff]
+Aug 27 14:50:33 aadya kernel:	Device	 empty
+Aug 27 14:50:33 aadya kernel: Movable zone start for each node
+Aug 27 14:50:33 aadya kernel: Early memory node ranges
+Aug 27 14:50:33 aadya kernel:	node   0: [mem 0x0000000008000000-0x00000000dd99ffff]
+Aug 27 14:50:33 aadya kernel:	node   0: [mem 0x00000000dd9a0000-0x00000000dd9affff]
+Aug 27 14:50:33 aadya kernel:	node   0: [mem 0x00000000dd9b0000-0x00000000de15ffff]
+Aug 27 14:50:33 aadya kernel:	node   0: [mem 0x00000000de160000-0x00000000de35ffff]
+Aug 27 14:50:33 aadya kernel:	node   0: [mem 0x00000000de360000-0x00000000de3bffff]
+Aug 27 14:50:33 aadya kernel:	node   0: [mem 0x00000000de3c0000-0x00000000de4dffff]
+Aug 27 14:50:33 aadya kernel:	node   0: [mem 0x00000000de4e0000-0x00000000de63ffff]
+Aug 27 14:50:33 aadya kernel:	node   0: [mem 0x00000000de640000-0x00000000de65ffff]
+Aug 27 14:50:33 aadya kernel:	node   0: [mem 0x00000000de660000-0x00000000df2bffff]
+Aug 27 14:50:33 aadya kernel:	node   0: [mem 0x00000000df2c0000-0x00000000df69ffff]
+lines 1-35Aug 27 14:50:33 aadya kernel: Booting Linux on physical CPU 0x0000000000 [0x610f0000]
+Aug 27 14:50:33 aadya kernel: Linux version 6.14.0-29-generic (buildd@bos03-arm64-066) (aarch64-linux-gnu-gcc-14 (Ubuntu 14.2.0-19>
+Aug 27 14:50:33 aadya kernel: 0;1;38:5:185m0;1;38:5:185mKASLR disabled due to lack of seed
+Aug 27 14:50:33 aadya kernel: efi: EFI v2.7 by EDK II
+Aug 27 14:50:33 aadya kernel: efi: ACPI 2.0=0xde13d018 MEMATTR=0xddec7018 MOKvar=0xdd9a0000 INITRD=0xddecca18 MEMRESERVE=0xddecc39>
+Aug 27 14:50:33 aadya kernel: secureboot: Secure boot disabled
+Aug 27 14:50:33 aadya kernel: ACPI: Early table checksum verification disabled
+Aug 27 14:50:33 aadya kernel: ACPI: RSDP 0x00000000DE13D018 000024 (v02 ORCLVB)
+Aug 27 14:50:33 aadya kernel: ACPI: XSDT 0x00000000DE13DF18 00004C (v01 ORCLVB ORCLFACP 00000001      01000013)
+Aug 27 14:50:33 aadya kernel: ACPI: FACP 0x00000000DE13DB18 000114 (v06 ORCLVB ORCLFACP 00000001 ORCL 00000001)
+Aug 27 14:50:33 aadya kernel: ACPI: DSDT 0x00000000DDFC8018 000922 (v06 ORCL   VBOXDSDT 00000001 VBOX 00000001)
+Aug 27 14:50:33 aadya kernel: ACPI: GTDT 0x00000000DE13DC98 000068 (v06 ORCLVB ORCLGTDT 00000001 ORCL 00000001)
+Aug 27 14:50:33 aadya kernel: ACPI: APIC 0x00000000DE13D098 00019C (v06 ORCLVB ORCLAPIC 00000001 ORCL 00000001)
+Aug 27 14:50:33 aadya kernel: ACPI: MCFG 0x00000000DE13D998 00003C (v06 ORCLVB ORCLMCFG 00000001 ORCL 00000001)
+Aug 27 14:50:33 aadya kernel: ACPI: BGRT 0x00000000DE13DA18 000038 (v01 INTEL  EDK2	00000002      01000013)
+Aug 27 14:50:33 aadya kernel: ACPI: Use ACPI SPCR as default console: Yes
+Aug 27 14:50:33 aadya kernel: NUMA: Faking a node at [mem 0x0000000008000000-0x0000000127ffffff]
+Aug 27 14:50:33 aadya kernel: NODE_DATA(0) allocated [mem 0x1278085c0-0x12780dfff]
+Aug 27 14:50:33 aadya kernel: Zone ranges:
+Aug 27 14:50:33 aadya kernel:	DMA	 [mem 0x0000000008000000-0x00000000ffffffff]
+Aug 27 14:50:33 aadya kernel:	DMA32	 empty
+Aug 27 14:50:33 aadya kernel:	Normal	 [mem 0x0000000100000000-0x0000000127ffffff]
+Aug 27 14:50:33 aadya kernel:	Device	 empty
+Aug 27 14:50:33 aadya kernel: Movable zone start for each node
+Aug 27 14:50:33 aadya kernel: Early memory node ranges
+Aug 27 14:50:33 aadya kernel:	node   0: [mem 0x0000000008000000-0x00000000dd99ffff]
+Aug 27 14:50:33 aadya kernel:	node   0: [mem 0x00000000dd9a0000-0x00000000dd9affff]
+Aug 27 14:50:33 aadya kernel:	node   0: [mem 0x00000000dd9b0000-0x00000000de15ffff]
+Aug 27 14:50:33 aadya kernel:	node   0: [mem 0x00000000de160000-0x00000000de35ffff]
+Aug 27 14:50:33 aadya kernel:	node   0: [mem 0x00000000de360000-0x00000000de3bffff]
+Aug 27 14:50:33 aadya kernel:	node   0: [mem 0x00000000de3c0000-0x00000000de4dffff]
+Aug 27 14:50:33 aadya kernel:	node   0: [mem 0x00000000de4e0000-0x00000000de63ffff]
+Aug 27 14:50:33 aadya kernel:	node   0: [mem 0x00000000de640000-0x00000000de65ffff]
+Aug 27 14:50:33 aadya kernel:	node   0: [mem 0x00000000de660000-0x00000000df2bffff]
+Aug 27 14:50:33 aadya kernel:	node   0: [mem 0x00000000df2c0000-0x00000000df69ffff]
+lines 1-35Aug 27 14:50:33 aadya kernel: Booting Linux on physical CPU 0x0000000000 [0x610f0000]
+Aug 27 14:50:33 aadya kernel: Linux version 6.14.0-29-generic (buildd@bos03-arm64-066) (aarch64-linux-gnu-gcc-14 (Ubuntu 14.2.0-19ub>
+Aug 27 14:50:33 aadya kernel: 0;1;38:5:185m0;1;38:5:185mKASLR disabled due to lack of seed
+Aug 27 14:50:33 aadya kernel: efi: EFI v2.7 by EDK II
+Aug 27 14:50:33 aadya kernel: efi: ACPI 2.0=0xde13d018 MEMATTR=0xddec7018 MOKvar=0xdd9a0000 INITRD=0xddecca18 MEMRESERVE=0xddecc398
+Aug 27 14:50:33 aadya kernel: secureboot: Secure boot disabled
+Aug 27 14:50:33 aadya kernel: ACPI: Early table checksum verification disabled
+Aug 27 14:50:33 aadya kernel: ACPI: RSDP 0x00000000DE13D018 000024 (v02 ORCLVB)
+Aug 27 14:50:33 aadya kernel: ACPI: XSDT 0x00000000DE13DF18 00004C (v01 ORCLVB ORCLFACP 00000001      01000013)
+Aug 27 14:50:33 aadya kernel: ACPI: FACP 0x00000000DE13DB18 000114 (v06 ORCLVB ORCLFACP 00000001 ORCL 00000001)
+Aug 27 14:50:33 aadya kernel: ACPI: DSDT 0x00000000DDFC8018 000922 (v06 ORCL   VBOXDSDT 00000001 VBOX 00000001)
+Aug 27 14:50:33 aadya kernel: ACPI: GTDT 0x00000000DE13DC98 000068 (v06 ORCLVB ORCLGTDT 00000001 ORCL 00000001)
+Aug 27 14:50:33 aadya kernel: ACPI: APIC 0x00000000DE13D098 00019C (v06 ORCLVB ORCLAPIC 00000001 ORCL 00000001)
+Aug 27 14:50:33 aadya kernel: ACPI: MCFG 0x00000000DE13D998 00003C (v06 ORCLVB ORCLMCFG 00000001 ORCL 00000001)
+Aug 27 14:50:33 aadya kernel: ACPI: BGRT 0x00000000DE13DA18 000038 (v01 INTEL  EDK2	00000002      01000013)
+Aug 27 14:50:33 aadya kernel: ACPI: Use ACPI SPCR as default console: Yes
+Aug 27 14:50:33 aadya kernel: NUMA: Faking a node at [mem 0x0000000008000000-0x0000000127ffffff]
+Aug 27 14:50:33 aadya kernel: NODE_DATA(0) allocated [mem 0x1278085c0-0x12780dfff]
+Aug 27 14:50:33 aadya kernel: Zone ranges:
+Aug 27 14:50:33 aadya kernel:	DMA	 [mem 0x0000000008000000-0x00000000ffffffff]
+Aug 27 14:50:33 aadya kernel:	DMA32	 empty
+Aug 27 14:50:33 aadya kernel:	Normal	 [mem 0x0000000100000000-0x0000000127ffffff]
+Aug 27 14:50:33 aadya kernel:	Device	 empty
+Aug 27 14:50:33 aadya kernel: Movable zone start for each node
+Aug 27 14:50:33 aadya kernel: Early memory node ranges
+Aug 27 14:50:33 aadya kernel:	node   0: [mem 0x0000000008000000-0x00000000dd99ffff]
+Aug 27 14:50:33 aadya kernel:	node   0: [mem 0x00000000dd9a0000-0x00000000dd9affff]
+Aug 27 14:50:33 aadya kernel:	node   0: [mem 0x00000000dd9b0000-0x00000000de15ffff]
+Aug 27 14:50:33 aadya kernel:	node   0: [mem 0x00000000de160000-0x00000000de35ffff]
+Aug 27 14:50:33 aadya kernel:	node   0: [mem 0x00000000de360000-0x00000000de3bffff]
+Aug 27 14:50:33 aadya kernel:	node   0: [mem 0x00000000de3c0000-0x00000000de4dffff]
+Aug 27 14:50:33 aadya kernel:	node   0: [mem 0x00000000de4e0000-0x00000000de63ffff]
+Aug 27 14:50:33 aadya kernel:	node   0: [mem 0x00000000de640000-0x00000000de65ffff]
+Aug 27 14:50:33 aadya kernel:	node   0: [mem 0x00000000de660000-0x00000000df2bffff]
+Aug 27 14:50:33 aadya kernel:	node   0: [mem 0x00000000df2c0000-0x00000000df69ffff]
+lines 1-35Aug 27 14:50:33 aadya kernel: Booting Linux on physical CPU 0x0000000000 [0x610f0000]
+Aug 27 14:50:33 aadya kernel: Linux version 6.14.0-29-generic (buildd@bos03-arm64-066) (aarch64-linux-gnu-gcc-14 (Ubuntu 14.2.0-19ubun>
+Aug 27 14:50:33 aadya kernel: 0;1;38:5:185m0;1;38:5:185mKASLR disabled due to lack of seed
+Aug 27 14:50:33 aadya kernel: efi: EFI v2.7 by EDK II
+Aug 27 14:50:33 aadya kernel: efi: ACPI 2.0=0xde13d018 MEMATTR=0xddec7018 MOKvar=0xdd9a0000 INITRD=0xddecca18 MEMRESERVE=0xddecc398
+Aug 27 14:50:33 aadya kernel: secureboot: Secure boot disabled
+Aug 27 14:50:33 aadya kernel: ACPI: Early table checksum verification disabled
+Aug 27 14:50:33 aadya kernel: ACPI: RSDP 0x00000000DE13D018 000024 (v02 ORCLVB)
+Aug 27 14:50:33 aadya kernel: ACPI: XSDT 0x00000000DE13DF18 00004C (v01 ORCLVB ORCLFACP 00000001      01000013)
+Aug 27 14:50:33 aadya kernel: ACPI: FACP 0x00000000DE13DB18 000114 (v06 ORCLVB ORCLFACP 00000001 ORCL 00000001)
+Aug 27 14:50:33 aadya kernel: ACPI: DSDT 0x00000000DDFC8018 000922 (v06 ORCL   VBOXDSDT 00000001 VBOX 00000001)
+Aug 27 14:50:33 aadya kernel: ACPI: GTDT 0x00000000DE13DC98 000068 (v06 ORCLVB ORCLGTDT 00000001 ORCL 00000001)
+Aug 27 14:50:33 aadya kernel: ACPI: APIC 0x00000000DE13D098 00019C (v06 ORCLVB ORCLAPIC 00000001 ORCL 00000001)
+Aug 27 14:50:33 aadya kernel: ACPI: MCFG 0x00000000DE13D998 00003C (v06 ORCLVB ORCLMCFG 00000001 ORCL 00000001)
+Aug 27 14:50:33 aadya kernel: ACPI: BGRT 0x00000000DE13DA18 000038 (v01 INTEL  EDK2	00000002      01000013)
+Aug 27 14:50:33 aadya kernel: ACPI: Use ACPI SPCR as default console: Yes
+Aug 27 14:50:33 aadya kernel: NUMA: Faking a node at [mem 0x0000000008000000-0x0000000127ffffff]
+Aug 27 14:50:33 aadya kernel: NODE_DATA(0) allocated [mem 0x1278085c0-0x12780dfff]
+Aug 27 14:50:33 aadya kernel: Zone ranges:
+Aug 27 14:50:33 aadya kernel:	DMA	 [mem 0x0000000008000000-0x00000000ffffffff]
+Aug 27 14:50:33 aadya kernel:	DMA32	 empty
+Aug 27 14:50:33 aadya kernel:	Normal	 [mem 0x0000000100000000-0x0000000127ffffff]
+Aug 27 14:50:33 aadya kernel:	Device	 empty
+Aug 27 14:50:33 aadya kernel: Movable zone start for each node
+Aug 27 14:50:33 aadya kernel: Early memory node ranges
+Aug 27 14:50:33 aadya kernel:	node   0: [mem 0x0000000008000000-0x00000000dd99ffff]
+Aug 27 14:50:33 aadya kernel:	node   0: [mem 0x00000000dd9a0000-0x00000000dd9affff]
+Aug 27 14:50:33 aadya kernel:	node   0: [mem 0x00000000dd9b0000-0x00000000de15ffff]
+Aug 27 14:50:33 aadya kernel:	node   0: [mem 0x00000000de160000-0x00000000de35ffff]
+Aug 27 14:50:33 aadya kernel:	node   0: [mem 0x00000000de360000-0x00000000de3bffff]
+Aug 27 14:50:33 aadya kernel:	node   0: [mem 0x00000000de3c0000-0x00000000de4dffff]
+Aug 27 14:50:33 aadya kernel:	node   0: [mem 0x00000000de4e0000-0x00000000de63ffff]
+Aug 27 14:50:33 aadya kernel:	node   0: [mem 0x00000000de640000-0x00000000de65ffff]
+Aug 27 14:50:33 aadya kernel:	node   0: [mem 0x00000000de660000-0x00000000df2bffff]
+Aug 27 14:50:33 aadya kernel:	node   0: [mem 0x00000000df2c0000-0x00000000df69ffff]
+lines 1-35Aug 27 14:50:33 aadya kernel: Booting Linux on physical CPU 0x0000000000 [0x610f0000]
+Aug 27 14:50:33 aadya kernel: Linux version 6.14.0-29-generic (buildd@bos03-arm64-066) (aarch64-linux-gnu-gcc-14 (Ubuntu 14.2.0-19ubunt>
+Aug 27 14:50:33 aadya kernel: 0;1;38:5:185m0;1;38:5:185mKASLR disabled due to lack of seed
+Aug 27 14:50:33 aadya kernel: efi: EFI v2.7 by EDK II
+Aug 27 14:50:33 aadya kernel: efi: ACPI 2.0=0xde13d018 MEMATTR=0xddec7018 MOKvar=0xdd9a0000 INITRD=0xddecca18 MEMRESERVE=0xddecc398
+Aug 27 14:50:33 aadya kernel: secureboot: Secure boot disabled
+Aug 27 14:50:33 aadya kernel: ACPI: Early table checksum verification disabled
+Aug 27 14:50:33 aadya kernel: ACPI: RSDP 0x00000000DE13D018 000024 (v02 ORCLVB)
+Aug 27 14:50:33 aadya kernel: ACPI: XSDT 0x00000000DE13DF18 00004C (v01 ORCLVB ORCLFACP 00000001      01000013)
+Aug 27 14:50:33 aadya kernel: ACPI: FACP 0x00000000DE13DB18 000114 (v06 ORCLVB ORCLFACP 00000001 ORCL 00000001)
+Aug 27 14:50:33 aadya kernel: ACPI: DSDT 0x00000000DDFC8018 000922 (v06 ORCL   VBOXDSDT 00000001 VBOX 00000001)
+Aug 27 14:50:33 aadya kernel: ACPI: GTDT 0x00000000DE13DC98 000068 (v06 ORCLVB ORCLGTDT 00000001 ORCL 00000001)
+Aug 27 14:50:33 aadya kernel: ACPI: APIC 0x00000000DE13D098 00019C (v06 ORCLVB ORCLAPIC 00000001 ORCL 00000001)
+Aug 27 14:50:33 aadya kernel: ACPI: MCFG 0x00000000DE13D998 00003C (v06 ORCLVB ORCLMCFG 00000001 ORCL 00000001)
+Aug 27 14:50:33 aadya kernel: ACPI: BGRT 0x00000000DE13DA18 000038 (v01 INTEL  EDK2	00000002      01000013)
+Aug 27 14:50:33 aadya kernel: ACPI: Use ACPI SPCR as default console: Yes
+Aug 27 14:50:33 aadya kernel: NUMA: Faking a node at [mem 0x0000000008000000-0x0000000127ffffff]
+Aug 27 14:50:33 aadya kernel: NODE_DATA(0) allocated [mem 0x1278085c0-0x12780dfff]
+Aug 27 14:50:33 aadya kernel: Zone ranges:
+Aug 27 14:50:33 aadya kernel:	DMA	 [mem 0x0000000008000000-0x00000000ffffffff]
+Aug 27 14:50:33 aadya kernel:	DMA32	 empty
+Aug 27 14:50:33 aadya kernel:	Normal	 [mem 0x0000000100000000-0x0000000127ffffff]
+Aug 27 14:50:33 aadya kernel:	Device	 empty
+Aug 27 14:50:33 aadya kernel: Movable zone start for each node
+Aug 27 14:50:33 aadya kernel: Early memory node ranges
+Aug 27 14:50:33 aadya kernel:	node   0: [mem 0x0000000008000000-0x00000000dd99ffff]
+Aug 27 14:50:33 aadya kernel:	node   0: [mem 0x00000000dd9a0000-0x00000000dd9affff]
+Aug 27 14:50:33 aadya kernel:	node   0: [mem 0x00000000dd9b0000-0x00000000de15ffff]
+Aug 27 14:50:33 aadya kernel:	node   0: [mem 0x00000000de160000-0x00000000de35ffff]
+Aug 27 14:50:33 aadya kernel:	node   0: [mem 0x00000000de360000-0x00000000de3bffff]
+Aug 27 14:50:33 aadya kernel:	node   0: [mem 0x00000000de3c0000-0x00000000de4dffff]
+Aug 27 14:50:33 aadya kernel:	node   0: [mem 0x00000000de4e0000-0x00000000de63ffff]
+Aug 27 14:50:33 aadya kernel:	node   0: [mem 0x00000000de640000-0x00000000de65ffff]
+Aug 27 14:50:33 aadya kernel:	node   0: [mem 0x00000000de660000-0x00000000df2bffff]
+Aug 27 14:50:33 aadya kernel:	node   0: [mem 0x00000000df2c0000-0x00000000df69ffff]
+?1l?2004h5141 aadya@aadya:~$ clear
+aadya@aadya:~$dlast$
+Command 'last' not found, but can be installed with:
+sudo apt install wtmpdb
+?2004h 127 aadya@aadya:~$ sudo apt install wtmpdb
+sudo apt install wtmpdb
+
+Thevfollowingdpackage.was0automatically installed and is no longer required:
+  libutempter0
+Use 'sudo apt autoremove' to remove it.
+
+Installing:
+  wtmpdb
+
+Installing dependencies:
+  libpam-wtmpdb	 libwtmpdb0
+
+Summary:
+  Upgrading: 0, Installing: 3, Removing: 0, Not Upgrading: 84
+  Download size: 36.3 kB
+  Space needed: 289 kB / 1,262 MB available
+
+Continue? [Y/n] y
+Get:1ohttp://ports.ubuntu.com/ubuntu-portsdplucky/universe arm64 libwtmpdb0 arm64 0.13.0-6 [9,532 B]
+Get:2Whttp://ports.ubuntu.com/ubuntu-ports plucky/universe arm64 wtmpdb arm64 0.13.0-6 [17.7 kB]
+Get:3Whttp://ports.ubuntu.com/ubuntu-ports plucky/universe arm64 libpam-wtmpdb arm64 0.13.0-6 [9,140 B]
+Fetchedo36.3gkBtind2s6(14.7BkB/s)0 B 76%]
+
+Selecting previously unselected package libwtmpdb0:arm64.
+(Reading database ... 213373 files and directories currently installed.)
+Preparing to unpack .../libwtmpdb0_0.13.0-6_arm64.deb ...
+Progress: [  0%] [					       ] Progress: [  8%] [███▍						] Unpacking libwtmpdb0:arm64 (0.13.0-6) ...
+Progress: [ 15%] [██████▉				       ] Selecting previously unselected package wtmpdb.
+Preparing to unpack .../wtmpdb_0.13.0-6_arm64.deb ...
+Progress: [ 23%] [██████████▍				       ] Unpacking wtmpdb (0.13.0-6) ...
+Progress: [ 31%] [█████████████▊			       ] Selecting previously unselected package libpam-wtmpdb:arm64.
+Preparing to unpack .../libpam-wtmpdb_0.13.0-6_arm64.deb ...
+Progress: [ 38%] [█████████████████▎			       ] Unpacking libpam-wtmpdb:arm64 (0.13.0-6) ...
+Progress: [ 46%] [████████████████████▊			       ] Setting up libwtmpdb0:arm64 (0.13.0-6) ...
+Progress: [ 54%] [████████████████████████▏		       ] Progress: [ 62%] [███████████████████████████▋			] Setting up libpam-wtmpdb:arm64 (0.13.0-6) ...
+Progress: [ 69%] [███████████████████████████████▏	       ] Progress: [ 77%] [██████████████████████████████████▌		] Setting up wtmpdb (0.13.0-6) ...
+Progress: [ 85%] [██████████████████████████████████████       ] Created symlink '/etc/systemd/system/timers.target.wants/wtmpdb-rotate.timer' → '/usr/lib/systemd/system/wtmpdb-rotate.timer'.
+Created symlink '/etc/systemd/system/default.target.wants/wtmpdb-update-boot.service' → '/usr/lib/systemd/system/wtmpdb-update-boot.service'.
+wtmpdb-rotate.service is a disabled or a static unit, not starting it.
+Progress: [ 92%] [█████████████████████████████████████████▌   ] Processing triggers for man-db (2.13.0-1) ...
+Processing triggers for libc-bin (2.41-6ubuntu1.2) ...
+
+Scanning processes... [===========================================]
+Scanning processor microcode... [				  ]
+Scanning linux images... [========================================]
+
+Running kernel seems to be up-to-date.
+
+Failed to check for processor microcode upgrades.
+
+No services need to be restarted.
+
+No containers need to be restarted.
+
+No user sessions are running outdated binaries.
+
+No VM guests are running outdated hypervisor (qemu) binaries on
+ this host.
+?2004haadya@aadya:~$ clear
+?2004haadya@aadya:~$ last
+reboot	 system boot  6.14.0-32-generi Fri Oct	3 14:24 - still running
+
+/var/lib/wtmpdb/wtmp.db begins Fri Oct	3 14:24:02 2025
+aadya@aadya:~$dclear
+aadya@aadya:~$dwa:~$
+?14:55:22 up 31 min,  2 users,	load average: 0.46, 0.39, 0.32
+USER	 TTY	  FROM		   LOGIN@   IDLE   JCPU	  PCPU	WHAT
+aadya	 tty2	  -		   14:26   31:26   0.03s  0.03s /usr/li
+aadya		  -		   14:26   29:12   0.00s  0.47s /usr/li
+?2004haadya@aadya:~$ who
+aadyal	 seat0	      2025-10-03 14:26
+aadya	 tty2	      2025-10-03 14:26
+aadya@aadya:~$dtouch le1.sh le2.sh le3.sh le4.sh
+?2004haadya@aadya:~$ chmod +x le1.sh le2.sh le3.sh le4.sh
+le1.sh le2.sh le3.sh le4.sh
+
+?2004haadya@aadya:~$ ./le1.sh
+Enterlfilename:
+le2.sh
+File is readable
+File is writable
+File is executable
+./le2.shdya@aadya:~$ chmod.+x le1.sh le2.sh le3.sh le4.sh
+Enterlfirst string:
+hello
+Enter second string:
+world
+Length of first string: 5
+Length of second string: 5
+Concatenated string: helloworld
+Strings are not equal
+?2004haadya@aadya:~$ ./le3.sh
+Enterlfilename:
+le2.sh
+Enter pattern to search:
+echo
+Matching lines:
+echo "Enter first string:"
+echo "Enter second string:"
+echo "Length of first string: ${#str1}"
+echo "Length of second string: ${#str2}"
+echo "Concatenated string: $concat"
+    echo "Strings are equal"
+    echo "Strings are not equal"
+?2004haadya@aadya:~$ ./le4.sh
+System Information:
+-------------------
+Date and Time: Fri Oct	3 03:02:02 PM UTC 2025
+Logged in users: aadya	  seat0	       2025-10-03 14:26
+aadya	 tty2	      2025-10-03 14:26
+System Uptime: up 38 minutes
+Memory Usage:
+	       total	    used	free	  shared  buff/cache   available
+Mem:	       3.3Gi	   1.6Gi       463Mi	    90Mi       1.4Gi	   1.7Gi
+Swap:	       3.1Gi	   501Mi       2.6Gi
+Disk Usage:
+Filesystem			   Size	 Used Avail Use% Mounted on
+tmpfs				   339M	 1.6M  337M   1% /run
+efivarfs			   256K	 131K  126K  51% /sys/firmware/efi/efivars
+/dev/mapper/ubuntu--vg-ubuntu--lv   16G	  14G  1.3G  92% /
+tmpfs				   1.7G	 8.0K  1.7G   1% /dev/shm
+tmpfs				   5.0M	 8.0K  5.0M   1% /run/lock
+tmpfs				   1.7G	  40K  1.7G   1% /tmp
+/dev/sda2			   2.0G	 232M  1.6G  13% /boot
+/dev/sda1			   1.1G	 6.4M  1.1G   1% /boot/efi
+tmpfs				   339M	 144K  339M   1% /run/user/1000
+/dev/sr0			    51M	  51M	  0 100% /media/aadya/VBox_GAs_7.2.0
+tmpfs				   1.0M	    0  1.0M   0% /run/credentials/systemd-journald.service
+tmpfs				   1.0M	    0  1.0M   0% /run/credentials/systemd-resolved.service
+tmpfs				   1.0M	    0  1.0M   0% /run/credentials/systemd-networkd.service
+?2004haadya@aadya:~$ exit
+exit4l
+
+Script done on 2025-10-03 15:02:11+00:00 [COMMAND_EXIT_CODE="0"]
