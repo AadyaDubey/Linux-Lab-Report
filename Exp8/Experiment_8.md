@@ -29,28 +29,32 @@ Processes can receive signals from the OS or the user to control execution.
 kill [options] <PID>
 ```
 #### Output:
-
+![](./Exp8_images/kill.png)
 
 ## Process Monitoring and Resource Usage
 
 ### 1. `top` → live view of processes, CPU, memory
 #### Output:
+![](./Exp8_images/top.png)
 ### 2. `htop` (if installed) → user-friendly version of `top`
 #### Output:
+![](./Exp8_images/htop.png)
 ### 3. `ps aux` → snapshot of all processes
 #### Output:
+![](./Exp8_images/psaux.png)
 ### 4. `free -h` → shows memory usage
 #### Output:
+![](./Exp8_images/free-h.png)
 ###  5. `uptime` → system load averages
 #### Output:
-
+![](./Exp8_images/uptime.png)
 ## Process Communication
 
 Processes communicate using files, pipes, or sockets.
 
 ### 1. `Pipes (|)` → pass output of one command to another.
 #### Output:
-
+![](./Exp8_images/pipes.png)
 ## Process Synchronization
 
 To prevent conflicts, processes can be synchronized:
@@ -64,7 +68,7 @@ echo "Finished after 5 seconds"
 
 ```
 #### Output:
-
+![](./Exp8_images/wait.png)
 ## Background Processes and Job Control
 
 * Add `&` at the end to run command in background.
@@ -75,18 +79,21 @@ sleep 30 &
 * `fg %1`→ bring job 1 to foreground.
 * `bg %1` → resume job 1 in background.
 ### Output:
-
+![](./Exp8_images/background.png)
 ## System Monitoring and Logging
 
 ### 1. `dmesg | less` → kernel/system messages
 #### Output:
+![](./Exp8_images/dmesg.png)
 ### 2. `journalctl` (systemd systems) → system logs
 #### Output:
+![](./Exp8_images/journalctl.png)
 ### 3. `last` → last logged-in users
 #### Output:
+![](./Exp8_images/last.png)
 ### 4. `who` or `w` → users currently logged in
 #### Output:
-
+![](./Exp8_images/who.png)
 ***
 ## Lab Exercises
 ### i. Check File Permissions
