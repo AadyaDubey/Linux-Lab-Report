@@ -13,17 +13,17 @@ To understand and practically apply process management commands, viewing and mon
 ***
 
 ## Basic Process Commands
-## 1.`ps`: Shows currently running processes
+### 1.`ps`: Shows currently running processes
 
 
-## 2. `top`: Displays dynamic list of running processes, their CPU and memory usage
+### 2. `top`: Displays dynamic list of running processes, their CPU and memory usage
 
 
 
-## 3. `pstree`: Displays process hierarchy
+### 3. `pstree`: Displays process hierarchy
 
 
-## 4. `kill <PID>`: Stops a process
+### 4. `kill <PID>`: Stops a process
 
 
 ### 5. `kill -9 <PID>`: Forcefully kills a process
