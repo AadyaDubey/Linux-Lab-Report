@@ -82,21 +82,6 @@ find /home -perm -644
 find /home -perm /111
 ```
 #### Output:
-### Advanced Examples:
-```bash
-# Find and delete empty files
-find /tmp -type f -empty -delete
-
-# Find large files and list them
-find /home -size +50M -ls
-
-# Find files and execute command
-find /home -name "*.tmp" -exec rm {} \;
-
-# Find with multiple conditions
-find /home -name "*.txt" -size +1M -mtime -7
-```
-#### Output:
 
 ## Pattern Searching with `grep`
 The grep command searches for specific patterns within files.
