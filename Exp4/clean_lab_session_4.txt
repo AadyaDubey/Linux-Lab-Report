@@ -1,0 +1,30 @@
+Script started on 2025-10-03 20:26:08+00:00 [TERM="xterm-256color" TTY="/dev/pts/0" COLUMNS="82" LINES="37"]
+?2004haadya@aadya:~$ touch act1.sh act2.sh act3.sh act4.sh
+act1.shaact2.shyact3.shmact4.shct1.sh act2.sh act3.sh act4.s
+aadya@aadya:~$d./act1.sh
+Hello, World!
+?2004haadya@aadya:~$ ./act2.sh
+Enterlyour name:
+Aadya
+Hello, Aadya! Welcome to Shell Scripting.
+?2004haadya@aadya:~$ ./act3.sh
+Enterlfirst number:
+3
+Enter second number:
+7
+Addition: 10
+Subtraction: -4
+Multiplication: 21
+Division: 0
+?2004haadya@aadya:~$ ./act4.sh
+Enterlyour age:
+3
+Sorry, you are not eligible to vote.
+?2004haadya@aadya:~$ ./act4.sh
+Enterlyour age:
+70
+You are eligible to vote.
+?2004haadya@aadya:~$ exit
+exit4l
+
+Script done on 2025-10-03 20:31:54+00:00 [COMMAND_EXIT_CODE="0"]
