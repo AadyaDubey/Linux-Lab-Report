@@ -58,19 +58,10 @@ To prevent conflicts, processes can be synchronized:
 #### Script:
 ```bash
 #! /bin/bash
-echo " Starting processes"
-nice -n 4 sleep 5 & PID1=$!
-echo " sleep 5 is completed with PID = $PID1 "
-nice
--n 6 sleep 3 &
-PID2=$! wait
-echo " sleep 3 is completed with PID = $PID2
-nice
--n 7 sleep 7 &
-PID3=$! wait
-echo " sleep 7 is completed with PID = $PID3 "
-echo " All the processes are completed "
-#end
+sleep 5 &
+wait
+echo "Finished after 5 seconds"
+
 ```
 #### Output:
 
