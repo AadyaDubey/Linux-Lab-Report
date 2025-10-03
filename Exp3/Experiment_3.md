@@ -20,7 +20,7 @@ Basic Syntax:
 ```bash
 find [path] [expression] [action]
 ```
-Search by Name:
+### Search by Name:
 ```bash
 # Find files by exact name
 find /home -name "document.txt"
@@ -33,7 +33,8 @@ find /home -name "*.txt"
 find /home -name "report_*"
 find /etc -name "*conf*"
 ```
-Search by Type:
+#### Output:
+### Search by Type:
 ```bash
 # Find directories only
 find /home -type d -name "backup*"
@@ -44,7 +45,8 @@ find /home -type f -name "*.log"
 # Find symbolic links
 find /home -type l
 ```
-Search by Size:
+#### Output:
+### Search by Size:
 ```bash
 # Files larger than 100MB
 find /home -size +100M
@@ -55,7 +57,8 @@ find /home -size -1k
 # Files exactly 500 bytes
 find /home -size 500c
 ```
-Search by Time:
+#### Output:
+### Search by Time:
 ```bash
 # Modified in last 7 days
 find /home -mtime -7
@@ -66,7 +69,8 @@ find /home -atime +30
 # Changed in last 24 hours
 find /home -ctime -1
 ```
-Search by Permissions:
+#### Output:
+### Search by Permissions:
 ```bash
 # Files with specific permissions
 find /home -perm 644
@@ -77,7 +81,8 @@ find /home -perm -644
 # Executable files
 find /home -perm /111
 ```
-Advanced Examples:
+#### Output:
+### Advanced Examples:
 ```bash
 # Find and delete empty files
 find /tmp -type f -empty -delete
@@ -91,6 +96,7 @@ find /home -name "*.tmp" -exec rm {} \;
 # Find with multiple conditions
 find /home -name "*.txt" -size +1M -mtime -7
 ```
+#### Output:
 
 ## Pattern Searching with `grep`
 The grep command searches for specific patterns within files.
@@ -99,7 +105,7 @@ Basic Syntax:
 ```bash
 grep [options] pattern [file(s)]
 ```
-Basic Examples:
+### Basic Examples:
 ```bash
 # Search for pattern in file
 grep "error" /var/log/syslog
@@ -116,7 +122,8 @@ grep -r "function" /home/user/code/
 # Show line numbers
 grep -n "pattern" file.txt
 ```
-Advanced Options:
+#### Output:
+### Advanced Options:
 ```bash
 # Whole word only
 grep -w "cat" animals.txt
@@ -134,7 +141,8 @@ grep -o "email@[a-zA-Z0-9.-]*" contacts.txt
 grep -A 3 -B 3 "pattern" file.txt  # 3 lines after and before
 grep -C 2 "pattern" file.txt       # 2 lines of context
 ```
-Regular Expressions:
+#### Output:
+### Regular Expressions:
 ```bash
 # Beginning of line
 grep "^Error" logfile.txt
@@ -154,6 +162,7 @@ grep "[aeiou]" file.txt      # any vowel
 grep -E "(error|warning)" logfile.txt
 grep -E "[0-9]{3}-[0-9]{3}-[0-9]{4}" contacts.txt  # phone numbers
 ```
+#### Output:
 
 ## File Archiving with `tar`
 The tar command creates archives (tarballs) from multiple files and directories.
@@ -162,7 +171,7 @@ Basic Syntax:
 ```bash
 tar [options] archive_name files/directories
 ```
-Creating Archives:
+### Creating Archives:
 ```bash
 # Create tar archive
 tar -cf backup.tar /home/user/documents
@@ -176,7 +185,17 @@ tar -cjf backup.tar.bz2 /home/user/documents
 # Verbose output
 tar -cvf backup.tar /home/user/documents
 ```
-Extracting Archives:
+#### Output:
+### Extracting Archives:
+Common Options:
+* **c**: create archive
+*  **x**: extract archive
+*   **t**: list contents
+*   **f**: specify filename
+*   **v**: verbose output
+*   **z**: gzip compression
+*   **j**: bzip2 compression
+*   **C**: change directory
 ```bash
 # Extract tar archive
 tar -xf backup.tar
@@ -193,16 +212,8 @@ tar -tf backup.tar
 # Extract specific files
 tar -xf backup.tar file1.txt dir1/file2.txt
 ```
-Common Options:
 
-* **c**: create archive
-*  **x**: extract archive
-*   **t**: list contents
-*   **f**: specify filename
-*   **v**: verbose output
-*   **z**: gzip compression
-*   **j**: bzip2 compression
-*   **C**: change directory 
+#### Output:
 
 
 ## File Compression with `gzip/gunzip`
@@ -226,6 +237,7 @@ gzip file1.txt file2.txt file3.txt
 # View compression ratio
 gzip -v largefile.txt
 ```
+#### Output:
 
 ### The `gunzip` Command
 Decompresses gzip files.
@@ -246,12 +258,20 @@ zcat largefile.txt.gz
 zless largefile.txt.gz
 zgrep "pattern" largefile.txt.gz
 ```
+#### Output:
 
 ## Creating Links with `ln`  
 The ln command creates links between files.
 
 ### Hard Links
-Multiple directory entries pointing to the same file data.
+* Multiple directory entries pointing to the same file data.
+* Characteristics of Hard Links:
+	* Share the same inode number
+	* Cannot link to directories (usually)
+	* Cannot cross file system boundaries
+	* Deleting one link doesn't affect others
+	* No distinction between "original" and "link"
+* Syntax:
 ```bash
 # Create hard link
 ln original.txt hardlink.txt
@@ -259,50 +279,25 @@ ln original.txt hardlink.txt
 # View inode numbers (same for hard links)
 ls -li original.txt hardlink.txt
 ```
-Characteristics of Hard Links:
 
-* Share the same inode number
-* Cannot link to directories (usually)
-* Cannot cross file system boundaries
-* Deleting one link doesn't affect others
-* No distinction between "original" and "link" 
+ #### Output:
 
 
 ### Symbolic (Soft) Links
-Pointers to other files or directories.
+* Pointers to other files or directories.
+* Characteristics of Symbolic Links:
+	* Different inode number from target
+	* Can link to directories
+	*  Can cross file system boundaries
+	*   Becomes broken if target is deleted
+	*   Shows link relationship in ls -l
+* Syntax:
 ```bash
-# Create symbolic link
-ln -s /path/to/original.txt symlink.txt
-
-# Link to directory
-ln -s /home/user/documents doc_link
-
-# Absolute path link
-ln -s /usr/bin/python3 python
-
-# Relative path link
-ln -s ../config/settings.conf current_settings
+ln [target] [link_name]
 ```
-Characteristics of Symbolic Links:
-
-* Different inode number from target
-* Can link to directories
-*  Can cross file system boundaries
-*   Becomes broken if target is deleted
-*   Shows link relationship in ls -l 
+ #### Output:
 
 
-Practical Examples:
-```bash
-# Create backup script link in PATH
-sudo ln -s /home/user/scripts/backup.sh /usr/local/bin/backup
-
-# Version management
-ln -s /opt/app/v2.1 /opt/app/current
-
-# Configuration management
-ln -s /etc/nginx/sites-available/mysite /etc/nginx/sites-enabled/
-```
 ***
 
 # OBERVATIONS

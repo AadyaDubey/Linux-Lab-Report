@@ -14,38 +14,17 @@ To understand and practically apply process management commands, viewing and mon
 
 ## Basic Process Commands
 ## 1.`ps`: Shows currently running processes
-```bash
-ps
-```
+
+
+## 2. `top`: Displays dynamic list of running processes, their CPU and memory usage
 
 
 
-### 2. `top`: Displays dynamic list of running processes, their CPU and memory usage
-```bash
-top
-```
-Press `q` to quit.
+## 3. `pstree`: Displays process hierarchy
 
 
-### 3. `pstree`: Displays process hierarchy
-```bash
-pstree
-```
-Example (simplified):
-```bash
-systemd─┬─bash───pstree
-```
+## 4. `kill <PID>`: Stops a process
 
-### 4. `kill <PID>`: Stops a process
-```bash
-Sends a signal to stop a process.
-```
-
-Example:
-```bash
-kill 1234
-```
-Stops process with PID 1234.
 
 ### 5. `kill -9 <PID>`: Forcefully kills a process
 
@@ -55,38 +34,14 @@ Every process has a priority (nice value). Lower values = higher priority. Range
 
 ### 1. `nice -n <value> command`: Start a process with a specific priority
 
-Example:
-```bash
-nice -n 10 sleep 60
-```
-Starts `sleep 60` with low priority.
 
 ### 2. `renice <value> -p <PID>`: Change priority of a running process
-
-Example:
-```bash
-renice 5 -p 1234
-```
 
 ## Scheduling Processes
 ### 1. Command: `at [time]`: Schedules one-time tasks
 
-Example:
-```bash
-echo "ls > output.txt" | at now + 1 minute
-```
-Runs `ls` after 1 minute.
 
 ### 2. Command: `cron`: Schedules recurring tasks using a crontab file
-
-Example:
-```bash
-crontab -e
-```
-To run `date` every minute, add:
-```bash
-* * * * * date >> time.log
-```
 
 ***
 ## Lab Exercises

@@ -515,11 +515,7 @@ df -h
 # Specific filesystem
 df -h /
 ```
-Example output:
-```bash
-Filesystem      Size  Used Avail Use% Mounted on
-/dev/sda1        20G  5.5G   13G  30% /
-```
+
 ![](./Exp2_images/df.png)
 ### 3. `top` and `htop` - Process Monitoring
 **Using `top`:**
