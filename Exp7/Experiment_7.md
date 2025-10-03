@@ -14,35 +14,34 @@ To understand and practically apply process management commands, viewing and mon
 
 ## Basic Process Commands
 ### 1.`ps`: Shows currently running processes
-
+![](./Exp7_images/ps.png)
 
 ### 2. `top`: Displays dynamic list of running processes, their CPU and memory usage
-
+![](./Exp7_images/top.png)
 
 
 ### 3. `pstree`: Displays process hierarchy
-
+![](./Exp7_images/pstree.png)
 
 ### 4. `kill <PID>`: Stops a process
-
-
-### 5. `kill -9 <PID>`: Forcefully kills a process
+![](./Exp7_images/kill.png)
 
 ## Process Prioritization
 
 Every process has a priority (nice value). Lower values = higher priority. Range: -20 (highest) to +19 (lowest).
 
 ### 1. `nice -n <value> command`: Start a process with a specific priority
-
+![](./Exp7_images/nice.png)
 
 ### 2. `renice <value> -p <PID>`: Change priority of a running process
+![](./Exp7_images/renice.png)
 
 ## Scheduling Processes
 ### 1. Command: `at [time]`: Schedules one-time tasks
-
+![](./Exp7_images/at.png)
 
 ### 2. Command: `cron`: Schedules recurring tasks using a crontab file
-
+![](./Exp7_images/cron.png)
 ***
 ## Lab Exercises
 ### i. Check if File Exists
