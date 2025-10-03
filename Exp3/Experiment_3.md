@@ -160,10 +160,9 @@ grep "[aeiou]" file.txt      # any vowel
 
 # Extended regex
 grep -E "(error|warning)" logfile.txt
-grep -E "[0-9]{3}-[0-9]{3}-[0-9]{4}" contacts.txt  # phone numbers
 ```
 #### Output:
-
+![](./Exp3_images/regex.png)
 ## File Archiving with `tar`
 The tar command creates archives (tarballs) from multiple files and directories.
 
