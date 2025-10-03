@@ -1,0 +1,45 @@
+Script started on 2025-10-03 21:29:44+00:00 [TERM="xterm-256color" TTY="/dev/pts/0" COLUMNS="71" LINES="36"]
+[?2004h[31m[38;5;69maadya[38;5;214m@[38;5;167maadya[38;5;214m:[38;5;71m~[38;5;214m$[00m exit./a5.sh text.txt4.sh[Kcat logfile.log[8P./a3.shcrontab -e[3P./a3.shcrontab -etouch logfile.log[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[10P./a3.shcrontab -e[3P./a2.shps[Kcat cpu_monitor.log[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[12P./a1.shchmod +x a1.sh a2.sh a3.sh a4.sh a5.sh[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[3Ptouch[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C
+[?2004l[?2004h[31m[38;5;69maadya[38;5;214m@[38;5;167maadya[38;5;214m:[38;5;71m~[38;5;214m$[00m touch a1.sh a2.sh a3.sh a4.sh a5.sh[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cexit[K./a5.sh text.txt4.sh[Kcat logfile.log[8P./a3.shcrontab -e[3P./a3.shcrontab -etouch logfile.log[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[10P./a3.shcrontab -e[3P./a2.shps[Kcat cpu_monitor.log[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[12P./a1.shchmod +x a1.sh a2.sh a3.sh a4.sh a5.sh[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[3Ptouch[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cexit[Kbash -x ./a5.sh[8P./a4.sh3.sh 28cat text.txt./a2.sh text.txt cat[K1.sh[Kchmod +x a1.sh a2.sh a3.sh a4.sh a5.sh[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[3Ptouch[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[3@chmod +x[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C
+[?2004l[?2004h[31m[38;5;69maadya[38;5;214m@[38;5;167maadya[38;5;214m:[38;5;71m~[38;5;214m$[00m ./a1.sh
+[?2004lListing all jobs:
+[1]+  Running                 sleep 60 &
+Bringing the job to the foreground...
+./a1.sh: line 9: fg: no job control
+Terminating the job...
+[?2004h[31m[38;5;69maadya[38;5;214m@[38;5;167maadya[38;5;214m:[38;5;71m~[38;5;214m$[00m ./a2.sh a3.sh texy[Kt.txt
+[?2004lThe files are different.
+[?2004h[31m[38;5;69maadya[38;5;214m@[38;5;167maadya[38;5;214m:[38;5;71m~[38;5;214m$[00m ./a2.sh a3.sh text.txt[C[K[K[K[K[K[K[K[Ka3.sh
+[?2004lThe files are identical.
+[?2004h[31m[38;5;69maadya[38;5;214m@[38;5;167maadya[38;5;214m:[38;5;71m~[38;5;214m$[00m ./a2.sh a3.sh a3.shtext.txt1.sh[K[1P.sh3.sh[C[C[C
+[?2004lUser: aadya
+Number of processes currently running: 102
+[?2004h[31m[38;5;69maadya[38;5;214m@[38;5;167maadya[38;5;214m:[38;5;71m~[38;5;214m$[00m ./a3.sh[C[1P.sh4.sh
+[?2004lStarting memory monitoring... Logs will be saved in memory_log.txt
+^C
+[?2004h[31m 130 [38;5;69maadya[38;5;214m@[38;5;167maadya[38;5;214m:[38;5;71m~[38;5;214m$[00m cat [7mmemory_log.txt[27mmemory_log.txt
+[?2004lTimestamp               | Total(MB) | Used(MB) | Free(MB)
+---------------------------------------------------------
+2025-10-03 21:33:25 | 3384        | 2215      | 383
+2025-10-03 21:33:30 | 3384        | 2226      | 371
+[?2004h[31m[38;5;69maadya[38;5;214m@[38;5;167maadya[38;5;214m:[38;5;71m~[38;5;214m$[00m cat memory_log.txt[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[11P./a4.sh[1P.sh5.sh
+[?2004lEnter the filename: a1.sh
+Enter the search pattern: echo
+The pattern 'echo' appears in 3 line(s) of 'a1.sh'.
+[?2004h[31m[38;5;69maadya[38;5;214m@[38;5;167maadya[38;5;214m:[38;5;71m~[38;5;214m$[00m exit[K[K[K[Kcat a1.sh
+[?2004l#!/bin/bash
+
+sleep 60 &
+
+echo "Listing all jobs:"
+jobs
+
+echo "Bringing the job to the foreground..."
+fg %1
+
+echo "Terminating the job..."
+kill $!
+[?2004h[31m[38;5;69maadya[38;5;214m@[38;5;167maadya[38;5;214m:[38;5;71m~[38;5;214m$[00m exit
+[?2004lexit
+
+Script done on 2025-10-03 21:34:28+00:00 [COMMAND_EXIT_CODE="0"]

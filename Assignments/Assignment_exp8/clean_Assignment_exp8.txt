@@ -1,0 +1,45 @@
+Script started on 2025-10-03 21:29:44+00:00 [TERM="xterm-256color" TTY="/dev/pts/0" COLUMNS="71" LINES="36"]
+touchs+xma1.shra2.sh a3.shaa4.shla5.sh
+3@chmodx+x1.shxa2.sh a3.sh a4.sh a5.sh a3.sh a4.sh a5.sh
+?2004haadya@aadya:~$ ./a1.sh
+Listing all jobs:
+[1]+  Running		      sleep 60 &
+Bringing the job to the foreground...
+./a1.sh: line 9: fg: no job control
+Terminating the job...
+?2004haadya@aadya:~$ ./a2.sh a3.sh text.txt
+The0files are different.
+?2004haadya@aadya:~$ ./a2.sh a3.sha3.sh.txt
+The0files are identical.
+?2004haadya@aadya:~$ ./a3.sh a3.sh text.txt
+User:laadya
+Number of processes currently running: 102
+?2004haadya@aadya:~$ ./4.shh
+Starting memory monitoring... Logs will be saved in memory_log.txt
+^C
+?2004h 130 aadya@aadya:~$ cat memory_log.txt
+Timestamp		| Total(MB) | Used(MB) | Free(MB)
+---------------------------------------------------------
+2025-10-03 21:33:25 | 3384	  | 2215      | 383
+2025-10-03 21:33:30 | 3384	  | 2226      | 371
+./a5.shadya@aadya:~$ cat memory_log.txt
+Enterlthe filename: a1.sh
+Enter the search pattern: echo
+The pattern 'echo' appears in 3 line(s) of 'a1.sh'.
+?2004haadya@aadya:~$ catta1.sh
+#!/bin/bash
+
+sleep 60 &
+
+echo "Listing all jobs:"
+jobs
+
+echo "Bringing the job to the foreground..."
+fg %1
+
+echo "Terminating the job..."
+kill $!
+?2004haadya@aadya:~$ exit
+exit4l
+
+Script done on 2025-10-03 21:34:28+00:00 [COMMAND_EXIT_CODE="0"]
