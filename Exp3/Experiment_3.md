@@ -34,6 +34,8 @@ find /home -name "report_*"
 find /etc -name "*conf*"
 ```
 #### Output:
+![](./Exp3_images/name1.png)
+![](./Exp3_images/name2.png)
 ### Search by Type:
 ```bash
 # Find directories only
@@ -46,6 +48,8 @@ find /home -type f -name "*.log"
 find /home -type l
 ```
 #### Output:
+![](./Exp3_images/type1.png)
+![](./Exp3_images/type2.png)
 ### Search by Size:
 ```bash
 # Files larger than 100MB
@@ -58,6 +62,8 @@ find /home -size -1k
 find /home -size 500c
 ```
 #### Output:
+![](./Exp3_images/size1.png)
+![](./Exp3_images/size2.png)
 ### Search by Time:
 ```bash
 # Modified in last 7 days
@@ -70,6 +76,9 @@ find /home -atime +30
 find /home -ctime -1
 ```
 #### Output:
+![](./Exp3_images/time1.png)
+![](./Exp3_images/time2.png)
+![](./Exp3_images/time3.png)
 ### Search by Permissions:
 ```bash
 # Files with specific permissions
@@ -82,7 +91,9 @@ find /home -perm -644
 find /home -perm /111
 ```
 #### Output:
-
+![](./Exp3_images/perm1.png)
+![](./Exp3_images/perm2.png)
+![](./Exp3_images/perm3.png)
 ## Pattern Searching with `grep`
 The grep command searches for specific patterns within files.
 
@@ -108,6 +119,9 @@ grep -r "function" /home/user/code/
 grep -n "pattern" file.txt
 ```
 #### Output:
+![](./Exp3_images/grep1.png)
+![](./Exp3_images/grep2.png)
+![](./Exp3_images/grep3.png)
 ### Advanced Options:
 ```bash
 # Whole word only
@@ -127,6 +141,7 @@ grep -A 3 -B 3 "pattern" file.txt  # 3 lines after and before
 grep -C 2 "pattern" file.txt       # 2 lines of context
 ```
 #### Output:
+![](./Exp3_images/ao.png)
 ### Regular Expressions:
 ```bash
 # Beginning of line
@@ -171,6 +186,7 @@ tar -cjf backup.tar.bz2 /home/user/documents
 tar -cvf backup.tar /home/user/documents
 ```
 #### Output:
+![](./Exp3_images/tar_create.png)
 ### Extracting Archives:
 Common Options:
 * **c**: create archive
@@ -199,8 +215,8 @@ tar -xf backup.tar file1.txt dir1/file2.txt
 ```
 
 #### Output:
-
-
+![](./Exp3_images/tar_ex1.png)
+![](./Exp3_images/tar_ex2.png)
 ## File Compression with `gzip/gunzip`
 ### The `gzip` Command
 Compresses files using the gzip algorithm.
@@ -223,7 +239,8 @@ gzip file1.txt file2.txt file3.txt
 gzip -v largefile.txt
 ```
 #### Output:
-
+![](./Exp3_images/gzip1.png)
+![](./Exp3_images/gzip2.png)
 ### The `gunzip` Command
 Decompresses gzip files.
 
@@ -244,7 +261,9 @@ zless largefile.txt.gz
 zgrep "pattern" largefile.txt.gz
 ```
 #### Output:
-
+![](./Exp3_images/gunzip1.png)
+![](./Exp3_images/gunzip2.png)
+![](./Exp3_images/gunzip_last.png)
 ## Creating Links with `ln`  
 The ln command creates links between files.
 
@@ -266,7 +285,7 @@ ls -li original.txt hardlink.txt
 ```
 
  #### Output:
-
+![](./Exp3_images/hardlink.png)
 
 ### Symbolic (Soft) Links
 * Pointers to other files or directories.
@@ -281,7 +300,7 @@ ls -li original.txt hardlink.txt
 ln [target] [link_name]
 ```
  #### Output:
-
+![](./Exp3_images/softlink.png)
 
 ***
 
