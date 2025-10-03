@@ -1,0 +1,35 @@
+Script started on 2025-10-03 20:35:05+00:00 [TERM="xterm-256color" TTY="/dev/pts/0" COLUMNS="80" LINES="24"]
+[?2004h[31m[38;5;69maadya[38;5;214m@[38;5;167maadya[38;5;214m:[38;5;71m~[38;5;214m$[00m ./clean_markdown.sh lab_session_4.md [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[11Pscript -a lab_session_4.md[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cexit[K./act4.sh3.sh2.sh1.shchmod +x act1.sh act2.sh act3.sh act4.sh[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[3Ptouch[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[K[K[K[K[K[K[K
+[?2004l[?2004h[31m[38;5;69maadya[38;5;214m@[38;5;167maadya[38;5;214m:[38;5;71m~[38;5;214m$[00m touch act1.sh act2.sh act3.sh [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[7@./clean_markdown.sh lab_session_4.md[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[11Pscript -a lab_session_4.md[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cexit[K./act4.sh3.sh2.sh1.shchmod +x act1.sh act2.sh act3.sh act4.sh[K[K[K[K[K[K[K
+[?2004l[?2004h[31m[38;5;69maadya[38;5;214m@[38;5;167maadya[38;5;214m:[38;5;71m~[38;5;214m$[00m ./act1.sh
+[?2004lEnter a number: 
+3
+3 is a prime number.
+[?2004h[31m[38;5;69maadya[38;5;214m@[38;5;167maadya[38;5;214m:[38;5;71m~[38;5;214m$[00m ./act1.sh
+[?2004lEnter a number: 
+6
+6 is not a prime number.
+[?2004h[31m[38;5;69maadya[38;5;214m@[38;5;167maadya[38;5;214m:[38;5;71m~[38;5;214m$[00m ./act1.sh[1P.sh2.sh
+[?2004lEnter a number: 
+67
+Sum of digits: 13
+[?2004h[31m[38;5;69maadya[38;5;214m@[38;5;167maadya[38;5;214m:[38;5;71m~[38;5;214m$[00m ./act2.sh
+[?2004lEnter a number: 
+70
+Sum of digits: 7
+[?2004h[31m[38;5;69maadya[38;5;214m@[38;5;167maadya[38;5;214m:[38;5;71m~[38;5;214m$[00m ./act2.sh
+[?2004lEnter a number: 
+0001
+Sum of digits: 1
+[?2004h[31m[38;5;69maadya[38;5;214m@[38;5;167maadya[38;5;214m:[38;5;71m~[38;5;214m$[00m ./act2.sh[1P.sh3.sh
+[?2004lEnter a number: 
+42
+42 is not an Armstrong number.
+[?2004h[31m[38;5;69maadya[38;5;214m@[38;5;167maadya[38;5;214m:[38;5;71m~[38;5;214m$[00m ./act3.sh
+[?2004lEnter a number: 
+2
+2 is an Armstrong number.
+[?2004h[31m[38;5;69maadya[38;5;214m@[38;5;167maadya[38;5;214m:[38;5;71m~[38;5;214m$[00m ./act3.sh[C[C[K[K[K[K[K[K[K[K[Kexit
+[?2004lexit
+
+Script done on 2025-10-03 20:38:21+00:00 [COMMAND_EXIT_CODE="0"]

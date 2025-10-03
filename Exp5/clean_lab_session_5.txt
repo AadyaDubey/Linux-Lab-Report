@@ -1,0 +1,35 @@
+Script started on 2025-10-03 20:35:05+00:00 [TERM="xterm-256color" TTY="/dev/pts/0" COLUMNS="80" LINES="24"]
+touch1+xhact1.shsact2.shmact3.shkact4.sh lab_session_4.md
+chmod1+xhact1.shsact2.shmact3.shnact4.shsh act3.sh
+?2004haadya@aadya:~$ ./act1.sh
+Enterla number:
+3
+3 is a prime number.
+?2004haadya@aadya:~$ ./act1.sh
+Enterla number:
+6
+6 is not a prime number.
+?2004haadya@aadya:~$ ./act2.sh
+Enterla number:
+67
+Sum of digits: 13
+?2004haadya@aadya:~$ ./act2.sh
+Enterla number:
+70
+Sum of digits: 7
+?2004haadya@aadya:~$ ./act2.sh
+Enterla number:
+0001
+Sum of digits: 1
+?2004haadya@aadya:~$ ./act3.sh
+Enterla number:
+42
+42 is not an Armstrong number.
+?2004haadya@aadya:~$ ./act3.sh
+Enterla number:
+2
+2 is an Armstrong number.
+?2004haadya@aadya:~exitact3.sh
+exit4l
+
+Script done on 2025-10-03 20:38:21+00:00 [COMMAND_EXIT_CODE="0"]
