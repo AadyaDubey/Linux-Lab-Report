@@ -1,5 +1,5 @@
 # Linux Lab Experiments
-This repository will contains all my Linux lab experiments and assignments.  
+This repository contains all my Linux lab experiments and assignments.  
 **Name:** Aadya Dubey  
 **Sap ID:** 590029213  
 **Batch NO.:** B.Tech. CSE B77 (2025-29)  
