@@ -1,4 +1,4 @@
-# Assignment
+# Assignment 4
 ## 1. Write a script to find the largest file in a given directory.
 ### Script
 ```bash
