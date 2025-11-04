@@ -28,7 +28,7 @@ echo "Largest file: $file"
 echo "Size: $size bytes"
 ```
 ### Output
-
+![](./images/1.png)
 ## 2. Create a script that counts how many `.sh` files exist in `/home/user`.
 ### Script
 ```bash
@@ -46,7 +46,7 @@ count=$(find "$DIR" -maxdepth 1 -type f -name "*.sh" | wc -l)
 echo "Number of .sh files in $DIR: $count"
 ```
 ### Output
-
+![](./images/2.png)
 ## 3. Write a script to monitor CPU usage every 10 seconds and log to a file.
 ### Script
 ```bash
@@ -72,7 +72,7 @@ do
 done
 ```
 ### Output
-
+![](./images/3.png)
 ## 4. Create a script that adds a new user and sets default permissions for their home directory.
 ### Script
 ```bash
@@ -112,5 +112,5 @@ echo "Home directory: /home/$USERNAME"
 echo "Permissions set to 700 (rwx------)"
 ```
 ### Output
-
+![](./images/4.png)
 ***
