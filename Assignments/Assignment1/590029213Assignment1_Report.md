@@ -1,4 +1,4 @@
-# Assignment
+# Assignment 1
 ## 1. Write a function to calculate the factorial of a number using a loop.
 ### Script
 ```bash
