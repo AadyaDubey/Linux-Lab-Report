@@ -22,6 +22,8 @@ This repository contains all my Linux lab experiments and assignments.
 * **EXPERIMENT 7:** Shell Programming [EXPERIMENT7](https://github.com/AadyaDubey/Linux-Lab-Report/blob/master/Exp7/590029213Exp7_Report.md)   [RAW-SCRIPT-LOG](https://github.com/AadyaDubey/Linux-Lab-Report/blob/master/Exp7/590029213Exp7_ScriptLog.txt)   [CLEAN-SCRIPT-LOG](https://github.com/AadyaDubey/Linux-Lab-Report/blob/master/Exp7/590029213Exp7_ScriptLog_Clean.txt)
 
 * **EXPERIMENT 8:** Shell Programming [EXPERIMENT8](https://github.com/AadyaDubey/Linux-Lab-Report/blob/master/Exp8/590029213Exp8_Report.md)   [RAW-SCRIPT-LOG](https://github.com/AadyaDubey/Linux-Lab-Report/blob/master/Exp8/590029213Exp8_ScriptLog.txt)   [CLEAN-SCRIPT-LOG](https://github.com/AadyaDubey/Linux-Lab-Report/blob/master/Exp8/590029213Exp8_ScriptLog_Clean.txt)
+
+* **EXPERIMENT 9:** Shell Programming [EXPERIMENT9](https://github.com/AadyaDubey/Linux-Lab-Report/edit/master/Exp9/590029213Exp9_Report.md#L17C7)   [RAW-SCRIPT-LOG](https://github.com/AadyaDubey/Linux-Lab-Report/blob/master/Exp9/590029213Exp9_ScriptLog.txt)   [CLEAN-SCRIPT-LOG](https://github.com/AadyaDubey/Linux-Lab-Report/blob/master/Exp9/590029213Exp9_ScriptLog_Clean.txt)
 ***
 ***
 
