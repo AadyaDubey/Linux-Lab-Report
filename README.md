@@ -33,6 +33,8 @@ This repository contains all my Linux lab experiments and assignments.
 * **ASSIGNMENT  OF EXPERIMENT 7:** [ASSIGNMENT2](https://github.com/AadyaDubey/Linux-Lab-Report/blob/master/Assignments/Assignment2/590029213Assignment2_Report.md)   [RAW-SCRIPT-LOG](https://github.com/AadyaDubey/Linux-Lab-Report/blob/master/Assignments/Assignment2/590029213Assignment2_ScriptLog.txt)   [CLEAN-SCRIPT-LOG](https://github.com/AadyaDubey/Linux-Lab-Report/blob/master/Assignments/Assignment2/590029213Assignment2_ScriptLog_Clean.txt)
 
 * **ASSIGNMENT  OF EXPERIMENT 8:** [ASSIGNMENT3](https://github.com/AadyaDubey/Linux-Lab-Report/blob/master/Assignments/Assignment3/590029213Assignment3_Report.md)   [RAW-SCRIPT-LOG](https://github.com/AadyaDubey/Linux-Lab-Report/blob/master/Assignments/Assignment3/590029213Assignment3_ScriptLog.txt)   [CLEAN-SCRIPT-LOG](https://github.com/AadyaDubey/Linux-Lab-Report/blob/master/Assignments/Assignment3/590029213Assignment3_ScriptLog_Clean.txt)
+
+* **ASSIGNMENT  OF EXPERIMENT 9:** [ASSIGNMENT4](https://github.com/AadyaDubey/Linux-Lab-Report/blob/master/Assignments/Assignment4/590029213Assignment4_Report.md)   [RAW-SCRIPT-LOG](https://github.com/AadyaDubey/Linux-Lab-Report/blob/master/Assignments/Assignment4/590029213Assignment4_ScriptLog.md)   [CLEAN-SCRIPT-LOG](https://github.com/AadyaDubey/Linux-Lab-Report/blob/master/Assignments/Assignment4/590029213Assignment4_ScriptLog_Clean.md)
 ***
 ***
 

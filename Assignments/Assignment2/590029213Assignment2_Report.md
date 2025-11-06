@@ -1,4 +1,4 @@
-# Assignment 
+# Assignment 2
 ## 1. Write a script that monitors the top 5 processes consuming the most CPU and logs them into a file every 10 seconds.
 
 ### Script
