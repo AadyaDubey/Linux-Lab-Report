@@ -7,23 +7,26 @@ This repository contains all my Linux lab experiments and assignments.
 ***
 ***
 # Linux Lab Experiments Links
-* **EXPERIMENT 1:** Installation of VirtualBox [EXPERIMENT1](https://github.com/AadyaDubey/Linux-Lab-Report/blob/master/Exp1/590029213Exp1_Report.md)
+* **EXPERIMENT 1:** Installation of VirtualBox [EXPERIMENT1](https://github.com/AadyaDubey/Linux-Lab-Report/blob/master/Exp01/590029213Exp1_Report.md)
 
-* **EXPERIMENT 2:** Linux File Systems, Permissions and Commands [EXPERIMENT2](https://github.com/AadyaDubey/Linux-Lab-Report/blob/master/Exp2/590029213Exp2_Report.md) [RAW-SCRIPT-LOG](https://github.com/AadyaDubey/Linux-Lab-Report/blob/master/Exp2/590029213Exp2_ScriptLog.txt)  [CLEAN-SCRIPT-LOG](https://github.com/AadyaDubey/Linux-Lab-Report/blob/master/Exp2/590029213Exp2_ScriptLog_Clean.txt)
+* **EXPERIMENT 2:** Linux File Systems, Permissions and Commands [EXPERIMENT2](https://github.com/AadyaDubey/Linux-Lab-Report/blob/master/Exp02/590029213Exp2_Report.md) [RAW-SCRIPT-LOG](https://github.com/AadyaDubey/Linux-Lab-Report/blob/master/Exp02/590029213Exp2_ScriptLog.txt)  [CLEAN-SCRIPT-LOG](https://github.com/AadyaDubey/Linux-Lab-Report/blob/master/Exp02/590029213Exp2_ScriptLog_Clean.txt)
 
-* **EXPERIMENT 3:** Advanced File and Directory Operations [EXPERIMENT3](https://github.com/AadyaDubey/Linux-Lab-Report/blob/master/Exp3/590029213Exp3_Report.md)   [RAW-SCRIPT-LOG](https://github.com/AadyaDubey/Linux-Lab-Report/blob/master/Exp3/590029213Exp3_ScriptLog.txt)  [CLEAN-SCRIPT-LOG](https://github.com/AadyaDubey/Linux-Lab-Report/blob/master/Exp3/590029213Exp3_ScriptLog_Clean.txt)
+* **EXPERIMENT 3:** Advanced File and Directory Operations [EXPERIMENT3](https://github.com/AadyaDubey/Linux-Lab-Report/blob/master/Exp03/590029213Exp3_Report.md)   [RAW-SCRIPT-LOG](https://github.com/AadyaDubey/Linux-Lab-Report/blob/master/Exp03/590029213Exp3_ScriptLog.txt)  [CLEAN-SCRIPT-LOG](https://github.com/AadyaDubey/Linux-Lab-Report/blob/master/Exp03/590029213Exp3_ScriptLog_Clean.txt)
 
-* **EXPERIMENT 4:** Shell Programming [EXPERIMENT4](https://github.com/AadyaDubey/Linux-Lab-Report/blob/master/Exp4/590029213Exp4_Report.md)   [RAW-SCRIPT-LOG](https://github.com/AadyaDubey/Linux-Lab-Report/blob/master/Exp4/590029213Exp4_ScriptLog.txt)   [CLEAN-SCRIPT-LOG](https://github.com/AadyaDubey/Linux-Lab-Report/blob/master/Exp4/590029213Exp4_ScriptLog_Clean.txt)
+* **EXPERIMENT 4:** Shell Programming [EXPERIMENT4](https://github.com/AadyaDubey/Linux-Lab-Report/blob/master/Exp04/590029213Exp4_Report.md)   [RAW-SCRIPT-LOG](https://github.com/AadyaDubey/Linux-Lab-Report/blob/master/Exp04/590029213Exp4_ScriptLog.txt)   [CLEAN-SCRIPT-LOG](https://github.com/AadyaDubey/Linux-Lab-Report/blob/master/Exp04/590029213Exp4_ScriptLog_Clean.txt)
 
-* **EXPERIMENT 5:** Shell Programming [EXPERIMENT5](https://github.com/AadyaDubey/Linux-Lab-Report/blob/master/Exp5/590029213Exp5_Report.md)   [RAW-SCRIPT-LOG](https://github.com/AadyaDubey/Linux-Lab-Report/blob/master/Exp5/590029213Exp5_ScriptLog.txt)   [CLEAN-SCRIPT-LOG](https://github.com/AadyaDubey/Linux-Lab-Report/blob/master/Exp5/590029213Exp5_ScriptLog_Clean.txt)
+* **EXPERIMENT 5:** Shell Programming [EXPERIMENT5](https://github.com/AadyaDubey/Linux-Lab-Report/blob/master/Exp05/590029213Exp5_Report.md)   [RAW-SCRIPT-LOG](https://github.com/AadyaDubey/Linux-Lab-Report/blob/master/Exp05/590029213Exp5_ScriptLog.txt)   [CLEAN-SCRIPT-LOG](https://github.com/AadyaDubey/Linux-Lab-Report/blob/master/Exp05/590029213Exp5_ScriptLog_Clean.txt)
 
-* **EXPERIMENT 6:** Shell Programming [EXPERIMENT6](https://github.com/AadyaDubey/Linux-Lab-Report/blob/master/Exp6/590029213Exp6_Report.md)   [RAW-SCRIPT-LOG](https://github.com/AadyaDubey/Linux-Lab-Report/blob/master/Exp6/590029213Exp6_ScriptLog.txt)   [CLEAN-SCRIPT-LOG](https://github.com/AadyaDubey/Linux-Lab-Report/blob/master/Exp6/590029213Exp6_ScriptLog_Clean.txt)
+* **EXPERIMENT 6:** Shell Programming [EXPERIMENT6](https://github.com/AadyaDubey/Linux-Lab-Report/blob/master/Exp06/590029213Exp6_Report.md)   [RAW-SCRIPT-LOG](https://github.com/AadyaDubey/Linux-Lab-Report/blob/master/Exp06/590029213Exp6_ScriptLog.txt)   [CLEAN-SCRIPT-LOG](https://github.com/AadyaDubey/Linux-Lab-Report/blob/master/Exp06/590029213Exp6_ScriptLog_Clean.txt)
 
-* **EXPERIMENT 7:** Shell Programming [EXPERIMENT7](https://github.com/AadyaDubey/Linux-Lab-Report/blob/master/Exp7/590029213Exp7_Report.md)   [RAW-SCRIPT-LOG](https://github.com/AadyaDubey/Linux-Lab-Report/blob/master/Exp7/590029213Exp7_ScriptLog.txt)   [CLEAN-SCRIPT-LOG](https://github.com/AadyaDubey/Linux-Lab-Report/blob/master/Exp7/590029213Exp7_ScriptLog_Clean.txt)
+* **EXPERIMENT 7:** Shell Programming [EXPERIMENT7](https://github.com/AadyaDubey/Linux-Lab-Report/blob/master/Exp07/590029213Exp7_Report.md)   [RAW-SCRIPT-LOG](https://github.com/AadyaDubey/Linux-Lab-Report/blob/master/Exp07/590029213Exp7_ScriptLog.txt)   [CLEAN-SCRIPT-LOG](https://github.com/AadyaDubey/Linux-Lab-Report/blob/master/Exp07/590029213Exp7_ScriptLog_Clean.txt)
 
-* **EXPERIMENT 8:** Shell Programming [EXPERIMENT8](https://github.com/AadyaDubey/Linux-Lab-Report/blob/master/Exp8/590029213Exp8_Report.md)   [RAW-SCRIPT-LOG](https://github.com/AadyaDubey/Linux-Lab-Report/blob/master/Exp8/590029213Exp8_ScriptLog.txt)   [CLEAN-SCRIPT-LOG](https://github.com/AadyaDubey/Linux-Lab-Report/blob/master/Exp8/590029213Exp8_ScriptLog_Clean.txt)
+* **EXPERIMENT 8:** Shell Programming [EXPERIMENT8](https://github.com/AadyaDubey/Linux-Lab-Report/blob/master/Exp08/590029213Exp8_Report.md)   [RAW-SCRIPT-LOG](https://github.com/AadyaDubey/Linux-Lab-Report/blob/master/Exp08/590029213Exp8_ScriptLog.txt)   [CLEAN-SCRIPT-LOG](https://github.com/AadyaDubey/Linux-Lab-Report/blob/master/Exp08/590029213Exp8_ScriptLog_Clean.txt)
 
-* **EXPERIMENT 9:** Shell Programming [EXPERIMENT9](https://github.com/AadyaDubey/Linux-Lab-Report/edit/master/Exp9/590029213Exp9_Report.md#L17C7)   [RAW-SCRIPT-LOG](https://github.com/AadyaDubey/Linux-Lab-Report/blob/master/Exp9/590029213Exp9_ScriptLog.txt)   [CLEAN-SCRIPT-LOG](https://github.com/AadyaDubey/Linux-Lab-Report/blob/master/Exp9/590029213Exp9_ScriptLog_Clean.txt)
+* **EXPERIMENT 9:** Shell Programming [EXPERIMENT9](https://github.com/AadyaDubey/Linux-Lab-Report/blob/master/Exp09/590029213Exp9_Report.md)   [RAW-SCRIPT-LOG](https://github.com/AadyaDubey/Linux-Lab-Report/blob/master/Exp09/590029213Exp9_ScriptLog.txt)   [CLEAN-SCRIPT-LOG](https://github.com/AadyaDubey/Linux-Lab-Report/blob/master/Exp09/590029213Exp9_ScriptLog_Clean.txt)
+
+* * **EXPERIMENT 10:** Shell Programming - Complete Guide [EXPERIMENT10](https://github.com/AadyaDubey/Linux-Lab-Report/blob/master/Exp10/590029213Exp10_Report.md)   [RAW-SCRIPT-LOG](https://github.com/AadyaDubey/Linux-Lab-Report/blob/master/Exp10/590029213Exp10_ScriptLog.txt)   [CLEAN-SCRIPT-LOG](https://github.com/AadyaDubey/Linux-Lab-Report/blob/master/Exp10/590029213Exp10_ScriptLog_Clean.txt)
+
 ***
 ***
 
